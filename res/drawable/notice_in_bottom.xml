@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:topLeftRadius="0.0dip" android:topRightRadius="0.0dip" android:bottomLeftRadius="@dimen/message_bubble_radius_big" android:bottomRightRadius="@dimen/message_bubble_radius_big" />
+    <padding android:left="@dimen/message_bubble_padding_sides" android:top="@dimen/message_bubble_padding_bottom" android:right="@dimen/message_bubble_padding_sides" android:bottom="@dimen/message_bubble_padding_bottom" />
+    <solid android:color="@color/notice_in" />
+    <stroke android:width="@dimen/message_bubble_stroke" android:color="@color/msg_stroke" />
+</shape>

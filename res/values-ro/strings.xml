@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Navigați la ecranul de pornire</string>
+    <string name="abc_action_bar_up_description">Navigați în sus</string>
+    <string name="abc_action_menu_overflow_description">Mai multe opțiuni</string>
+    <string name="abc_action_mode_done">Terminat</string>
+    <string name="abc_activity_chooser_view_see_all">Afișați-le pe toate</string>
+    <string name="abc_activitychooserview_choose_application">Alegeți o aplicație</string>
+    <string name="abc_capital_off">DEZACTIVAȚI</string>
+    <string name="abc_capital_on">ACTIVAT</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">delete</string>
+    <string name="abc_menu_enter_shortcut_label">enter</string>
+    <string name="abc_menu_function_shortcut_label">Funcție+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">spațiu</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Meniu+</string>
+    <string name="abc_search_hint">Căutați…</string>
+    <string name="abc_searchview_description_clear">Ștergeți interogarea</string>
+    <string name="abc_searchview_description_query">Interogare de căutare</string>
+    <string name="abc_searchview_description_search">Căutați</string>
+    <string name="abc_searchview_description_submit">Trimiteți interogarea</string>
+    <string name="abc_searchview_description_voice">Căutare vocală</string>
+    <string name="abc_shareactionprovider_share_with">Trimiteți la</string>
+    <string name="abc_shareactionprovider_share_with_application">Trimiteți folosind %s</string>
+    <string name="abc_toolbar_collapse_description">Restrângeți</string>
+    <string name="accept">Acceptă</string>
+    <string name="activity_share_toolbar_header">Alegeți contactele</string>
+    <string name="add_contact_title">Adaugă un contact</string>
+    <string name="allow">Permite</string>
+    <string name="authenticating_with_device">Autentificare cu dispozitivul…</string>
+    <string name="blogs_blog_post_created">Mesaj creat pe blog</string>
+    <string name="blogs_blog_post_received">S-a primit un nou mesaj pe blog</string>
+    <string name="blogs_blog_post_scroll_to">Derulează la</string>
+    <string name="blogs_blog_removed">Blog eliminat</string>
+    <string name="blogs_button">Blog-uri</string>
+    <string name="blogs_feed_empty_state">Nici un mesaj de arătat</string>
+    <string name="blogs_feed_empty_state_action">"Mesajele de la contactele dumneavoastră și de pe blog-urile la care sunteți abonați vor apărea aici
+
+Atingeți iconița cu creion pentru a scrie un mesaj"</string>
+    <string name="blogs_other_blog_empty_state">Nici un mesaj de arătat</string>
+    <string name="blogs_publish_blog_post">Publică</string>
+    <string name="blogs_reblog_button">Repune mesaj</string>
+    <string name="blogs_reblog_comment_hint">Adaugă un comentariu (opțional)</string>
+    <string name="blogs_remove_blog">Elimină blog</string>
+    <string name="blogs_remove_blog_dialog_message">"Sunteți siguri că doriți să eliminați acest blog?
+
+Mesajele vor fi eliminate de pe dispozitiv, dar nu și de pe dispozitivele altor persoane.
+
+Orice persoană de contact cu care ați partajat acest blog s-ar putea să nu mai primească actualizări."</string>
+    <string name="blogs_remove_blog_ok">Eliminare</string>
+    <string name="blogs_rss_feeds_import">Importă flux RSS</string>
+    <string name="blogs_rss_feeds_import_button">Importă</string>
+    <string name="blogs_rss_feeds_import_error">Ne pare rău! A apărut o eroare la importul fluxului dumneavoastră.</string>
+    <string name="blogs_rss_feeds_import_hint">Introduceți URL-ul fluxului RSS</string>
+    <string name="blogs_rss_feeds_manage">Administrare fluxuri RSS</string>
+    <string name="blogs_rss_feeds_manage_author">Autor:</string>
+    <string name="blogs_rss_feeds_manage_delete_error">Fluxul nu a putut fi șters!</string>
+    <string name="blogs_rss_feeds_manage_empty_state">"Nici un flux RSS de arătat
+
+Atingeți iconița + pentru a adăuga un flux"</string>
+    <string name="blogs_rss_feeds_manage_error">A apărut o eroare la încărcarea fluxurilor dumneavoastră. Vă rugăm să încercați din nou mai târziu.</string>
+    <string name="blogs_rss_feeds_manage_imported">Importat:</string>
+    <string name="blogs_rss_feeds_manage_updated">Actualizat ultima dată:</string>
+    <string name="blogs_rss_remove_feed">Șterge flux</string>
+    <string name="blogs_rss_remove_feed_dialog_message">"Sunteți siguri că doriți să eliminați acest flux?
+
+Mesajele vor fi eliminate de pe dispozitiv, dar nu și de pe dispozitivele altor persoane.
+
+Orice persoană de contact către care ați distribuit acest flux s-ar putea sa nu mai primească actualizări."</string>
+    <string name="blogs_rss_remove_feed_ok">Eliminare</string>
+    <string name="blogs_sharing_button">Partajează blog</string>
+    <string name="blogs_sharing_declined_toast">Invitația a fost refuzată</string>
+    <string name="blogs_sharing_error">A apărut o eroare la partajarea acestui blog.</string>
+    <string name="blogs_sharing_invitation_received">%1$s a partajat blogul \"%2$s\" cu dumneavoastră.</string>
+    <string name="blogs_sharing_invitation_sent">Ați partajat blogul \"%1$s\" cu %2$s.</string>
+    <string name="blogs_sharing_invitations_title">Invitații la blog-uri</string>
+    <string name="blogs_sharing_joined_toast">Abonare la blog</string>
+    <string name="blogs_sharing_response_accepted_received">%s a acceptat invitația la blog.</string>
+    <string name="blogs_sharing_response_accepted_sent">Ați acceptat invitația la blog de la %s.</string>
+    <string name="blogs_sharing_response_declined_received">%s a refuzat invitația la blog.</string>
+    <string name="blogs_sharing_response_declined_sent">Ați refuzat invitația la blog de la %s.</string>
+    <string name="blogs_sharing_share">Partajează blog</string>
+    <string name="blogs_sharing_snackbar">Blog partajat cu contactele alese</string>
+    <string name="blogs_write_blog_post">Scrie mesaj pe blog</string>
+    <string name="blogs_write_blog_post_body_hint">Introduceți mesajul pentru blog aici</string>
+    <string name="bluetooth_setting">Conectare prin Bluetooth</string>
+    <string name="bluetooth_setting_disabled">Doar la adăugarea contactelor</string>
+    <string name="bluetooth_setting_enabled">Atunci când contactele vă sunt în apropiere</string>
+    <string name="briar_crashed">Ne pare rău, RedApp a întâmpinat o eroare.</string>
+    <string name="btn_reply">Răspunde</string>
+    <string name="camera_error">Eroare la camera foto</string>
+    <string name="cancel">Anulează</string>
+    <string name="cannot_load_ringtone">Nu se poate încărca sunetul</string>
+    <string name="change_password">Schimbă parola</string>
+    <string name="choose_forum_hint">Alegeți un nume pentru forumul dumneavoastră</string>
+    <string name="choose_new_password">Parola nouă</string>
+    <string name="choose_nickname">Alegeți-vă numele de utilizator</string>
+    <string name="choose_password">Alegeți-vă parola</string>
+    <string name="choose_ringtone_title">Alegeți sunetul</string>
+    <string name="close">Închide</string>
+    <string name="confirm_new_password">Confirmați parola nouă</string>
+    <string name="confirm_password">Confirmați parola</string>
+    <string name="connecting_to_device">Conectare la dispozitiv…</string>
+    <string name="connection_error_explanation">Verificați să fiți conectați la aceeași rețea Wi-Fi.</string>
+    <string name="connection_error_feedback">Dacă problema persistă, vă rugăm să <a href="feedback">trimiteți feedback</a> pentru a ne ajuta să îmbunătățim aplicația.</string>
+    <string name="connection_error_title">Nu s-a putut face conexiunea la contactul dumneavoastră</string>
+    <string name="contact_added_toast">Contact adăugat: %s</string>
+    <string name="contact_already_exists">Contactul %s există deja</string>
+    <string name="contact_deleted_toast">Contact șters</string>
+    <string name="contact_list_button">Contacte</string>
+    <string name="contacts_selected">Contacte selectate</string>
+    <string name="continue_button">Continuă</string>
+    <string name="could_not_load_report_data">Nu s-au putut încărca datele din raport.</string>
+    <string name="crash_report_title">Raport de erori RedApp</string>
+    <string name="create_account_button">Creează un cont</string>
+    <string name="create_forum_button">Creează forum</string>
+    <string name="create_forum_title">Creează forum</string>
+    <string name="create_new_account">Va trebui să creați un cont nou, dar puteți să folosiți același nume.</string>
+    <string name="current_password">Parolă curentă</string>
+    <string name="date_no_private_messages">Fără mesaje.</string>
+    <string name="decline">Refuză</string>
+    <string name="delete">Șterge</string>
+    <string name="delete_contact">Șterge contactul</string>
+    <string name="describe_crash">Descrieți ce s-a întâmplat (opțional)</string>
+    <string name="dev_report_saved">Raport salvat. V-a fi trimis data viitoare când vă conectați la RedApp.</string>
+    <string name="dialog_button_leave">Părăsește</string>
+    <string name="dialog_message_connect_panic_app">Sigur doriți să permiteți %1$s să declanșeze acțiuni destructive pentru butonul de panică?</string>
+    <string name="dialog_message_delete_contact">Sigur doriți să ștergeți acest contact și toate mesajele schimbate?</string>
+    <string name="dialog_message_leave_forum">"Sunteți siguri că doriți să părăsiți acest forum?
+
+Orice persoană de contact cu care ați împărtășit acest forum s-ar putea să nu mai primească actualizări."</string>
+    <string name="dialog_message_lost_password">"Contul dvs. RedApp este stocat criptat pe dispozitiv, nu în cloud. Dacă vă uitați parola sau ștergeți RedApp, nu veți putea să vă recuperați contul. Doriți să vă ștergeți contul și să începeți din nou?
+
+Atenție: identitățile, contactele și mesajele dvs. vor fi pierdute definitiv."</string>
+    <string name="dialog_title_connect_panic_app">Confirmare aplicație de panică</string>
+    <string name="dialog_title_delete_contact">Confirmare ștergere contact</string>
+    <string name="dialog_title_leave_forum">Confirmare părăsire forum</string>
+    <string name="dialog_title_lost_password">Parolă uitată</string>
+    <string name="display_settings_title">Ecran</string>
+    <string name="don_t_ask_again">Nu mai întreba din nou</string>
+    <string name="download_briar">Pentru a putea să continuați utilizarea RedApp, vă rugăm să descărcați versiunea 1.0.</string>
+    <string name="ellipsis">…</string>
+    <string name="enter_feedback">Introduceți feed-back-ul dumneavoastră</string>
+    <string name="enter_password">Parola</string>
+    <string name="exchanging_contact_details">Se face schimbul de date de contact…</string>
+    <string name="expand_button_title">Avansat</string>
+    <string name="expiry_date_reached">"Acest program a expirat.
+Vă mulțumim că l-ați testat!"</string>
+    <string name="expiry_update">Data de expirare a versiunii de test a fost extinsă. Contul dumneavoastră va expira acum în %d zile.</string>
+    <string name="face_to_face">"Trebuie să vă întâlniți cu persoana pe care doriți să o adăugați la contacte.
+
+Acest pas împiedică alte persoane să vă fure identitatea sau să vă citească mesajele în viitor."</string>
+    <string name="feedback_settings_title">Feed-back</string>
+    <string name="feedback_title">Feed-back</string>
+    <string name="fix">Rezolvă</string>
+    <string name="forgotten_password">Am uitat parola</string>
+    <string name="forum_created_toast">Forum creat</string>
+    <string name="forum_declined_toast">Invitația a fost refuzată</string>
+    <string name="forum_invitation_already_sharing">Deja partajat</string>
+    <string name="forum_invitation_exists">"Ați acceptat deja o invitație la acest forum.
+
+Acceptarea mai multor invitații va face conexiunea dvs. la forum mai rapidă și mai fiabilă."</string>
+    <string name="forum_invitation_received">%1$s a partajat forumul \"%2$s\" cu dumneavoastră.</string>
+    <string name="forum_invitation_response_accepted_received">%s a acceptat invitația la forum.</string>
+    <string name="forum_invitation_response_accepted_sent">Ați acceptat invitația la forum de la %s.</string>
+    <string name="forum_invitation_response_declined_received">%s a refuzat invitația la forum.</string>
+    <string name="forum_invitation_response_declined_sent">Ați refuzat invitația la forum pentru %s.</string>
+    <string name="forum_invitation_sent">Ați partajat forumul \"%1$s\" cu %2$s.</string>
+    <string name="forum_invitations_title">Invitații la forum</string>
+    <string name="forum_joined_toast">Alăturare forum</string>
+    <string name="forum_leave">Părăsește forum</string>
+    <string name="forum_left_toast">Forum părăsit</string>
+    <string name="forum_message_reply_hint">Răspuns nou</string>
+    <string name="forum_new_entry_posted">Mesajul a fost scris pe forum</string>
+    <string name="forum_new_message_hint">Mesaj nou</string>
+    <string name="forum_share_button">Partajează forum</string>
+    <string name="forum_share_error">A apărut o eroare la partajarea acestui forum.</string>
+    <string name="forum_share_message">Adaugă un mesaj (opțional)</string>
+    <string name="forum_shared_snackbar">Forum partajat cu contactele alese</string>
+    <string name="forums_button">Forumuri</string>
+    <string name="got_it">Am înțeles</string>
+    <string name="groups_button">Grupuri private</string>
+    <string name="groups_create_group_button">Creează grup</string>
+    <string name="groups_create_group_hint">Alegeți un nume pentru grupul dumneavoastră privat</string>
+    <string name="groups_create_group_invitation_button">Trimite invitație</string>
+    <string name="groups_create_group_title">Creează grup privat</string>
+    <string name="groups_created_by">Creat de %s</string>
+    <string name="groups_dissolve">Dizolvă grupul</string>
+    <string name="groups_dissolve_button">Dizolvă</string>
+    <string name="groups_dissolve_dialog_message">"Sunteți siguri că doriți să dizolvați acest grup?
+
+Toți ceilalți membri nu vor putea continua conversația lor și s-ar putea să nu primească cele mai recente mesaje."</string>
+    <string name="groups_dissolve_dialog_title">Confirmă dizolvarea grupului</string>
+    <string name="groups_dissolved_dialog_message">"Creatorul acestui grup la dizolvat.
+
+Nu mai puteți scrie mesaje către grup și nu mai puteți primi mesajele deja scrise."</string>
+    <string name="groups_dissolved_dialog_title">Grupul a fost dizolvat</string>
+    <string name="groups_group_is_dissolved">Acest grup a fost dizolvat</string>
+    <string name="groups_group_is_empty">Acest grup este gol</string>
+    <string name="groups_invitation_sent">Invitația in grup a fost trimisă</string>
+    <string name="groups_invitations_declined">Invitația în grup a fost refuzată</string>
+    <string name="groups_invitations_invitation_received">%1$s v-a invitat să vă alăturați grupului \"%2$s\".</string>
+    <string name="groups_invitations_invitation_sent">Ați invitat pe %1$s să se alăture grupului \"%2$s\".</string>
+    <string name="groups_invitations_joined">V-ați alăturat grupului</string>
+    <string name="groups_invitations_response_accepted_received">%s a acceptat invitația în grup.</string>
+    <string name="groups_invitations_response_accepted_sent">Ați acceptat invitația în grup de la %s.</string>
+    <string name="groups_invitations_response_declined_received">%s a refuzat invitația în grup.</string>
+    <string name="groups_invitations_response_declined_sent">Ați refuzat invitația în grup pentru %s.</string>
+    <string name="groups_invitations_title">Invitații în grup</string>
+    <string name="groups_invite_members">Invită membrii</string>
+    <string name="groups_leave">Părăsește grupul</string>
+    <string name="groups_leave_dialog_message">Sigur doriți să părăsiți acest grup?</string>
+    <string name="groups_leave_dialog_title">Confirmare părăsire grup</string>
+    <string name="groups_list_empty">Nici un grup de arătat</string>
+    <string name="groups_list_empty_action">Atingeți iconița + pentru a crea un grup sau rugați-vă contactele să partajele grupuri cu dumneavoastră</string>
+    <string name="groups_member_created">%s a creat grupul</string>
+    <string name="groups_member_created_you">Ați creat grupul</string>
+    <string name="groups_member_joined">%s s-a alăturat grupului</string>
+    <string name="groups_member_joined_you">V-ați alăturat grupului</string>
+    <string name="groups_member_list">Lista de membrii</string>
+    <string name="groups_message_sent">Mesaj trimis</string>
+    <string name="groups_remove">Șterge</string>
+    <string name="groups_reveal_contacts">Arată contactele</string>
+    <string name="groups_reveal_dialog_message">"Puteți alege să dezvăluiți contacte tuturor membrilor actuali și viitori acestui grup.
+
+Partajarea contactelor face conexiunea dvs. cu grupul mai rapidă și mai fiabilă, deoarece puteți comunica cu persoanele de contact dezvăluite chiar și atunci când creatorul grupului este deconectat."</string>
+    <string name="groups_reveal_invisible">Lista de contacte nu este vizibilă grupului</string>
+    <string name="groups_reveal_visible">Lista de contacte este vizibilă grupului</string>
+    <string name="groups_reveal_visible_revealed_by_contact">Lista de contacte este vizibilă grupului (dezvăluită de %s)</string>
+    <string name="groups_reveal_visible_revealed_by_us">Lista de contacte este vizibilă grupului (dezvăluită de dumneavoastră)</string>
+    <string name="help">Ajutor</string>
+    <string name="hide">Ascunde</string>
+    <string name="include_debug_report_crash">Include date anonime despre eroare</string>
+    <string name="include_debug_report_feedback">Include date anonime despre acest dispozitiv</string>
+    <string name="introduction_activity_title">Alege un contact</string>
+    <string name="introduction_button">Fă o recomandare</string>
+    <string name="introduction_error">A apărut o eroare în procesul de recomandare.</string>
+    <string name="introduction_menu_item">Fă o recomandare</string>
+    <string name="introduction_message_hint">Adaugă un mesaj (opțional)</string>
+    <string name="introduction_message_title">Recomandă contacte</string>
+    <string name="introduction_not_possible">Ați trimis deja o solicitare la contacte. Așteptați să vă răspundă. Dacă dvs. sau persoanele persoanele de contact sunteți rareori online, este posibil să dureze ceva timp.</string>
+    <string name="introduction_onboarding_text">Puteți să vă recomandați contactele unele altora, încât sa nu fie nevoie ca să se vadă față în față pentru a se putea conecta la RedApp.</string>
+    <string name="introduction_onboarding_title">Recomandați-vă contactele</string>
+    <string name="introduction_request_answered_received">%1$s vă recomandă pe %2$s.</string>
+    <string name="introduction_request_exists_received">%1$s a cerut să vă recomande către %2$s, dar %2$s este deja în lista dumneavoastră de contacte. Cum %1$s s-ar putea să nu știe asta, puteți totuși răspunde:</string>
+    <string name="introduction_request_received">%1$s a cerut să vă recomande către %2$s. Doriți să adăugați pe %2$s la lista dumneavoastră de contacte?</string>
+    <string name="introduction_request_sent">Ați cerut recomandarea %1$s către %2$s.</string>
+    <string name="introduction_response_accepted_received">%1$s a acceptat recomandarea pentru %2$s.</string>
+    <string name="introduction_response_accepted_sent">Ați acceptat recomandarea pentru %1$s.</string>
+    <string name="introduction_response_accepted_sent_info">Înainte de a adăuga %1$s ca persoane de contact, este necesar ca și ei să accepte solicitarea. Aceasta poate dura ceva timp.</string>
+    <string name="introduction_response_declined_received">%1$s a refuzat recomandarea pentru %2$s.</string>
+    <string name="introduction_response_declined_received_by_introducee">%1$s spune că %2$s a refuzat recomandarea.</string>
+    <string name="introduction_response_declined_sent">Ați refuzat recomandarea pentru %1$s.</string>
+    <string name="introduction_response_error">Eroare atunci când s-a răspuns la recomandare</string>
+    <string name="introduction_sent">Recomandarea dumneavoastră a fost trimisă.</string>
+    <string name="link_warning_intro">Urmează să deschideți adresa următoare cu o aplicație externă</string>
+    <string name="link_warning_open_link">Deschide adresă</string>
+    <string name="link_warning_text">Acest lucru poate fi folosit pentru a vă identifica. Gândiți-vă dacă aveți încredere în persoana care v-a trimis acest link și luați în considerare deschiderea acestuia cu Orfox.</string>
+    <string name="link_warning_title">Avertizare adresă</string>
+    <string name="lock_button">Blochează aplicația</string>
+    <string name="lock_is_locked">RedApp este blocat</string>
+    <string name="lock_tap_to_unlock">Atingeți pentru a debloca</string>
+    <string name="lock_unlock">Deblocare RedApp</string>
+    <string name="lock_unlock_fingerprint_description">Atingeți senzorul de amprentă cu degetul înregistrat pentru a continua</string>
+    <string name="lock_unlock_password">Folosește parola</string>
+    <string name="lock_unlock_verbose">Introduceți PIN, model sau parolă pentru a debloca RedApp</string>
+    <string name="message_hint">Scrieți mesajul</string>
+    <string name="more_info">Informații suplimentare</string>
+    <string name="name_too_long">Numele este prea lung</string>
+    <string name="nav_drawer_close_description">Închide bara de navigare</string>
+    <string name="nav_drawer_open_description">Deschide bara de navigare</string>
+    <string name="network_settings_title">Rețele</string>
+    <string name="no_contacts">Nici un contact de arătat</string>
+    <string name="no_contacts_action">Atingeți iconița + pentru a adăuga un contact</string>
+    <string name="no_contacts_selector">Nici un contact de arătat</string>
+    <string name="no_contacts_selector_action">Reveniți aici după ce ați adăugat un contact</string>
+    <string name="no_data">Fără date</string>
+    <string name="no_forum_posts">Nici un mesaj de arătat</string>
+    <string name="no_forums">Nici un forum de arătat</string>
+    <string name="no_forums_action">Atingeți iconița + pentru a crea un forum sau rugați-vă contactele să partajele forumuri cu dumneavoastră</string>
+    <string name="no_posts">Nici un mesaj</string>
+    <string name="no_private_messages">Nici un mesaj de arătat</string>
+    <string name="nobody">Nimeni</string>
+    <string name="not_your_fault">Nu este vina dumneavoastră.</string>
+    <string name="notification_settings_title">Notificări</string>
+    <string name="notify_blog_posts_setting_summary">Arată alerte pentru mesajele de pe blog</string>
+    <string name="notify_blog_posts_setting_summary_26">Configurare alerte pentru mesajele de pe blog</string>
+    <string name="notify_blog_posts_setting_title">Mesaje pe blog</string>
+    <string name="notify_forum_posts_setting_summary">Arată alerte pentru mesajele de pe forum</string>
+    <string name="notify_forum_posts_setting_summary_26">Configurare alerte pentru mesajele de pe forum</string>
+    <string name="notify_forum_posts_setting_title">Mesaje pe forum</string>
+    <string name="notify_group_messages_setting_summary">Arată alerte pentru mesajele de grup</string>
+    <string name="notify_group_messages_setting_summary_26">Configurare alerte pentru mesajele de grup</string>
+    <string name="notify_group_messages_setting_title">Mesaje de grup</string>
+    <string name="notify_private_messages_setting_summary">Arată alerte pentru mesajele private</string>
+    <string name="notify_private_messages_setting_summary_26">Configurare alerte pentru mesajele private</string>
+    <string name="notify_private_messages_setting_title">Mesaje private</string>
+    <string name="notify_sign_in_summary">Arată o notificare atunci când dispozitivul pornește sau aplicația a fost actualizată</string>
+    <string name="notify_sign_in_title">Reamintește-mi să mă conectez</string>
+    <string name="notify_sound_setting">Sunet</string>
+    <string name="notify_sound_setting_default">Sunet implicit</string>
+    <string name="notify_sound_setting_disabled">Nici unul</string>
+    <string name="notify_vibration_setting">Vibrează</string>
+    <string name="now">acum</string>
+    <string name="offline">Deconectat</string>
+    <string name="ok">Bine</string>
+    <string name="ongoing_notification_text">Atingeți pentru a deschide RedApp</string>
+    <string name="ongoing_notification_title">Conectat(ă) în RedApp</string>
+    <string name="online">Conectat</string>
+    <string name="open">Deschide</string>
+    <string name="optional_contact_email">Adresa de email (opțional)</string>
+    <string name="options">Opțiuni</string>
+    <string name="panic_app_setting_none">Nici una</string>
+    <string name="panic_app_setting_summary">Nu a fost setată nici o aplicație</string>
+    <string name="panic_app_setting_title">Aplicația buton de panică</string>
+    <string name="panic_setting">Setare buton de panică</string>
+    <string name="panic_setting_destructive_action">Acțiuni distructive</string>
+    <string name="panic_setting_hint">Configurați cum va reacționa RedApp atunci când folosiți o aplicație de buton de panică.</string>
+    <string name="panic_setting_signout_summary">Ieși din RedApp dacă un buton de panică este apăsat</string>
+    <string name="panic_setting_signout_title">Ieșire</string>
+    <string name="panic_setting_title">Buton de panică</string>
+    <string name="password_changed">Parola a fost schimbată.</string>
+    <string name="password_too_weak">Parola este prea slabă</string>
+    <string name="passwords_do_not_match">Parolele nu se potrivesc</string>
+    <string name="permission_camera_denied_body">"Ați refuzat accesul la camera foto, dar pentru a adăuga contacte este necesară folosirea camerei foto.
+
+Vă rugăm să luați în considerare acordarea accesului."</string>
+    <string name="permission_camera_location_request_body">"Pentru a scana codul QR, RedApp are nevoie să acceseze camera foto.
+
+Pentru a putea descoperi dispozitive Bluetooth, RedApp are nevoie de permisiunea de a vă accesa locația.
+
+RedApp nu vă stochează locația și nici nu o partajează cu nimeni."</string>
+    <string name="permission_camera_location_title">Cameră foto și locație</string>
+    <string name="permission_camera_request_body">Pentru a scana codul QR, RedApp are nevoie să acceseze camera foto.</string>
+    <string name="permission_camera_title">Permisiune de acces la camera foto</string>
+    <string name="permission_location_request_body">"Pentru a putea descoperi dispozitive Bluetooth, RedApp are nevoie de permisiunea de a vă accesa locația.
+
+RedApp nu vă stochează locația și nici nu o partajează cu nimeni."</string>
+    <string name="permission_location_title">Permisiune de acces la locație</string>
+    <string name="please_send_report">Vă rugăm să ne ajutați să facem RedApp mai bun trimițându-ne raportul de erori.</string>
+    <string name="pref_language_changed">Această setare va avea efect după repornirea RedApp. Vă rugăm să ieșiți din RedApp și să reporniți aplicația.</string>
+    <string name="pref_language_default">Implicit sistem</string>
+    <string name="pref_language_title">Limbă &amp; Regiune</string>
+    <string name="pref_lock_disabled_summary">Pentru a utiliza această caracteristică, setați blocarea ecranului dispozitivului dumneavoastră</string>
+    <string name="pref_lock_summary">Folosește blocarea ecranului dispozitivului pentru a proteja RedApp atunci cand sunteți autentificați</string>
+    <string name="pref_lock_timeout_1">1 minut</string>
+    <string name="pref_lock_timeout_15">15 minute</string>
+    <string name="pref_lock_timeout_30">30 minute</string>
+    <string name="pref_lock_timeout_5">5 minute</string>
+    <string name="pref_lock_timeout_60">1 oră</string>
+    <string name="pref_lock_timeout_never">Niciodată</string>
+    <string name="pref_lock_timeout_never_summary">Nu bloca RedApp automat niciodată</string>
+    <string name="pref_lock_timeout_summary">Când RedApp nu este folosit, va fi blocat automat după %s</string>
+    <string name="pref_lock_timeout_title">Perioada de inactivitate înainte de blocarea aplicației</string>
+    <string name="pref_lock_title">Blocare aplicație</string>
+    <string name="pref_theme_auto">Automat (Zi lumina)</string>
+    <string name="pref_theme_dark">Închisă</string>
+    <string name="pref_theme_light">Deschisă</string>
+    <string name="pref_theme_system">Implicit sistem</string>
+    <string name="pref_theme_title">Temă</string>
+    <string name="progress_title_logout">Ieșire din RedApp...</string>
+    <string name="purge_setting_summary">Ștergeți contul RedApp dacă este apăsat un buton de panică. Atenție: aceasta va șterge definitiv identitatea, contactele și mesajele dvs.</string>
+    <string name="purge_setting_title">Șterge cont</string>
+    <string name="qr_code">Cod QR</string>
+    <string name="qr_code_invalid">Codul QR este invalid!</string>
+    <string name="qr_code_too_new">"Codul QR pe care l-ați scanat aparține unei versiuni mai noi %s.
+
+Vă rugăm să actualizați aplicația la cea mai recentă versiune și apoi încercați din nou."</string>
+    <string name="qr_code_too_old">"Codul QR pe care l-ați scanat aparține unei versiuni vechi %s.
+
+Rugați-vă contactul să actualizeze aplicația la cea mai recentă versiune și apoi încercați din nou."</string>
+    <string name="read_more">citește mai mult</string>
+    <string name="reminder_notification_channel_title">Reamintire autentificare RedApp</string>
+    <string name="reminder_notification_dismiss">Renunță</string>
+    <string name="reminder_notification_text">Atingeți pentru autentificare.</string>
+    <string name="reminder_notification_title">Ieșire din RedApp</string>
+    <string name="report_is_encrypted">Vă promitem ca raportul este criptat și este trimis securizat.</string>
+    <string name="screen_filter_allow">Permite acestor aplicații să deseneze deasupra</string>
+    <string name="screen_filter_body">"O altă aplicație este suprapusă pe RedApp. Pentru a vă proteja securitatea, RedApp nu va reacționa la atingeri în timp ce există o suprapunere.
+
+Aplicațiile următoare pot fi suprapuse:
+
+%1$s"</string>
+    <string name="screen_filter_title">S-a detectat ceva suprapus pe ecran</string>
+    <string name="screenshot_alice">Alice</string>
+    <string name="screenshot_bob">Bob</string>
+    <string name="screenshot_carol">Carol</string>
+    <string name="screenshot_message_1">Bună Bob!</string>
+    <string name="screenshot_message_2">Bună Alice! Mersi că mi-ai spus despre RedApp!</string>
+    <string name="screenshot_message_3">Cu plăcere, sper să îți placă 😀</string>
+    <string name="search_menu_title">Căutați</string>
+    <string name="security_settings_title">Securitate</string>
+    <string name="send">Trimite</string>
+    <string name="send_feedback">Trimiteți feed-back</string>
+    <string name="send_report">Trimite raport</string>
+    <string name="set_alias_button">Modifică</string>
+    <string name="set_contact_alias">Schimbă nume contact</string>
+    <string name="set_contact_alias_hint">Nume contact</string>
+    <string name="settings_button">Setări</string>
+    <string name="setup_doze_button">Permite conexiuni</string>
+    <string name="setup_doze_explanation">Pentru a primi mesaje, RedApp are nevoie să stea conectat în fundal. Vă rugăm să dezactivați optimizarea bateriei ca RedApp să rămână conectat.</string>
+    <string name="setup_doze_intro">Pentru a primi mesaje, RedApp are nevoie să stea conectat în fundal.</string>
+    <string name="setup_doze_title">Conexiuni în fundal</string>
+    <string name="setup_huawei_button">Protejează RedApp</string>
+    <string name="setup_huawei_help">Dacă RedApp nu este adăugat în lista de aplicații protejate, nu v-a fi capabil să ruleze în fundal.</string>
+    <string name="setup_huawei_text">Vă rugăm să apăsați butonul de mai jos și să vă asigurați că RedApp este marcat ca protejat în fereastra de \"Aplicații protejate\".</string>
+    <string name="setup_name_explanation">Numele dumneavoastră va fi afișat lângă orice conținut trimiteți. Nu îl veți putea schimba după crearea contului.</string>
+    <string name="setup_next">Următorul</string>
+    <string name="setup_password_explanation">"Contul dvs. RedApp este stocat criptat pe dispozitiv, nu în cloud. Dacă vă uitați parola sau ștergeți RedApp, nu veți putea să vă recuperați contul.
+
+Alegeți o parolă lungă greu de ghicit, de exemplu, patru cuvinte aleatorii sau zece litere, numere și simboluri aleatoare."</string>
+    <string name="setup_password_intro">Alegeți o parolă</string>
+    <string name="setup_title">Bine ai venit la RedApp</string>
+    <string name="shared_by_format">Partajat de %s</string>
+    <string name="shared_with">Partajat cu %1$d (%2$d conectați)</string>
+    <string name="sharing_status">Partajare stare</string>
+    <string name="sharing_status_blog">Oricine abonat la un blog poate să-l împărtășească cu persoanele de contact. Partajați acest blog cu următoarele persoane de contact. Pot exista și alți abonați pe care să nu îi puteți vedea.</string>
+    <string name="sharing_status_forum">Orice membru al unui forum poate să-l împărtășească cu contactele lor. Partajați acest forum cu următoarele persoane de contact. Pot exista și alți membri pe care să nu îi puteți vedea.</string>
+    <string name="sharing_status_groups">Doar persoana care a creat grupul poate invita noi membrii. Mai jos vedeți membrii actuali ai grupului.</string>
+    <string name="show">Arată</string>
+    <string name="show_onboarding">Arata fereastra de ajutor</string>
+    <string name="show_qr_code_fullscreen">Arată codul QR pe tot ecranul</string>
+    <string name="sign_in_button">Autentificare</string>
+    <string name="sign_out_button">Ieșire</string>
+    <string name="sorry">Ne pare rău</string>
+    <string name="startup_compact_database">Compactare bază de date...</string>
+    <string name="startup_failed_activity_title">Eroare de pornire RedApp</string>
+    <string name="startup_failed_data_too_new_error">Această versiune a aplicației este prea veche. Vă rugăm să actualizați la cea mai nouă versiune și să încercați din nou.</string>
+    <string name="startup_failed_data_too_old_error">Contul dvs. a fost creat cu o versiune veche a acestei aplicații și nu poate fi deschis cu această versiune. Trebuie fie să reinstalați versiunea veche, fie să configurați un nou cont, selectând \"Am uitat parola\" la solicitarea de a introduce parola.</string>
+    <string name="startup_failed_db_error">Din anumite motive, baza dvs. de date RedApp este deteriorată fără vreo posibilitate de a o recupera. Contul dvs., datele dvs. și toate persoanele de contact sunt pierdute. Din nefericire, trebuie să reinstalați RedApp sau să creați un nou cont, selectând \"Am uitat parola\" la promptul de parolă.</string>
+    <string name="startup_failed_notification_text">Atingeți pentru informații suplimentare</string>
+    <string name="startup_failed_notification_title">RedApp nu a putut pornii</string>
+    <string name="startup_failed_service_error">RedApp nu a reușit să pornească un plugin necesar. Reinstalarea lui RedApp rezolvă de obicei această problemă. Cu toate acestea, rețineți că după aceasta veți pierde contul și toate datele asociate, deoarece RedApp nu utilizează servere centralizate pentru a stoca date.</string>
+    <string name="startup_migrate_database">Actualizare bază de date...</string>
+    <string name="startup_open_database">Decriptare bază de date...</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
+    <string name="text_too_long">Textul introdus este prea lung</string>
+    <string name="tor_mobile_data_title">Utilizează date mobile</string>
+    <string name="tor_network_setting">Conectare prin Internet (rețeaua Tor)</string>
+    <string name="tor_network_setting_automatic">Automat în funcție de locație</string>
+    <string name="tor_network_setting_never">Nu conecta</string>
+    <string name="tor_network_setting_summary">Automat: %1$s (în %2$s)</string>
+    <string name="tor_network_setting_with_bridges">Folosește rețeaua Tor cu conexiuni bridge</string>
+    <string name="tor_network_setting_without_bridges">Folosește rețeaua Tor fără conexiuni bridge</string>
+    <string name="transport_bt">Bluetooth</string>
+    <string name="transport_lan">Wi-Fi</string>
+    <string name="transport_tor">Internet</string>
+    <string name="try_again">Parolă greșită, reîncercați</string>
+    <string name="try_again_button">Încearcă din nou</string>
+    <string name="uninstall_setting_summary">Aceasta necesită o confirmare manuală în timpul unui eveniment de panică</string>
+    <string name="uninstall_setting_title">Dezinstalare RedApp</string>
+    <string name="unknown_app">aplicație necunoscută</string>
+    <string name="v7_preference_off">DEZACTIVAT</string>
+    <string name="v7_preference_on">ACTIVAT</string>
+    <string name="waiting_for_contact_to_scan">Se așteaptă scanarea și conectarea contactului…</string>
+    <string name="warning_dozed">%s nu poate rula în fundal</string>
+    <string name="download_RedApp_button">Descarcă RedApp 1.0</string>
+</resources>

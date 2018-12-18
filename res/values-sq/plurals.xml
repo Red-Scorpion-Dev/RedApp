@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="blog_post_notification_text">
+        <item quantity="other">%d postime të reja blogu.</item>
+        <item quantity="one">Postim i ri blogu.</item>
+    </plurals>
+    <plurals name="expiry_warning">
+        <item quantity="other">Ky është një version beta i Briar-it. Llogaria juaj do të skadojë për %d ditë dhe s’mund të rinovohet.</item>
+        <item quantity="one">Ky është një version beta i Briar-it. Llogaria juaj do të skadojë për %d ditë dhe s’mund të rinovohet.</item>
+    </plurals>
+    <plurals name="forum_post_notification_text">
+        <item quantity="other">%d postime të rinj forumi.</item>
+        <item quantity="one">Postim i ri forumi</item>
+    </plurals>
+    <plurals name="forums_shared">
+        <item quantity="other">%d forum ndarë nga kontakte</item>
+        <item quantity="one">%d forum ndarë nga kontakte</item>
+    </plurals>
+    <plurals name="group_message_notification_text">
+        <item quantity="other">%d mesazhe të rinj grupi.</item>
+        <item quantity="one">Mesazh i ri grupi.</item>
+    </plurals>
+    <plurals name="groups_invitations_open">
+        <item quantity="other">%d ftesa grupi të hapura</item>
+        <item quantity="one">%d ftesë grupi e hapur</item>
+    </plurals>
+    <plurals name="introduction_notification_text">
+        <item quantity="other">U shtuan %d kontakte të rinj.</item>
+        <item quantity="one">U shtua kontakt i ri.</item>
+    </plurals>
+    <plurals name="messages">
+        <item quantity="other">%d mesazhe</item>
+        <item quantity="one">%d mesazh</item>
+    </plurals>
+    <plurals name="posts">
+        <item quantity="other">%d postime</item>
+        <item quantity="one">%d postim</item>
+    </plurals>
+    <plurals name="private_message_notification_text">
+        <item quantity="other">%d mesazhe të reja private.</item>
+        <item quantity="one">Mesazh i ri privat.</item>
+    </plurals>
+</resources>

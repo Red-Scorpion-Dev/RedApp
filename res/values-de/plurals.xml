@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="blog_post_notification_text">
+        <item quantity="other">%d neue Blogbeiträge.</item>
+        <item quantity="one">Neuer Blogeintrag.</item>
+    </plurals>
+    <plurals name="expiry_warning">
+        <item quantity="other">Dies ist eine Testversion von Briar. Dein Konto läuft in %d Tagen ab und kann nicht verlängert werden.</item>
+        <item quantity="one">Dies ist eine Testversion von Briar. Dein Konto läuft in %d Tag ab und kann nicht verlängert werden.</item>
+    </plurals>
+    <plurals name="forum_post_notification_text">
+        <item quantity="other">%d neue Forenbeiträge.</item>
+        <item quantity="one">Neuer Forenbeitrag.</item>
+    </plurals>
+    <plurals name="forums_shared">
+        <item quantity="other">%d Foren von Kontakten geteilt</item>
+        <item quantity="one">%d Forum von Kontaken geteilt</item>
+    </plurals>
+    <plurals name="group_message_notification_text">
+        <item quantity="other">%d neue Gruppennachrichten.</item>
+        <item quantity="one">Neue Gruppennachricht.</item>
+    </plurals>
+    <plurals name="groups_invitations_open">
+        <item quantity="other">%d offene Gruppeneinladungen</item>
+        <item quantity="one">%d offene Gruppeneinladung</item>
+    </plurals>
+    <plurals name="introduction_notification_text">
+        <item quantity="other">%d neue Kontakte hinzugefügt.</item>
+        <item quantity="one">neuer Kontakt hinzugefügt.</item>
+    </plurals>
+    <plurals name="messages">
+        <item quantity="other">%d Nachrichten</item>
+        <item quantity="one">%d Nachrichten</item>
+    </plurals>
+    <plurals name="posts">
+        <item quantity="other">%d Beiträge</item>
+        <item quantity="one">%d Beitrag</item>
+    </plurals>
+    <plurals name="private_message_notification_text">
+        <item quantity="other">%d neue private Nachrichten.</item>
+        <item quantity="one">Neue private Nachricht.</item>
+    </plurals>
+</resources>

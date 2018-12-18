@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="@dimen/unread_bubble_size" />
+    <padding android:left="@dimen/unread_bubble_padding_horizontal" android:right="@dimen/unread_bubble_padding_horizontal" android:bottom="1.0px" />
+    <solid android:color="@color/briar_accent" />
+    <stroke android:width="@dimen/avatar_border_width" android:color="@color/briar_text_primary_inverse" />
+</shape>

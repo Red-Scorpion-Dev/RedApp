@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="blog_post_notification_text">
+        <item quantity="other">%d پست بلاگ جدید</item>
+        <item quantity="one">پست پلاگ جدید</item>
+    </plurals>
+    <plurals name="expiry_warning">
+        <item quantity="other">این یک نسخه آزمایشی از Briar (برایر) می باشد. حساب کاربری شما در %d روز آینده به پایان می رسد و امکان تمدید آن وجود نخواهد داشت.</item>
+        <item quantity="one">این یک نسخه آزمایشی از Briar (برایر) می باشد. حساب کاربری شما در %d روز آینده به پایان می رسد و امکان تمدید آن وجود نخواهد داشت.</item>
+    </plurals>
+    <plurals name="forum_post_notification_text">
+        <item quantity="other">%d پست فروم جدید</item>
+        <item quantity="one">پست فروم جدید</item>
+    </plurals>
+    <plurals name="forums_shared">
+        <item quantity="other">%d فروم به اشتراک گذاشته شده توسط مخاطبان</item>
+        <item quantity="one">%d فروم به اشتراک گذاشته شده توسط مخاطبان</item>
+    </plurals>
+    <plurals name="group_message_notification_text">
+        <item quantity="other">%d پیام گروه جدید</item>
+        <item quantity="one">پیام گروه جدید</item>
+    </plurals>
+    <plurals name="groups_invitations_open">
+        <item quantity="other">%d دعوت نامه سرگشاده</item>
+        <item quantity="one">%d دعوتنامه سرگشاده</item>
+    </plurals>
+    <plurals name="introduction_notification_text">
+        <item quantity="other">%d مخاطب جدید افزوده شد.</item>
+        <item quantity="one">مخاطب جدید افزوده شد.</item>
+    </plurals>
+    <plurals name="messages">
+        <item quantity="other">%d پیام</item>
+        <item quantity="one">%d پیام</item>
+    </plurals>
+    <plurals name="posts">
+        <item quantity="other">%d پست</item>
+        <item quantity="one">%d پست</item>
+    </plurals>
+    <plurals name="private_message_notification_text">
+        <item quantity="other">%dپیام خصوصی جدید</item>
+        <item quantity="one">%dپیام خصوصی جدید</item>
+    </plurals>
+</resources>

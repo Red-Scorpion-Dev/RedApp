@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:layout="@layout/preferences_category" android:title="@string/display_settings_title">
+        <ListPreference android:title="@string/pref_language_title" android:key="pref_key_language" android:summary="%s" android:defaultValue="default" android:entryValues="@array/pref_language_values" app:iconSpaceReserved="false" />
+        <ListPreference android:entries="@array/pref_theme_entries" android:title="@string/pref_theme_title" android:key="pref_key_theme" android:summary="%s" android:defaultValue="@string/pref_theme_light_value" android:entryValues="@array/pref_theme_values" app:iconSpaceReserved="false" />
+    </PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/preferences_category" android:title="@string/network_settings_title">
+        <ListPreference android:persistent="false" android:entries="@array/bt_setting_names" android:title="@string/bluetooth_setting" android:key="pref_key_bluetooth" android:summary="%s" android:defaultValue="false" android:entryValues="@array/boolean_array" app:iconSpaceReserved="false" />
+        <ListPreference android:persistent="false" android:entries="@array/tor_network_setting_names" android:title="@string/tor_network_setting" android:key="pref_key_tor_network" android:summary="%s" android:defaultValue="0" android:entryValues="@array/tor_network_setting_values" app:iconSpaceReserved="false" />
+        <SwitchPreference android:persistent="false" android:title="@string/tor_mobile_data_title" android:key="pref_key_tor_mobile_data" android:widgetLayout="@layout/preference_switch_compat" android:defaultValue="true" app:iconSpaceReserved="false" />
+    </PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/preferences_category" android:title="@string/security_settings_title">
+        <SwitchPreference android:persistent="false" android:enabled="false" android:title="@string/pref_lock_title" android:key="pref_key_lock" android:summary="@string/pref_lock_summary" android:widgetLayout="@layout/preference_switch_compat" app:iconSpaceReserved="false" />
+        <ListPreference android:persistent="false" android:entries="@array/pref_key_lock_timeout_entries" android:title="@string/pref_lock_timeout_title" android:key="pref_key_lock_timeout" android:summary="@string/pref_lock_timeout_summary" android:dependency="pref_key_lock" android:defaultValue="@string/pref_lock_timeout_value_default" android:entryValues="@array/pref_key_lock_timeout_values" app:iconSpaceReserved="false" />
+        <Preference android:title="@string/change_password" android:key="pref_key_change_password" app:iconSpaceReserved="false">
+            <intent android:targetPackage="@string/app_package" android:targetClass="org.redappproject.redapp.android.login.ChangePasswordActivity" />
+        </Preference>
+    </PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/preferences_category" android:title="@string/panic_setting_title">
+        <Preference android:title="@string/panic_setting" android:summary="@string/panic_setting_hint" app:iconSpaceReserved="false">
+            <intent android:targetPackage="@string/app_package" android:targetClass="org.redappproject.redapp.android.panic.PanicPreferencesActivity" />
+        </Preference>
+    </PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/preferences_category" android:title="@string/notification_settings_title">
+        <SwitchPreference android:title="@string/notify_sign_in_title" android:key="pref_key_notify_sign_in" android:summary="@string/notify_sign_in_summary" android:widgetLayout="@layout/preference_switch_compat" android:defaultValue="true" app:iconSpaceReserved="false" />
+        <SwitchPreference android:persistent="false" android:title="@string/notify_private_messages_setting_title" android:key="pref_key_notify_private_messages" android:summary="@string/notify_private_messages_setting_summary" android:widgetLayout="@layout/preference_switch_compat" android:defaultValue="true" app:iconSpaceReserved="false" />
+        <SwitchPreference android:persistent="false" android:title="@string/notify_group_messages_setting_title" android:key="pref_key_notify_group_messages" android:summary="@string/notify_group_messages_setting_summary" android:widgetLayout="@layout/preference_switch_compat" android:defaultValue="true" app:iconSpaceReserved="false" />
+        <SwitchPreference android:persistent="false" android:title="@string/notify_forum_posts_setting_title" android:key="pref_key_notify_forum_posts" android:summary="@string/notify_forum_posts_setting_summary" android:widgetLayout="@layout/preference_switch_compat" android:defaultValue="true" app:iconSpaceReserved="false" />
+        <SwitchPreference android:persistent="false" android:title="@string/notify_blog_posts_setting_title" android:key="pref_key_notify_blog_posts" android:summary="@string/notify_blog_posts_setting_summary" android:widgetLayout="@layout/preference_switch_compat" android:defaultValue="true" app:iconSpaceReserved="false" />
+        <SwitchPreference android:persistent="false" android:title="@string/notify_vibration_setting" android:key="pref_key_notify_vibration" android:widgetLayout="@layout/preference_switch_compat" android:defaultValue="true" app:iconSpaceReserved="false" />
+        <Preference android:title="@string/notify_sound_setting" android:key="pref_key_notify_sound" app:iconSpaceReserved="false" />
+    </PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/preferences_category" android:title="@string/feedback_settings_title">
+        <Preference android:title="@string/send_feedback" android:key="pref_key_send_feedback" app:iconSpaceReserved="false" />
+    </PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/preferences_category" android:title="Testing">
+        <Preference android:title="Create Test Data" android:key="pref_key_test_data" app:iconSpaceReserved="false">
+            <intent android:targetPackage="@string/app_package" android:targetClass="org.redappproject.redapp.android.test.TestDataActivity" />
+        </Preference>
+        <Preference android:title="Crash" android:key="pref_key_explode" app:iconSpaceReserved="false" />
+    </PreferenceCategory>
+</PreferenceScreen>

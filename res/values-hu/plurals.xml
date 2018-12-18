@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="blog_post_notification_text">
+        <item quantity="other">%d új blog bejegyzés.</item>
+        <item quantity="one">Új blog bejegyzés. </item>
+    </plurals>
+    <plurals name="expiry_warning">
+        <item quantity="other">Ez a teszt verziója a Briar-nak. A fiókja le fog járni %d napon belül és nem megújítható.</item>
+        <item quantity="one">Ez a teszt verziója a Briar-nak. A fiókja le fog járni %d napon belül és nem megújítható.</item>
+    </plurals>
+    <plurals name="forum_post_notification_text">
+        <item quantity="other">%d új fórum hozzászólás.</item>
+        <item quantity="one">Új fórum hozzászólás.</item>
+    </plurals>
+    <plurals name="forums_shared">
+        <item quantity="other">%d fórum megosztva a kapcsolatokkal</item>
+        <item quantity="one">%d fórum megosztva a kapcsolatokkal</item>
+    </plurals>
+    <plurals name="group_message_notification_text">
+        <item quantity="other">%d új csoport üzenet.</item>
+        <item quantity="one">Új csoport üzenet.</item>
+    </plurals>
+    <plurals name="groups_invitations_open">
+        <item quantity="other">%d nyitott csoport meghívás</item>
+        <item quantity="one">Eflogadta %d csoport meghívását</item>
+    </plurals>
+    <plurals name="introduction_notification_text">
+        <item quantity="other">%d új kapcsolat hozzáadva.</item>
+        <item quantity="one">Új kapcsolat hozzáadva.</item>
+    </plurals>
+    <plurals name="messages">
+        <item quantity="other">%d üzenet</item>
+        <item quantity="one">%düzenet</item>
+    </plurals>
+    <plurals name="posts">
+        <item quantity="other">%d bejegyzés</item>
+        <item quantity="one">%d bejegyzés</item>
+    </plurals>
+    <plurals name="private_message_notification_text">
+        <item quantity="other">%d új privát üzenet.</item>
+        <item quantity="one">Új privát üzenet.</item>
+    </plurals>
+</resources>

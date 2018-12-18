@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="blog_post_notification_text">
+        <item quantity="other">%d blog sarrera berri.</item>
+        <item quantity="one">Blog sarrera berri bat.</item>
+    </plurals>
+    <plurals name="expiry_warning">
+        <item quantity="other">Hau Briar-en probetarako bertsio bat da. Zure kontua %d egun barru iraungituko da eta ezin da berriztu.</item>
+        <item quantity="one">Hau Briar-en probetarako bertsio bat da. Zure kontua egun %d barru iraungituko da eta ezin da berriztu.</item>
+    </plurals>
+    <plurals name="forum_post_notification_text">
+        <item quantity="other">%d foro sarrera berri.</item>
+        <item quantity="one">Foro sarrera berri bat.</item>
+    </plurals>
+    <plurals name="forums_shared">
+        <item quantity="other">Kontaktuek partekatutako %d foro</item>
+        <item quantity="one">Kontaktuek partekatutako foro %d</item>
+    </plurals>
+    <plurals name="group_message_notification_text">
+        <item quantity="other">%d talde mezu berri.</item>
+        <item quantity="one">Talde mezu berri bat.</item>
+    </plurals>
+    <plurals name="groups_invitations_open">
+        <item quantity="other">%d talderako gonbidapen erantzuteke</item>
+        <item quantity="one">talderako gonbidapen %d erantzuteke</item>
+    </plurals>
+    <plurals name="introduction_notification_text">
+        <item quantity="other">%d kontaktu berri gehitu dira.</item>
+        <item quantity="one">Kontaktu berria gehitu da.</item>
+    </plurals>
+    <plurals name="messages">
+        <item quantity="other">%d mezu</item>
+        <item quantity="one">mezu %d</item>
+    </plurals>
+    <plurals name="posts">
+        <item quantity="other">%d sarrera</item>
+        <item quantity="one">Sarrera %d</item>
+    </plurals>
+    <plurals name="private_message_notification_text">
+        <item quantity="other">%d mezu pribatu berri.</item>
+        <item quantity="one">Mezu pribatu berri bat.</item>
+    </plurals>
+</resources>

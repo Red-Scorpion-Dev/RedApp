@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="blog_post_notification_text">
+        <item quantity="other">%d new blog posts.</item>
+        <item quantity="one">New blog post.</item>
+    </plurals>
+    <plurals name="expiry_warning">
+        <item quantity="other">This is a test version of Briar. Your account will expire in %d days and cannot be renewed.</item>
+        <item quantity="one">This is a test version of Briar. Your account will expire in %d day and cannot be renewed.</item>
+    </plurals>
+    <plurals name="forum_post_notification_text">
+        <item quantity="other">%d new forum posts.</item>
+        <item quantity="one">New forum post.</item>
+    </plurals>
+    <plurals name="forums_shared">
+        <item quantity="other">%d forums shared by contacts</item>
+        <item quantity="one">%d forum shared by contacts</item>
+    </plurals>
+    <plurals name="group_message_notification_text">
+        <item quantity="other">%d new group messages.</item>
+        <item quantity="one">New group message.</item>
+    </plurals>
+    <plurals name="groups_invitations_open">
+        <item quantity="other">%d open group invitations</item>
+        <item quantity="one">%d open group invitation</item>
+    </plurals>
+    <plurals name="introduction_notification_text">
+        <item quantity="other">%d new contacts added.</item>
+        <item quantity="one">New contact added.</item>
+    </plurals>
+    <plurals name="messages">
+        <item quantity="other">%d messages</item>
+        <item quantity="one">%d message</item>
+    </plurals>
+    <plurals name="posts">
+        <item quantity="other">%d posts</item>
+        <item quantity="one">%d post</item>
+    </plurals>
+    <plurals name="private_message_notification_text">
+        <item quantity="other">%d new private messages.</item>
+        <item quantity="one">New private message.</item>
+    </plurals>
+</resources>

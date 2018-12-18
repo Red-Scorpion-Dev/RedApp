@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.design.widget.FloatingActionButton android:id="@id/fab" android:layout_width="wrap_content" android:layout_height="wrap_content" app:fabSize="mini" app:useCompatPadding="true" />
+    <TextView android:textSize="@dimen/unread_bubble_text_size" android:textStyle="bold" android:textColor="@color/briar_text_primary_inverse" android:gravity="center" android:layout_gravity="end|center|top" android:id="@id/unreadCountView" android:background="@drawable/bubble" android:layout_width="wrap_content" android:layout_height="@dimen/unread_bubble_size" android:layout_marginTop="10.0dip" android:layout_marginRight="5.0dip" android:minWidth="@dimen/unread_bubble_size" />
+</merge>

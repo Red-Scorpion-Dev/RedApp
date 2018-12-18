@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <de.hdodenhof.circleimageview.CircleImageView android:layout_gravity="start|bottom|center" android:id="@id/avatarBackground" android:layout_width="@dimen/avatar_forum_size" android:layout_height="@dimen/avatar_forum_size" style="@style/BriarAvatar" />
+    <android.support.v7.widget.AppCompatTextView android:textSize="@dimen/avatar_text_size" android:textColor="@color/briar_text_primary_inverse" android:layout_gravity="center" android:id="@id/textAvatarView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/listitem_picture_frame_offset_vertical" android:layout_marginRight="@dimen/listitem_picture_frame_offset_horizontal" android:maxLength="1" android:shadowColor="@color/forum_avatar_shadow" android:shadowDx="0.0" android:shadowDy="1.5" android:shadowRadius="1.5" android:layout_marginEnd="@dimen/listitem_picture_frame_offset_horizontal" />
+    <TextView android:textSize="@dimen/unread_bubble_text_size" android:textStyle="bold" android:textColor="@color/briar_text_primary_inverse" android:gravity="center" android:layout_gravity="end|center|top" android:id="@id/unreadCountView" android:background="@drawable/bubble" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="@dimen/unread_bubble_size" android:minWidth="@dimen/unread_bubble_size" />
+</merge>

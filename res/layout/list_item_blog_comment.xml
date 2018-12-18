@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/inputDivider" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/Divider.Horizontal" />
+    <org.briarproject.briar.android.view.AuthorView android:id="@id/authorView" android:padding="@dimen/listitem_vertical_margin" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:persona="commenter" />
+    <com.vanniktech.emoji.EmojiTextView android:textSize="@dimen/text_size_small" android:textColor="?android:textColorSecondary" android:id="@id/textView" android:paddingBottom="@dimen/listitem_vertical_margin" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/authorView" />
+</android.support.constraint.ConstraintLayout>

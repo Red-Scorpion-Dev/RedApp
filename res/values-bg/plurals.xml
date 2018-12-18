@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="blog_post_notification_text">
+        <item quantity="other">%d нови блог публикации.</item>
+        <item quantity="one">Нова блог публикация.</item>
+    </plurals>
+    <plurals name="forum_post_notification_text">
+        <item quantity="other">%d нови форумни публикации.</item>
+        <item quantity="one">Нова форумна публикация.</item>
+    </plurals>
+    <plurals name="forums_shared">
+        <item quantity="other">%d форума, споделени от контакти</item>
+        <item quantity="one">%d форум, споделен от контакти</item>
+    </plurals>
+    <plurals name="group_message_notification_text">
+        <item quantity="other">%d нови групови съобщения.</item>
+        <item quantity="one">Ново групово съобщение.</item>
+    </plurals>
+    <plurals name="groups_invitations_open">
+        <item quantity="other">%d отворени покани в група</item>
+        <item quantity="one">%d отворена покана в група</item>
+    </plurals>
+    <plurals name="introduction_notification_text">
+        <item quantity="other">%d добавени нови контакти.</item>
+        <item quantity="one">Добавен нов контакт.</item>
+    </plurals>
+    <plurals name="messages">
+        <item quantity="other">%d съобщения</item>
+        <item quantity="one">%d съобщение</item>
+    </plurals>
+    <plurals name="posts">
+        <item quantity="other">%d публикации</item>
+        <item quantity="one">%d публикация</item>
+    </plurals>
+    <plurals name="private_message_notification_text">
+        <item quantity="other">%d нови лични съобщения.</item>
+        <item quantity="one">Ново лично съобщение.</item>
+    </plurals>
+</resources>

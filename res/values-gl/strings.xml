@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Ir á páxina de inicio</string>
+    <string name="abc_action_bar_up_description">Desprazarse cara arriba</string>
+    <string name="abc_action_menu_overflow_description">Máis opcións</string>
+    <string name="abc_action_mode_done">Feito</string>
+    <string name="abc_activity_chooser_view_see_all">Ver todas</string>
+    <string name="abc_activitychooserview_choose_application">Escoller unha aplicación</string>
+    <string name="abc_capital_off">DESACTIVAR</string>
+    <string name="abc_capital_on">ACTIVAR</string>
+    <string name="abc_menu_alt_shortcut_label">Alt +</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl +</string>
+    <string name="abc_menu_delete_shortcut_label">eliminar</string>
+    <string name="abc_menu_enter_shortcut_label">Intro</string>
+    <string name="abc_menu_function_shortcut_label">Función +</string>
+    <string name="abc_menu_meta_shortcut_label">Meta +</string>
+    <string name="abc_menu_shift_shortcut_label">Maiús +</string>
+    <string name="abc_menu_space_shortcut_label">espazo</string>
+    <string name="abc_menu_sym_shortcut_label">Sim +</string>
+    <string name="abc_prepend_shortcut_label">Menú +</string>
+    <string name="abc_search_hint">Buscar…</string>
+    <string name="abc_searchview_description_clear">Borrar consulta</string>
+    <string name="abc_searchview_description_query">Consulta de busca</string>
+    <string name="abc_searchview_description_search">Buscar</string>
+    <string name="abc_searchview_description_submit">Enviar consulta</string>
+    <string name="abc_searchview_description_voice">Busca por voz</string>
+    <string name="abc_shareactionprovider_share_with">Compartir con</string>
+    <string name="abc_shareactionprovider_share_with_application">Compartir con %s</string>
+    <string name="abc_toolbar_collapse_description">Contraer</string>
+    <string name="accept">Aceptar</string>
+    <string name="activity_share_toolbar_header">Escolla Contactos</string>
+    <string name="add_contact_title">Engada un contacto</string>
+    <string name="allow">Permitir</string>
+    <string name="authenticating_with_device">Autenticándose co dispositivo…</string>
+    <string name="blogs_blog_post_created">Entrada no blog creada</string>
+    <string name="blogs_blog_post_received">Nova entrada de blog recibida</string>
+    <string name="blogs_blog_post_scroll_to">Desplazarse a</string>
+    <string name="blogs_blog_removed">Blog eliminado</string>
+    <string name="blogs_button">Blogues</string>
+    <string name="blogs_feed_empty_state">Sen publicacións que mostrar</string>
+    <string name="blogs_feed_empty_state_action">"Publicacións dos contactos e blogs aos que se suscriba aparecerán aquí
+
+Toque na icona do lápis para encribir unha entrada"</string>
+    <string name="blogs_other_blog_empty_state">Sen publicacións que mostrar</string>
+    <string name="blogs_publish_blog_post">Publicar</string>
+    <string name="blogs_reblog_button">Compartir</string>
+    <string name="blogs_reblog_comment_hint">Engadir un comentario (optativo)</string>
+    <string name="blogs_remove_blog">Eliminar Blog</string>
+    <string name="blogs_remove_blog_dialog_message">"Segura de que quere eliminar este blog?
+
+As entradas eliminaranse do seu dispositivo pero non dos dispositivos de outras persoas.
+
+Calquera contacto co que compartira este blog podería deixar de recibir actualizacións."</string>
+    <string name="blogs_remove_blog_ok">Eliminar</string>
+    <string name="blogs_rss_feeds_import">Importar fonte RSS</string>
+    <string name="blogs_rss_feeds_import_button">Importar</string>
+    <string name="blogs_rss_feeds_import_error">Lamentámolo! Algo fallou ao importar a fonte.</string>
+    <string name="blogs_rss_feeds_import_hint">Introduza o URL da fonte RSS</string>
+    <string name="blogs_rss_feeds_manage">Xestionar Fontes RSS</string>
+    <string name="blogs_rss_feeds_manage_author">Autor/a:</string>
+    <string name="blogs_rss_feeds_manage_delete_error">Non se puido eliminar a fonte!</string>
+    <string name="blogs_rss_feeds_manage_empty_state">"Sen fontes RSS que mostrar
+
+Toque na icona + para importar unha fonte"</string>
+    <string name="blogs_rss_feeds_manage_error">Aconteceu un problema ao cargar as súas fontes. Por favor, inténteo máis tarde.</string>
+    <string name="blogs_rss_feeds_manage_imported">Importado:</string>
+    <string name="blogs_rss_feeds_manage_updated">Última actualización:</string>
+    <string name="blogs_rss_remove_feed">Eliminar fonte</string>
+    <string name="blogs_rss_remove_feed_dialog_message">"Está segura de que quere eliminar esta fonte?
+
+As entradas eliminaranse do seu dispositivo pero non dos dispositivos de outras persoas
+
+Todas as persoas coas que compartiu esta fonte poderían deixar de recibir actualizacións."</string>
+    <string name="blogs_rss_remove_feed_ok">Eliminar</string>
+    <string name="blogs_sharing_button">Compartir blog</string>
+    <string name="blogs_sharing_declined_toast">Rexeitou o convite</string>
+    <string name="blogs_sharing_error">Algo fallou ao compartir o blog</string>
+    <string name="blogs_sharing_invitation_received">%1$s compartiu o blog \"%2$s\" con vostede.</string>
+    <string name="blogs_sharing_invitation_sent">Vostede compartiu o blog \"%1$s\" con %2$s.</string>
+    <string name="blogs_sharing_invitations_title">Convites a Blog</string>
+    <string name="blogs_sharing_joined_toast">Subscrita ao blog</string>
+    <string name="blogs_sharing_response_accepted_received">%s aceptou o convite ao blog.</string>
+    <string name="blogs_sharing_response_accepted_sent">Aceptou o convite ao blog de %s.</string>
+    <string name="blogs_sharing_response_declined_received">%s rexeitou o convite ao blog.</string>
+    <string name="blogs_sharing_response_declined_sent">Rexeitou o convite ao blog de %s.</string>
+    <string name="blogs_sharing_share">Compartir blog</string>
+    <string name="blogs_sharing_snackbar">Blog compartido cos contactos escollidos</string>
+    <string name="blogs_write_blog_post">Escribir entrada de Blog</string>
+    <string name="blogs_write_blog_post_body_hint">Escriba a súa entrada no blog</string>
+    <string name="bluetooth_setting">Conectar vía Bluetooth</string>
+    <string name="bluetooth_setting_disabled">Só ao engadir contactos</string>
+    <string name="bluetooth_setting_enabled">En claquera momento que un contacto estea preto</string>
+    <string name="briar_crashed">Lamentámolo, RedApp fallou.</string>
+    <string name="btn_reply">Respostar</string>
+    <string name="camera_error">Fallo na cámara</string>
+    <string name="cancel">Cancelar</string>
+    <string name="cannot_load_ringtone">Non se cargou o ton</string>
+    <string name="change_password">Trocar a clave</string>
+    <string name="choose_forum_hint">Escolla un nome para o seu foro</string>
+    <string name="choose_new_password">Nova clave</string>
+    <string name="choose_nickname">Escolle o teu alcume</string>
+    <string name="choose_password">Escolle a túa clave</string>
+    <string name="choose_ringtone_title">Escolla ton</string>
+    <string name="close">Pechar</string>
+    <string name="confirm_new_password">Confirme a nova clave</string>
+    <string name="confirm_password">Confirma a túa clave</string>
+    <string name="connecting_to_device">Conectando co dispositivo…</string>
+    <string name="connection_error_explanation">Por favor, comprobe que ambas están conectadas a mesma rede Wi-Fi.</string>
+    <string name="connection_error_feedback">Si persiste o problema,<a href="feedback">envíe un informe</a> para axudarnos a mellorar a app.</string>
+    <string name="connection_error_title">Non se puido conectar co contacto</string>
+    <string name="contact_added_toast">Contacto engadido: %s</string>
+    <string name="contact_already_exists">O contacto %s xa existe</string>
+    <string name="contact_deleted_toast">Contacto eliminado</string>
+    <string name="contact_list_button">Contactos</string>
+    <string name="contacts_selected">Contactos selecionados</string>
+    <string name="continue_button">Continuar</string>
+    <string name="could_not_load_report_data">Non se puideron cargar os datos do informe.</string>
+    <string name="crash_report_title">Informe de fallo de RedApp</string>
+    <string name="create_account_button">Crea a conta</string>
+    <string name="create_forum_button">Crear Foro</string>
+    <string name="create_forum_title">Crear Foro</string>
+    <string name="create_new_account">Precisa crear unha nova conta, pero pode utilizar o mesmo alcume.</string>
+    <string name="current_password">Clave actual</string>
+    <string name="date_no_private_messages">Sen mensaxes</string>
+    <string name="decline">Rexeitar</string>
+    <string name="delete">Eliminar</string>
+    <string name="delete_contact">Eliminar contacto</string>
+    <string name="describe_crash">Describa que aconteceu (optativo)</string>
+    <string name="dev_report_saved">Informe gardado. Enviarase a seguinte vez que se conecte con RedApp.</string>
+    <string name="dialog_button_leave">Saír</string>
+    <string name="dialog_message_connect_panic_app">Está segura de querer permitir a %1$s activar accións destrutivas do botón do pánico?</string>
+    <string name="dialog_message_delete_contact">Segura de querer eliminar este contacto e todas as mensaxes que intercambiaron?</string>
+    <string name="dialog_message_leave_forum">"Segura de querer deixar este foro?
+
+Todos os contactos cos que comparteu este foro poderían deixar de recibir actualizacións."</string>
+    <string name="dialog_message_lost_password">"RedApp almacena a súa configuración encriptada no dispositivo, non na nube, así que non podemos restabelecer a súa clave. Quererías borrar a túa conta e empezar de novo?
+
+Precaución: As túas identidades, contactos e mensaxes serán eliminadas de forma permanente."</string>
+    <string name="dialog_title_connect_panic_app">Confirme a App do pánico</string>
+    <string name="dialog_title_delete_contact">Confirme a eliminación do contacto</string>
+    <string name="dialog_title_leave_forum">Confirme a saída do foro</string>
+    <string name="dialog_title_lost_password">Clave perdida</string>
+    <string name="display_settings_title">Pantalla</string>
+    <string name="don_t_ask_again">Non preguntar de novo</string>
+    <string name="download_briar">Para continuar utilizando RedApp, descargue por favor a versión 1.0.</string>
+    <string name="download_briar_button">Descargar RedApp 1.0</string>
+    <string name="ellipsis">...</string>
+    <string name="enter_feedback">Escriba a súa avaliación</string>
+    <string name="enter_password">Clave</string>
+    <string name="exchanging_contact_details">Intercambiando detalles do contacto…</string>
+    <string name="expand_button_title">Configuración avanzada</string>
+    <string name="expiry_date_reached">"Este software caducou.
+Grazas por probalo!"</string>
+    <string name="expiry_update">A data de caducidade de probas foi alongada. Agora a súa conta caduca en %d días.</string>
+    <string name="face_to_face">"Debe atoparse coa persoa que quere engadir como contacto.
+Isto evitará que calquera poida suplantala ou ler as súas mensaxes no futuro."</string>
+    <string name="feedback_settings_title">Avaliación</string>
+    <string name="feedback_title">Avaliación</string>
+    <string name="fix">Arranxar</string>
+    <string name="forgotten_password">Esquecín a miña clave</string>
+    <string name="forum_created_toast">Foro creado</string>
+    <string name="forum_declined_toast">Rexeitou o convite</string>
+    <string name="forum_invitation_already_sharing">Xa compartindo</string>
+    <string name="forum_invitation_exists">"Xa aceptara o convite a este foro
+
+Aceptando máis convites fará a súa conexión ao foro máis rápida e fiable."</string>
+    <string name="forum_invitation_received">%1$s compartiu este foro \"%2$s\" con vostede.</string>
+    <string name="forum_invitation_response_accepted_received">%s aceptou o convite ao foro.</string>
+    <string name="forum_invitation_response_accepted_sent">Aceptou o convite de %s ao foro.</string>
+    <string name="forum_invitation_response_declined_received">%s rexeitou o convite ao foro.</string>
+    <string name="forum_invitation_response_declined_sent">Rexeitou o convite de %s ao foro.</string>
+    <string name="forum_invitation_sent">Compartiu este foro \"%1$s\" con %2$s.</string>
+    <string name="forum_invitations_title">Convites a foros</string>
+    <string name="forum_joined_toast">Uniuse ao foro</string>
+    <string name="forum_leave">Deixar foro</string>
+    <string name="forum_left_toast">Saír do foro</string>
+    <string name="forum_message_reply_hint">Nova Resposta</string>
+    <string name="forum_new_entry_posted">Foro público publicado</string>
+    <string name="forum_new_message_hint">Nova publicación</string>
+    <string name="forum_share_button">Compartir Foro</string>
+    <string name="forum_share_error">Algo fallou ao compartir este foro.</string>
+    <string name="forum_share_message">Engadir unha mensaxe (opcional)</string>
+    <string name="forum_shared_snackbar">Foro compartido cos contactos escollidos</string>
+    <string name="forums_button">Foros</string>
+    <string name="got_it">Comprendido</string>
+    <string name="groups_button">Grupos Privados</string>
+    <string name="groups_create_group_button">Crear Grupo</string>
+    <string name="groups_create_group_hint">Escolla un nome para o seu grupo privado</string>
+    <string name="groups_create_group_invitation_button">Enviar Convite</string>
+    <string name="groups_create_group_title">Crear Grupo Privado</string>
+    <string name="groups_created_by">Creado por %s</string>
+    <string name="groups_dissolve">Desfacer o grupo</string>
+    <string name="groups_dissolve_button">Desfacer</string>
+    <string name="groups_dissolve_dialog_message">"Segura de querer desfacer o grupo?
+
+Os restantes membros non poderán continuar as súas conversas e poderían non recibir as últimas mensaxes."</string>
+    <string name="groups_dissolve_dialog_title">Confirme a disolución do grupo</string>
+    <string name="groups_dissolved_dialog_message">"A persoa creadora do grupo desfíxoo.
+
+Xa non poderá escribir mensaxes ao grupo e podería non ter recibido todas as mensaxes que foran escritas."</string>
+    <string name="groups_dissolved_dialog_title">O grupo foi desfeito</string>
+    <string name="groups_group_is_dissolved">Este grupo foi disolto</string>
+    <string name="groups_group_is_empty">Este grupo está valeiro</string>
+    <string name="groups_invitation_sent">Enviouse o convite de grupo</string>
+    <string name="groups_invitations_declined">Rexeitou o convite ao grupo</string>
+    <string name="groups_invitations_invitation_received">%1$s convidouna a unirse ao grupo \"%2$s\".</string>
+    <string name="groups_invitations_invitation_sent">Convidou a %1$s a unirse ao grupo \"%2$s\".</string>
+    <string name="groups_invitations_joined">Xa está no grupo</string>
+    <string name="groups_invitations_response_accepted_received">%s aceptou o convite de grupo.</string>
+    <string name="groups_invitations_response_accepted_sent">Aceptou o convite de grupo de %s.</string>
+    <string name="groups_invitations_response_declined_received">%s rexeitou o convite de grupo.</string>
+    <string name="groups_invitations_response_declined_sent">Rexeitou o convite de grupo de %s.</string>
+    <string name="groups_invitations_title">Convites de Grupo</string>
+    <string name="groups_invite_members">Convidar a Membros</string>
+    <string name="groups_leave">Deixar Grupo</string>
+    <string name="groups_leave_dialog_message">Está certo de que quere deixar este grupo?</string>
+    <string name="groups_leave_dialog_title">Confirme que deixa o Grupo</string>
+    <string name="groups_list_empty">Sen grupos que amosar</string>
+    <string name="groups_list_empty_action">Toque a icona + para crear un grupo, ou solicite aos contactos que compartan grupos con vostede</string>
+    <string name="groups_member_created">%s creou o grupo</string>
+    <string name="groups_member_created_you">Vostede creou o grupo</string>
+    <string name="groups_member_joined">%s uníuse ao grupo</string>
+    <string name="groups_member_joined_you">Vostede ingresou no grupo</string>
+    <string name="groups_member_list">Lista de Membros</string>
+    <string name="groups_message_sent">Mensaxe enviada</string>
+    <string name="groups_remove">Eliminar</string>
+    <string name="groups_reveal_contacts">Revelar contactos</string>
+    <string name="groups_reveal_dialog_message">"Pode escoller si revela os contactos a todos os compoñentes actuais e futuros do grupo.
+Si revela os contactos a conexión do grupo será máis rápida e fiable, xa que poderá comunicarse cos contactos revelados incluso si a creadora do grupo non está en liña."</string>
+    <string name="groups_reveal_invisible">A relación co contacto non é visible para o grupo</string>
+    <string name="groups_reveal_visible">A relación do contacto é visible para o grupo</string>
+    <string name="groups_reveal_visible_revealed_by_contact">A relación con contacto é visible para o grupo (revelada por %s)</string>
+    <string name="groups_reveal_visible_revealed_by_us">A relación co contacto é visible para o grupo (revelada por vostede)</string>
+    <string name="help">Axuda</string>
+    <string name="hide">Agochar</string>
+    <string name="include_debug_report_crash">Incluír datos anónimos sobre o fallo</string>
+    <string name="include_debug_report_feedback">Incluír datos anónimos sobre este dispositivo</string>
+    <string name="introduction_activity_title">Escolla contacto</string>
+    <string name="introduction_button">Preséntese</string>
+    <string name="introduction_error">Algo fallou ao enviar a presentación.</string>
+    <string name="introduction_menu_item">Preséntese</string>
+    <string name="introduction_message_hint">Engadir unha mensaxe (opcional)</string>
+    <string name="introduction_message_title">Introducir Contactos</string>
+    <string name="introduction_not_possible">Xa ten unha presentación en progreso con estes contactos. Por favor, deixe que remate o proceso. Isto podería levar algún tempo se vostede ou os contactos raramente se conectan.</string>
+    <string name="introduction_onboarding_text">Pode presentar aos seus contactos, así non precisan encontrarse en persoa para conectar a través de RedApp.</string>
+    <string name="introduction_onboarding_title">Presente aos seus contactos</string>
+    <string name="introduction_request_answered_received">%1$s solicitou presentala a %2$s.</string>
+    <string name="introduction_request_exists_received">%1$s solicitou presentala a %2$s, pero %2$s xa está no seu listado de contactos. Xa que %1$s podería non sabelo, pode responder igualmente:</string>
+    <string name="introduction_request_received">%1$s solicitou presentala a %2$s. Quere engadir a %2$s ao seu listado de contactos?</string>
+    <string name="introduction_request_sent">Solicitou presentar %1$s a %2$s.</string>
+    <string name="introduction_response_accepted_received">%1$s aceptou a presentación a %2$s.</string>
+    <string name="introduction_response_accepted_sent">Aceptou a presentación a %1$s.</string>
+    <string name="introduction_response_accepted_sent_info">Antes de engadir %1$s aos seus contactos, eles precisan aceptar a presentación tamén. Esto podería levar algún tempo.</string>
+    <string name="introduction_response_declined_received">%1$s rexeitou a presentación a %2$s.</string>
+    <string name="introduction_response_declined_received_by_introducee">%1$s di que %2$srexeitou a presentación.</string>
+    <string name="introduction_response_declined_sent">Vostede rexeitou a presentación a %1$s.</string>
+    <string name="introduction_response_error">Fallo respondendo á presentación</string>
+    <string name="introduction_sent">Enviouse a súa presentación.</string>
+    <string name="link_warning_intro">Vai abrir a seguinte ligazón nunha aplicación externa.</string>
+    <string name="link_warning_open_link">Abrir ligazón</string>
+    <string name="link_warning_text">Esto pode utilizarse para identificala. Pense si confía na persoa que lle enviou a ligazón e considere abrila con Orfox.</string>
+    <string name="link_warning_title">Aviso de ligazón</string>
+    <string name="lock_button">Bloquear App</string>
+    <string name="lock_is_locked">RedApp está bloqueada</string>
+    <string name="lock_tap_to_unlock">Toque para desbloquear</string>
+    <string name="lock_unlock">Desbloquear RedApp</string>
+    <string name="lock_unlock_fingerprint_description">Toque o sensor de pegadas co dedo rexistrado para continuar</string>
+    <string name="lock_unlock_password">Utilizar contrasinal</string>
+    <string name="lock_unlock_verbose">Introduza o PIN do dispositivo, patrón ou contrasinal para desbloquear RedApp</string>
+    <string name="message_hint">Esciba unha mensaxe</string>
+    <string name="more_info">Máis información</string>
+    <string name="name_too_long">O nome é demasiado longo</string>
+    <string name="nav_drawer_close_description">Peche a gaveta de navegación</string>
+    <string name="nav_drawer_open_description">Abra a gaveta de navegación</string>
+    <string name="network_settings_title">Redes</string>
+    <string name="no_contacts">Sen contactos para amosar</string>
+    <string name="no_contacts_action">Toque a icona + para engadir un contacto</string>
+    <string name="no_contacts_selector">Sen contactos a mostrar</string>
+    <string name="no_contacts_selector_action">Volte aquí tras engadir un contacto</string>
+    <string name="no_data">Sen datos</string>
+    <string name="no_forum_posts">Sen publicacións que mostrar</string>
+    <string name="no_forums">Sen foros que mostrar</string>
+    <string name="no_forums_action">Toque na icona + para crear un foro, ou pida aos contactos que compartan foros con vostede</string>
+    <string name="no_posts">Non hai mensaxes</string>
+    <string name="no_private_messages">Sen mensaxes que amosar</string>
+    <string name="nobody">Ninguén</string>
+    <string name="not_your_fault">Non é culpa súa.</string>
+    <string name="notification_settings_title">Notificacións</string>
+    <string name="notify_blog_posts_setting_summary">Amosar alertas para entradas no blog</string>
+    <string name="notify_blog_posts_setting_summary_26">Configurar alertas para entradas no blog</string>
+    <string name="notify_blog_posts_setting_title">Entradas no Blog</string>
+    <string name="notify_forum_posts_setting_summary">Amosar alertas para mensaxes nos foros</string>
+    <string name="notify_forum_posts_setting_summary_26">Configurar alertas para mensaxes nos foros</string>
+    <string name="notify_forum_posts_setting_title">Entradas no foro</string>
+    <string name="notify_group_messages_setting_summary">Amosar alertas para mensaxes de grupo</string>
+    <string name="notify_group_messages_setting_summary_26">Configurar alertas para mensaxes de grupo</string>
+    <string name="notify_group_messages_setting_title">Mensaxes de grupo</string>
+    <string name="notify_private_messages_setting_summary">Amosar alertas para mensaxes privadas</string>
+    <string name="notify_private_messages_setting_summary_26">Configurar alertas para mensaxes privadas</string>
+    <string name="notify_private_messages_setting_title">Mensaxes privadas</string>
+    <string name="notify_sign_in_summary">Amosar unha alerta cando o teléfono se inicie ou a app fose actualizada</string>
+    <string name="notify_sign_in_title">Lembrarme conectar</string>
+    <string name="notify_sound_setting">Son</string>
+    <string name="notify_sound_setting_default">Ton por omisión</string>
+    <string name="notify_sound_setting_disabled">Ningún</string>
+    <string name="notify_vibration_setting">Vibrar</string>
+    <string name="now">agora</string>
+    <string name="offline">Desconectado</string>
+    <string name="ok">OK</string>
+    <string name="ongoing_notification_text">Toque para abrir RedApp</string>
+    <string name="ongoing_notification_title">Conectado a RedApp</string>
+    <string name="online">Conectado</string>
+    <string name="open">Abrir</string>
+    <string name="optional_contact_email">O seu enderezo e-mail (optativo)</string>
+    <string name="options">Opcións</string>
+    <string name="panic_app_setting_none">Ningún</string>
+    <string name="panic_app_setting_summary">Non se estableceu unha app</string>
+    <string name="panic_app_setting_title">App Botón do pánico</string>
+    <string name="panic_setting">Axustes do botón do pánico</string>
+    <string name="panic_setting_destructive_action">Accións destructivas</string>
+    <string name="panic_setting_hint">Axuste como debe reaccionar RedApp cando utilice a app botón do pánico</string>
+    <string name="panic_setting_signout_summary">Desconecte de RedApp si o botón do pánico se preme</string>
+    <string name="panic_setting_signout_title">Finalizar sesión</string>
+    <string name="panic_setting_title">Botón do pánico</string>
+    <string name="password_changed">Trocouse a clave</string>
+    <string name="password_too_weak">A clave é demasiado débil</string>
+    <string name="passwords_do_not_match">As claves non coinciden</string>
+    <string name="permission_camera_denied_body">"Denegou o permiso de acceso a cámara, pero é necesario para engadir contactos.
+
+Por favor, considere conceder o permiso."</string>
+    <string name="permission_camera_location_request_body">"Para escanear o código QR, RedApp precisa acceso a cámara.
+
+Para descubrir dispositivos Bluetooth, RedApp precisa permiso a súa localización.
+
+RedApp non garda a súa localización nin a comparte con ninguén."</string>
+    <string name="permission_camera_location_title">Cámara e localización</string>
+    <string name="permission_camera_request_body">Para escanear códigos QR, RedApp precisa acceso a cámara.</string>
+    <string name="permission_camera_title">Permiso da cámara</string>
+    <string name="permission_location_request_body">"Para descubrir dispositivos Bluetooth, RedApp precisa permiso para acceder a súa localización.
+
+RedApp non garda a súa localización nin a comparte con ninguén."</string>
+    <string name="permission_location_title">Permiso de localización</string>
+    <string name="please_send_report">Axúdenos por favor a mellorar RedApp enviándonos un informe do fallo.</string>
+    <string name="pref_language_changed">Este axuste terá efecto cando reinicie RedApp. Por favor desconecte e volte a iniciar RedApp.</string>
+    <string name="pref_language_default">Por omisión do sistema</string>
+    <string name="pref_language_title">Idioma &amp; rexión</string>
+    <string name="pref_lock_disabled_summary">Para utilizar esta función, axuste o bloqueo de pantalla do dispositivo</string>
+    <string name="pref_lock_summary">Utilizar o bloqueo de pantalla do dispositiov para protexer RedApp mentras está conectada</string>
+    <string name="pref_lock_timeout_1">1 minuto</string>
+    <string name="pref_lock_timeout_15">15 minutos</string>
+    <string name="pref_lock_timeout_30">30 minutos</string>
+    <string name="pref_lock_timeout_5">5 minutos</string>
+    <string name="pref_lock_timeout_60">1 hora</string>
+    <string name="pref_lock_timeout_never">Nunca</string>
+    <string name="pref_lock_timeout_never_summary">Nunca bloquear RedApp automáticamente</string>
+    <string name="pref_lock_timeout_summary">Cando non utilice RedApp, bloquear automáticamente tras %s</string>
+    <string name="pref_lock_timeout_title">Tempo de espera en inactividade para o bloqueo</string>
+    <string name="pref_lock_title">Bloquear app</string>
+    <string name="pref_theme_auto">Automático (no día)</string>
+    <string name="pref_theme_dark">Oscuro</string>
+    <string name="pref_theme_light">Claro</string>
+    <string name="pref_theme_system">Por omisión do sistema</string>
+    <string name="pref_theme_title">Decorado</string>
+    <string name="progress_title_logout">Desconectando de RedApp...</string>
+    <string name="purge_setting_summary">Elimina a súa conta en RedApp si se preme o botón do pánico. Coidado: Isto eliminará permanentemente as súas identidades, contactos e mensaxes</string>
+    <string name="purge_setting_title">Eliminar conta</string>
+    <string name="qr_code">Código QR</string>
+    <string name="qr_code_invalid">O código QR non é válido</string>
+    <string name="qr_code_too_new">"O código QR que escaneou procede de unha nova versión de %s.
+
+Por favor, actualice a última versión e inténteo de novo."</string>
+    <string name="qr_code_too_old">"O código QR que escaneou procede de unha versión anterior de %s.
+
+Por favor, solicite ao seu contacto actualizar a nova versión e inténteo de novo."</string>
+    <string name="read_more">ler mais</string>
+    <string name="reminder_notification_channel_title">Recordatorio para conectar a RedApp</string>
+    <string name="reminder_notification_dismiss">Desbotar</string>
+    <string name="reminder_notification_text">Toque para voltar a conectar</string>
+    <string name="reminder_notification_title">Desconectou de RedApp</string>
+    <string name="report_is_encrypted">Prometemos que o informe está cifrado e enviado con seguridade.</string>
+    <string name="screen_filter_allow">Permitir a estas aplicación amosarse enriba</string>
+    <string name="screen_filter_body">"Outra aplicación estase a amosar enriba de RedApp. Para protexer a súa seguridade, RedApp non responderá a toques cando outra aplicación está debuxando enriba.
+
+As seguintes aplicacións poderían estar debuxando enriba:
+
+%1$s"</string>
+    <string name="screen_filter_title">Detectouse unha sobreescrita da pantalla</string>
+    <string name="screenshot_alice">Alice</string>
+    <string name="screenshot_bob">Bob</string>
+    <string name="screenshot_carol">Carol</string>
+    <string name="screenshot_message_1">Ola Bob!</string>
+    <string name="screenshot_message_2">Ola Alice! Grazas por falarme de RedApp!</string>
+    <string name="screenshot_message_3">Sen problema, agardo sexa do teu gusto 😀</string>
+    <string name="search_menu_title">Buscar</string>
+    <string name="security_settings_title">Seguridade</string>
+    <string name="send">Enviar</string>
+    <string name="send_feedback">Envíe a avaliación</string>
+    <string name="send_report">Enviar informe</string>
+    <string name="set_alias_button">Cambiar</string>
+    <string name="set_contact_alias">Cambiar o nome do contacto</string>
+    <string name="set_contact_alias_hint">Nome do contacto</string>
+    <string name="settings_button">Axustes</string>
+    <string name="setup_doze_button">Permitir conexións</string>
+    <string name="setup_doze_explanation">Para recibir mensaxes, RedApp precisa estar conectada en segundo plano. Por favor desactive as optimizacións de batería para que RedApp poida permanecer conectada.</string>
+    <string name="setup_doze_intro">Para recibir mensaxes, RedApp precisa estar conectada en segundo plano.</string>
+    <string name="setup_doze_title">Conexións en segundo plano</string>
+    <string name="setup_huawei_button">Protexer RedApp</string>
+    <string name="setup_huawei_help">Si RedApp non se engade ao listado de apps protexidas, non poderá funcionar en segundo plano.</string>
+    <string name="setup_huawei_text">Por favor toque o botón inferior e asegúrese de que RedApp está protexida na pantalla \"Apps Protexidas\"</string>
+    <string name="setup_name_explanation">O seu alcume mostrarase xunto a todas as mensaxes que publique. Pode cambialo tras crear a súa conta.</string>
+    <string name="setup_next">Seguinte</string>
+    <string name="setup_password_explanation">"A súa conta en RedApp gárdase cifrada no seu dispositivo, non na nube. Si esquece o contrasinal ou desinstala RedApp, non haberá xeito de recuperar a súa conta.
+
+Escolla unha clave longa que sexa difícil de adiviñar, algo como catro palabras ao chou, ou dez letras aleatorias, números e símbolos."</string>
+    <string name="setup_password_intro">Escolla unha Clave</string>
+    <string name="setup_title">Benvida a RedApp</string>
+    <string name="shared_by_format">Compartido por %s</string>
+    <string name="shared_with">Compartido con %1$d (%2$d en liña)</string>
+    <string name="sharing_status">Estado do compartido</string>
+    <string name="sharing_status_blog">Calquera que se subscribe a un blog pode compartilo cos seus contactos. Pode compartir este blog cos seguintes contactos. Podería haber outras subscritoras que vostede non pode ver.</string>
+    <string name="sharing_status_forum">Calquera compoñente do foro pode compartilo cos seus contactos. Vostede pode compartir este foro cos seguintes contactos. Pode haber outras persoas que vostede non pode ver.</string>
+    <string name="sharing_status_groups">Só a persoa creadora poder convidar a novos membros ao grupo. Abaixo está a membresía do grupo.</string>
+    <string name="show">Amosar</string>
+    <string name="show_onboarding">Amosar xanela de axuda</string>
+    <string name="show_qr_code_fullscreen">Amosar o código QR a pantalla completa</string>
+    <string name="sign_in_button">Iniciar sesión</string>
+    <string name="sign_out_button">Finalizar sesión</string>
+    <string name="sorry">Desculpe</string>
+    <string name="startup_compact_database">Compactando a base de datos...</string>
+    <string name="startup_failed_activity_title">Fallo de Inicio de RedApp</string>
+    <string name="startup_failed_data_too_new_error">Esta versión da app é moi antiga. Actualice por favor á última versión e inténteo de novo.</string>
+    <string name="startup_failed_data_too_old_error">"A súa conta foi creada cunha versión anterior da aplicación e non se pode abrir con esta versión. Deberá reinstalar a versión anterior ou ben crear unha nova conta escollendo 'Esquecín o meu contrasinal' cando se lle solicite o contrasinal."</string>
+    <string name="startup_failed_db_error">"Por algún motivo, a súa base de datos de RedApp está defectuosa sen remedio. A súa conta, os seus datos e contactos perdéronse. Desgraciadamente, debe reinstalar RedApp ou crear unha nova conta escollendo 'Esquecín o meu contrasinal' cando se lle solicite a clave."</string>
+    <string name="startup_failed_notification_text">Toque para máis información.</string>
+    <string name="startup_failed_notification_title">RedApp non puido iniciarse</string>
+    <string name="startup_failed_service_error">RedApp non puido iniciar un complemento necesario. Xeralmente reinstalar RedApp resolve este problema. Teña en conta que entón perderá a súa conta e todos os datos asociados a esta pois RedApp non está a utilizar servidores centrais para almacenar os seus datos.</string>
+    <string name="startup_migrate_database">Actualizando a Base de datos...</string>
+    <string name="startup_open_database">Descifrando a Base de datos...</string>
+    <string name="status_bar_notification_info_overflow">>999</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
+    <string name="text_too_long">O texto inserido e demasiado longo</string>
+    <string name="tor_mobile_data_title">Utilizar datos móbiles</string>
+    <string name="tor_network_setting">Conectar vía Internet (Tor)</string>
+    <string name="tor_network_setting_automatic">Automática baseada na localización</string>
+    <string name="tor_network_setting_never">Non conectar</string>
+    <string name="tor_network_setting_summary">Automático: %1$s (en %2$s)</string>
+    <string name="tor_network_setting_with_bridges">Utilizar Tor con pontes</string>
+    <string name="tor_network_setting_without_bridges">Utilizar Tor sen pontes</string>
+    <string name="transport_bt">Bluetooth</string>
+    <string name="transport_lan">Wi-Fi</string>
+    <string name="transport_tor">Internet</string>
+    <string name="try_again">Clave incorrecta, tenteo de novo</string>
+    <string name="try_again_button">Tenteo de novo</string>
+    <string name="uninstall_setting_summary">Esto require confirmación manual no evento do pánico</string>
+    <string name="uninstall_setting_title">Desinstalar RedApp</string>
+    <string name="unknown_app">unha aplicación descoñecida</string>
+    <string name="v7_preference_off">DESACTIVADO</string>
+    <string name="v7_preference_on">ACTIVADO</string>
+    <string name="waiting_for_contact_to_scan">Agardando polo contacto para escanear e conectar…</string>
+    <string name="warning_dozed">%s non foi quen de funcionar en segundo plano</string>
+</resources>

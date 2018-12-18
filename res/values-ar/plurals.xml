@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="blog_post_notification_text">
+        <item quantity="other">%d تدوينات جديدة.</item>
+        <item quantity="zero">لا تدوينات جديدة.</item>
+        <item quantity="one">تدوينة جديدة.</item>
+        <item quantity="two">تدوينتين جديدتين.</item>
+        <item quantity="few">%d تدوينات جديدة.</item>
+        <item quantity="many">%d تدوينة جديدة.</item>
+    </plurals>
+    <plurals name="expiry_warning">
+        <item quantity="other">هذا إصدار تجريبي من Briar (براير). حسابك سينتهي خلال %d يوم ولن يمكن تجديده.</item>
+        <item quantity="zero">هذا إصدار تجريبي من Briar (براير). حسابك سينتهي اليوم ولن يمكن تجديده.</item>
+        <item quantity="one">هذا إصدار تجريبي من Briar (براير). حسابك سينتهي خلال يوم ولن يمكن تجديده.</item>
+        <item quantity="two">هذا إصدار تجريبي من Briar (براير). حسابك سينتهي خلال يومين ولن يمكن تجديده.</item>
+        <item quantity="few">هذا إصدار تجريبي من Briar (براير). حسابك سينتهي خلال %d أيام ولن يمكن تجديده.</item>
+        <item quantity="many">هذا إصدار تجريبي من Briar (براير). حسابك سينتهي خلال %d يوم ولن يمكن تجديده.</item>
+    </plurals>
+    <plurals name="forum_post_notification_text">
+        <item quantity="other">%d منشورات منتدى جديدة.</item>
+        <item quantity="zero">لا منشورات منتدى جديدة.</item>
+        <item quantity="one">منشور منتدى جديد.</item>
+        <item quantity="two">منشوريْ منتدى جديدين.</item>
+        <item quantity="few">%d منشورات منتدى جديدة.</item>
+        <item quantity="many">%d منشور منتدى جديد.</item>
+    </plurals>
+    <plurals name="forums_shared">
+        <item quantity="other">%d منتدى مُشارَك من جهات الاتصال</item>
+        <item quantity="zero">لا منتدى مُشارَك من جهات الاتصال</item>
+        <item quantity="one">منتدى مُشارَك من جهات الاتصال</item>
+        <item quantity="two">منتديين مشاركين من جهات الاتصال</item>
+        <item quantity="few">%d منتديات مُشارَكة من جهات الاتصال</item>
+        <item quantity="many">%d منتدى مُشارَك من جهات الاتصال</item>
+    </plurals>
+    <plurals name="group_message_notification_text">
+        <item quantity="other">%d رسائل مجموعة جديدة.</item>
+        <item quantity="zero">لا رسائل مجموعة جديدة.</item>
+        <item quantity="one">رسالة مجموعة جديدة.</item>
+        <item quantity="two">رسالتيْ مجموعة جديدتين.</item>
+        <item quantity="few">%d رسائل مجموعة جديدة.</item>
+        <item quantity="many">%d رسالة مجموعة جديدة.</item>
+    </plurals>
+    <plurals name="groups_invitations_open">
+        <item quantity="other">%d فتح دعوات المجموعات</item>
+        <item quantity="zero">%d لا دعوة مجموعة مفتوحة</item>
+        <item quantity="one">%d دعوة مجموعة مفتوحة</item>
+        <item quantity="two">دعوتيْ مجموعة مفتوحتين</item>
+        <item quantity="few">%d دعوات مجموعة مفتوحة</item>
+        <item quantity="many">%d دعوة مجموعة مفتوحة</item>
+    </plurals>
+    <plurals name="introduction_notification_text">
+        <item quantity="other">%d جهة اتصال تم إضافتها.</item>
+        <item quantity="zero">لا جهة اتصال تم إضافتها.</item>
+        <item quantity="one">جهة اتصال تم إضافتها.</item>
+        <item quantity="two">جهتيْ اتصال تم إضافتها.</item>
+        <item quantity="few">%d جهات اتصال تم إضافتها.</item>
+        <item quantity="many">%d جهة اتصال تم إضافتها.</item>
+    </plurals>
+    <plurals name="messages">
+        <item quantity="other">%d رسائل</item>
+        <item quantity="zero">%d رسالة</item>
+        <item quantity="one">%d رسالة</item>
+        <item quantity="two">رسالتيْن</item>
+        <item quantity="few">%d رسائل</item>
+        <item quantity="many">%d رسالة</item>
+    </plurals>
+    <plurals name="posts">
+        <item quantity="other">%d منشور</item>
+        <item quantity="zero">%d لا منشورات</item>
+        <item quantity="one">منشور %d</item>
+        <item quantity="two">منشوريْن</item>
+        <item quantity="few">%d منشورات</item>
+        <item quantity="many">%d منشور</item>
+    </plurals>
+    <plurals name="private_message_notification_text">
+        <item quantity="other">%dرسائل خاصة جديدة.</item>
+        <item quantity="zero">لا رسائل خاصة جديدة.</item>
+        <item quantity="one">رسالة خاصة جديدة.</item>
+        <item quantity="two">رسالتيْن خاصتيْن جديدتين.</item>
+        <item quantity="few">%d رسائل خاصة جديدة.</item>
+        <item quantity="many">%d رسالة خاصة جديدة.</item>
+    </plurals>
+</resources>

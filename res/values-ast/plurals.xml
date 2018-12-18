@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="blog_post_notification_text">
+        <item quantity="other">%d publicaciones del blog nueves.</item>
+        <item quantity="one">Una publicación del blog nueva.</item>
+    </plurals>
+    <plurals name="forum_post_notification_text">
+        <item quantity="other">%d mensaxes de foru nuevos.</item>
+        <item quantity="one">Mensaxe de foru nuevu.</item>
+    </plurals>
+    <plurals name="group_message_notification_text">
+        <item quantity="other">%d mensaxes de grupu nuevos.</item>
+        <item quantity="one">Mensaxe de grupu nuevu.</item>
+    </plurals>
+    <plurals name="groups_invitations_open">
+        <item quantity="other">%d invitaciones a grupu abiertu</item>
+        <item quantity="one">%d invitación a grupu abiertu</item>
+    </plurals>
+    <plurals name="introduction_notification_text">
+        <item quantity="other">Añadiéronse %d contactos nuevos.</item>
+        <item quantity="one">Añadióse un contactu nuevu.</item>
+    </plurals>
+    <plurals name="messages">
+        <item quantity="other">%d mensaxes</item>
+        <item quantity="one">%d mensaxe</item>
+    </plurals>
+    <plurals name="private_message_notification_text">
+        <item quantity="other">%d mensaxes privaos nuevos.</item>
+        <item quantity="one">Mensaxes priváu nuevu.</item>
+    </plurals>
+</resources>

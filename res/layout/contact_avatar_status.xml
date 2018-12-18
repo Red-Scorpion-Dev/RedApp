@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="32.0dip" android:layout_height="32.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <de.hdodenhof.circleimageview.CircleImageView android:id="@id/contactAvatar" android:layout_width="30.0dip" android:layout_height="30.0dip" app:civ_border_color="@color/action_bar_text" style="@style/BriarAvatar" />
+    <ImageView android:layout_gravity="end|bottom|center" android:id="@id/contactStatus" android:layout_width="15.0dip" android:layout_height="15.0dip" android:scaleType="fitCenter" />
+</FrameLayout>

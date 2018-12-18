@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="@dimen/margin_large" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.design.widget.TextInputLayout android:id="@id/nameLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" app:errorEnabled="true" app:hintEnabled="false">
+        <EditText android:id="@id/name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/groups_create_group_hint" android:maxLines="1" android:inputType="textCapSentences" />
+    </android.support.design.widget.TextInputLayout>
+    <Button android:enabled="false" android:id="@id/button" android:text="@string/groups_create_group_button" style="@style/BriarButton" />
+    <ProgressBar android:layout_gravity="center" android:id="@id/progressBar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" />
+</LinearLayout>

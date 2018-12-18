@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:icon="@drawable/ic_contacts" android:id="@id/nav_btn_contacts" android:title="@string/contact_list_button" />
+        <item android:icon="@drawable/ic_group" android:id="@id/nav_btn_groups" android:title="@string/groups_button" />
+        <item android:icon="@drawable/ic_forums_black_24dp" android:id="@id/nav_btn_forums" android:title="@string/forums_button" />
+        <item android:icon="@drawable/blogs" android:id="@id/nav_btn_blogs" android:title="@string/blogs_button" />
+    </group>
+    <group android:checkableBehavior="single">
+        <item android:icon="@drawable/ic_settings_black_24dp" android:id="@id/nav_btn_settings" android:title="@string/settings_button" />
+        <item android:icon="@drawable/startup_lock" android:id="@id/nav_btn_lock" android:visible="false" android:title="@string/lock_button" />
+        <item android:icon="@drawable/ic_signout" android:id="@id/nav_btn_signout" android:title="@string/sign_out_button" />
+    </group>
+</menu>

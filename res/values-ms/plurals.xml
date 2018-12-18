@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="private_message_notification_text">
+        <item quantity="other">%d mesej peribadi baru.</item>
+    </plurals>
+</resources>

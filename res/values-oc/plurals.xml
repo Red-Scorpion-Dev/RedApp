@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="blog_post_notification_text">
+        <item quantity="other">%d novèls article sul blòg</item>
+        <item quantity="one">Novèl article sul blòg</item>
+    </plurals>
+    <plurals name="expiry_warning">
+        <item quantity="other">Aquò es una version de test de Briar. Vòstre compte expirarà d’aquí %d jorns e pòt pas èsser renovat.</item>
+        <item quantity="one">Aquò es una version de test de Briar. Vòstre compte expirarà d’aquí %d jorn e pòt pas èsser renovat.</item>
+    </plurals>
+    <plurals name="forum_post_notification_text">
+        <item quantity="other">%d novèlas publicacions al fòrum</item>
+        <item quantity="one">Novèla publicacion al fòrum</item>
+    </plurals>
+    <plurals name="forums_shared">
+        <item quantity="other">%d fòrums partejats amb de contactes</item>
+        <item quantity="one">%d fòrum partejat amb de contactes</item>
+    </plurals>
+    <plurals name="group_message_notification_text">
+        <item quantity="other">%d novèls messatges gropats</item>
+        <item quantity="one">Novèl messatge gropat</item>
+    </plurals>
+    <plurals name="groups_invitations_open">
+        <item quantity="other">%d convidacions de grop en espèra</item>
+        <item quantity="one">%d convidacion de grop en espèra</item>
+    </plurals>
+    <plurals name="introduction_notification_text">
+        <item quantity="other">%d nòus contactes ajustats.</item>
+        <item quantity="one">Nòu contacte ajustat.</item>
+    </plurals>
+    <plurals name="messages">
+        <item quantity="other">%d messatges</item>
+        <item quantity="one">1 messatge</item>
+    </plurals>
+    <plurals name="posts">
+        <item quantity="other">%d publicacions</item>
+        <item quantity="one">%d publicacion</item>
+    </plurals>
+    <plurals name="private_message_notification_text">
+        <item quantity="other">%d novèls messatges privats</item>
+        <item quantity="one">Novèl messatge privat.</item>
+    </plurals>
+</resources>

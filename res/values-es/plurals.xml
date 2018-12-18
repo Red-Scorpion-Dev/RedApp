@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="blog_post_notification_text">
+        <item quantity="other">Hay %d nuevos artículos de blog.</item>
+        <item quantity="one">Hay una nueva entrada de blog.</item>
+    </plurals>
+    <plurals name="expiry_warning">
+        <item quantity="other">Esta es una versión de prueba de Briar. Tu cuenta expirará en %d días y no podrá ser renovada.</item>
+        <item quantity="one">Esta es una versión de prueba de Briar. Su cuenta expirará en %d día y no podrá ser renovada.</item>
+    </plurals>
+    <plurals name="forum_post_notification_text">
+        <item quantity="other">Hay %d nuevas publicaciones en el foro.</item>
+        <item quantity="one">Hay una nueva publicación en el foro.</item>
+    </plurals>
+    <plurals name="forums_shared">
+        <item quantity="other">%d foros compartidos por contactos</item>
+        <item quantity="one">%d foro compartido por contactos</item>
+    </plurals>
+    <plurals name="group_message_notification_text">
+        <item quantity="other">Tienes %d nuevos mensajes de grupo.</item>
+        <item quantity="one">Tienes un nuevo mensaje de grupo.</item>
+    </plurals>
+    <plurals name="groups_invitations_open">
+        <item quantity="other">%d invitaciones de grupo sin responder</item>
+        <item quantity="one">%d invitación de grupo sin responder</item>
+    </plurals>
+    <plurals name="introduction_notification_text">
+        <item quantity="other">%d nuevos contactos añadidos.</item>
+        <item quantity="one">nuevo contacto añadido.</item>
+    </plurals>
+    <plurals name="messages">
+        <item quantity="other">%d mensajes</item>
+        <item quantity="one">%d mensaje</item>
+    </plurals>
+    <plurals name="posts">
+        <item quantity="other">%d publicaciones</item>
+        <item quantity="one">%d publicación</item>
+    </plurals>
+    <plurals name="private_message_notification_text">
+        <item quantity="other">Tienes %d nuevos mensajes privados.</item>
+        <item quantity="one">Tienes un nuevo mensaje privado.</item>
+    </plurals>
+</resources>

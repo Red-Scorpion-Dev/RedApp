@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:layout_alignParentTop="true" style="@style/Divider.Horizontal" />
+    <LinearLayout android:background="@color/card_background" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <android.support.v7.widget.AppCompatImageButton android:layout_gravity="bottom" android:id="@id/emoji_toggle" android:background="?selectableItemBackground" android:padding="@dimen/margin_small" android:layout_width="@dimen/text_input_height" android:layout_height="@dimen/text_input_height" android:src="@drawable/ic_emoji_toggle" android:scaleType="center" app:tint="?colorControlNormal" />
+        <com.vanniktech.emoji.EmojiEditText android:textColor="?android:textColorPrimary" android:id="@id/input_text" android:background="@android:color/transparent" android:paddingLeft="2.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:minHeight="@dimen/text_input_height" android:maxLines="4" android:layout_weight="1.0" android:inputType="textCapSentences|textMultiLine" android:paddingStart="2.0dip" />
+        <android.support.v7.widget.AppCompatImageButton android:enabled="false" android:layout_gravity="bottom" android:id="@id/btn_send" android:background="?selectableItemBackground" android:padding="4.0dip" android:focusable="true" android:clickable="true" android:layout_width="@dimen/text_input_height" android:layout_height="@dimen/text_input_height" android:src="@drawable/social_send_now_white" android:scaleType="center" android:contentDescription="@string/send" app:tint="@color/briar_accent" />
+    </LinearLayout>
+</merge>

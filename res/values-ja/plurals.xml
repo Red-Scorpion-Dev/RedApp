@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="blog_post_notification_text">
+        <item quantity="other">%d件の新規ブログポスト</item>
+    </plurals>
+    <plurals name="forum_post_notification_text">
+        <item quantity="other">%d件の新規フォーラム投稿</item>
+    </plurals>
+    <plurals name="group_message_notification_text">
+        <item quantity="other">%d件の新規グループメッセージ</item>
+    </plurals>
+    <plurals name="private_message_notification_text">
+        <item quantity="other">%d件の新規プライベートメッセージ</item>
+    </plurals>
+</resources>

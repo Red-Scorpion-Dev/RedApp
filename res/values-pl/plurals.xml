@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="blog_post_notification_text">
+        <item quantity="other">%d nowych postów z bloga.</item>
+        <item quantity="one">Nowy post z bloga.</item>
+        <item quantity="few">%d nowych postów z bloga.</item>
+        <item quantity="many">%d nowych postów z bloga.</item>
+    </plurals>
+    <plurals name="expiry_warning">
+        <item quantity="other">To jest testowa wersja Briar. Twoje konto wygaśnie za %d dni i nie będzie odnowione.</item>
+        <item quantity="one">To jest testowa wersja Briar. Twoje konto wygaśnie za %d dzień i nie będzie odnowione.</item>
+        <item quantity="few">To jest testowa wersja Briar. Twoje konto wygaśnie za %d dni i nie będzie odnowione.</item>
+        <item quantity="many">To jest testowa wersja Briar. Twoje konto wygaśnie za %d dni i nie będzie odnowione.</item>
+    </plurals>
+    <plurals name="forum_post_notification_text">
+        <item quantity="other">%d nowych postów z forum.</item>
+        <item quantity="one">Nowy post z forum.</item>
+        <item quantity="few">%d nowych postów z forum.</item>
+        <item quantity="many">%d nowych postów z forum.</item>
+    </plurals>
+    <plurals name="forums_shared">
+        <item quantity="other">%d for udostępnionych przez kontakty</item>
+        <item quantity="one">%d forum udostępnione przez kontakty</item>
+        <item quantity="few">%d for udostępnionych przez kontakty</item>
+        <item quantity="many">%d for udostępnionych przez kontakty</item>
+    </plurals>
+    <plurals name="group_message_notification_text">
+        <item quantity="other">%d wiadomości grupowych.</item>
+        <item quantity="one">Nowa wiadomość grupowa.</item>
+        <item quantity="few">%dwiadomości grupowych.</item>
+        <item quantity="many">%dwiadomości grupowych.</item>
+    </plurals>
+    <plurals name="groups_invitations_open">
+        <item quantity="other">%d otwórz zaproszenia do grup</item>
+        <item quantity="one">%d otwórz zaproszenie do grupy</item>
+        <item quantity="few">%dotwórz zaproszenia do grup</item>
+        <item quantity="many">%dotwórz zaproszenia do grup</item>
+    </plurals>
+    <plurals name="introduction_notification_text">
+        <item quantity="other">%d nowych kontaktów zostało dodanych.</item>
+        <item quantity="one">Nowy kontakt został dodany.</item>
+        <item quantity="few">%d nowych kontaktów zostało dodanych.</item>
+        <item quantity="many">%d nowych kontaktów zostało dodanych.</item>
+    </plurals>
+    <plurals name="messages">
+        <item quantity="other">%d wiadomości</item>
+        <item quantity="one">%d wiadomość</item>
+        <item quantity="few">%d wiadomości</item>
+        <item quantity="many">%d wiadomości</item>
+    </plurals>
+    <plurals name="posts">
+        <item quantity="other">%d postów</item>
+        <item quantity="one">%d post</item>
+        <item quantity="few">%d postów</item>
+        <item quantity="many">%d postów</item>
+    </plurals>
+    <plurals name="private_message_notification_text">
+        <item quantity="other">%d prywatnych wiadomości.</item>
+        <item quantity="one">Nowa prywatna wiadomość</item>
+        <item quantity="few">%d prywatnych wiadomości.</item>
+        <item quantity="many">%d prywatnych wiadomości.</item>
+    </plurals>
+</resources>

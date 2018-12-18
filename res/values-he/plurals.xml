@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="blog_post_notification_text">
+        <item quantity="other">%d רשומות בלוג חדשות.</item>
+        <item quantity="one">רשומת בלוג חדשה.</item>
+        <item quantity="two">%d רשומות בלוג חדשות.</item>
+        <item quantity="many">%d רשומות בלוג חדשות.</item>
+    </plurals>
+    <plurals name="expiry_warning">
+        <item quantity="other">זאת גרסת בחינה של Briar. חשבונך יפוג תוך %d ימים ואינו יכול להתחדש.</item>
+        <item quantity="one">זאת גרסת בחינה של Briar. חשבונך יפוג תוך יום %d ואינו יכול להתחדש.</item>
+        <item quantity="two">זאת גרסת בחינה של Briar. חשבונך יפוג תוך %d ימים ואינו יכול להתחדש.</item>
+        <item quantity="many">זאת גרסת בחינה של Briar. חשבונך יפוג תוך %d ימים ואינו יכול להתחדש.</item>
+    </plurals>
+    <plurals name="forum_post_notification_text">
+        <item quantity="other">%d רשומות פורום חדשות.</item>
+        <item quantity="one">רשומת פורום חדשה.</item>
+        <item quantity="two">%d רשומות פורום חדשות.</item>
+        <item quantity="many">%d רשומות פורום חדשות.</item>
+    </plurals>
+    <plurals name="forums_shared">
+        <item quantity="other">%d פורומים משותפים ע\"י אנשי קשר</item>
+        <item quantity="one">פורום %d משותף ע\"י אנשי קשר</item>
+        <item quantity="two">%d פורומים משותפים ע\"י אנשי קשר</item>
+        <item quantity="many">%d פורומים משותפים ע\"י אנשי קשר</item>
+    </plurals>
+    <plurals name="group_message_notification_text">
+        <item quantity="other">%d הודעות קבוצתיות חדשות.</item>
+        <item quantity="one">הודעה קבוצתית חדשה.</item>
+        <item quantity="two">%d הודעות קבוצתיות חדשות.</item>
+        <item quantity="many">%d הודעות קבוצתיות חדשות.</item>
+    </plurals>
+    <plurals name="groups_invitations_open">
+        <item quantity="other">%d הזמנות קבוצתיות פתוחות</item>
+        <item quantity="one">הזמנה קבוצתית פתוחה %d</item>
+        <item quantity="two">%d הזמנות קבוצתיות פתוחות</item>
+        <item quantity="many">%d הזמנות קבוצתיות פתוחות</item>
+    </plurals>
+    <plurals name="introduction_notification_text">
+        <item quantity="other">נוספו %d אנשי קשר חדשים.</item>
+        <item quantity="one">נוסף איש קשר חדש.</item>
+        <item quantity="two">נוספו %d אנשי קשר חדשים.</item>
+        <item quantity="many">נוספו %d אנשי קשר חדשים.</item>
+    </plurals>
+    <plurals name="messages">
+        <item quantity="other">%d הודעות</item>
+        <item quantity="one">הודעה %d</item>
+        <item quantity="two">%d הודעות</item>
+        <item quantity="many">%d הודעות</item>
+    </plurals>
+    <plurals name="posts">
+        <item quantity="other">%d רשומות</item>
+        <item quantity="one">רשומה %d</item>
+        <item quantity="two">%d רשומות</item>
+        <item quantity="many">%d רשומות</item>
+    </plurals>
+    <plurals name="private_message_notification_text">
+        <item quantity="other">%d הודעות פרטיות חדשות.</item>
+        <item quantity="one">הודעה פרטית חדשה.</item>
+        <item quantity="two">%d הודעות פרטיות חדשות.</item>
+        <item quantity="many">%d הודעות פרטיות חדשות.</item>
+    </plurals>
+</resources>

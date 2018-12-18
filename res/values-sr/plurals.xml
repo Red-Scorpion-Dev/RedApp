@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="blog_post_notification_text">
+        <item quantity="other">%d novih blog postova.</item>
+        <item quantity="one">Novi blog post.</item>
+        <item quantity="few">%d nova blog posta.</item>
+    </plurals>
+    <plurals name="expiry_warning">
+        <item quantity="other">Ovo je testna verzija Briara. Vaš račun će isteći za %d dana i ne može se obnoviti.</item>
+        <item quantity="one">Ovo je testna verzija Briara. Vaš račun će isteći za %d dan i ne može se obnoviti.</item>
+        <item quantity="few">Ovo je testna verzija Briara. Vaš račun će isteći za %d dana i ne može se obnoviti.</item>
+    </plurals>
+    <plurals name="forum_post_notification_text">
+        <item quantity="other">%d novih forum postova.</item>
+        <item quantity="one">Novi forum post.</item>
+        <item quantity="few">%d nova forum posta.</item>
+    </plurals>
+    <plurals name="forums_shared">
+        <item quantity="other">%d foruma dijeljena sa kontaktima</item>
+        <item quantity="one">%d forum dijeljen sa kontaktima</item>
+        <item quantity="few">%d foruma dijeljena sa kontaktima</item>
+    </plurals>
+    <plurals name="group_message_notification_text">
+        <item quantity="other">%d novih grupnih poruka.</item>
+        <item quantity="one">Nova grupna poruka.</item>
+        <item quantity="few">%d nove grupne poruke.</item>
+    </plurals>
+    <plurals name="groups_invitations_open">
+        <item quantity="other">%d poziva u otvorenu grupu</item>
+        <item quantity="one">%d poziv u otvorenu grupu</item>
+        <item quantity="few">%d poziva u otvorenu grupu</item>
+    </plurals>
+    <plurals name="introduction_notification_text">
+        <item quantity="other">%d novih kontakata dodato.</item>
+        <item quantity="one">Novi kontakt je dodat.</item>
+        <item quantity="few">%d nova kontakta dodata.</item>
+    </plurals>
+    <plurals name="messages">
+        <item quantity="other">%d poruka</item>
+        <item quantity="one">%d poruka</item>
+        <item quantity="few">%d poruke</item>
+    </plurals>
+    <plurals name="posts">
+        <item quantity="other">%d postova</item>
+        <item quantity="one">%d post</item>
+        <item quantity="few">%d posta</item>
+    </plurals>
+    <plurals name="private_message_notification_text">
+        <item quantity="other">%d novih privatnih poruka.</item>
+        <item quantity="one">Nova privatna poruka</item>
+        <item quantity="few">%d nove privatne poruke.</item>
+    </plurals>
+</resources>

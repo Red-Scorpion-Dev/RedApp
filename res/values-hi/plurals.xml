@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="blog_post_notification_text">
+        <item quantity="other">%dनए ब्लॉग पोस्ट</item>
+        <item quantity="one">नए ब्लॉग पोस्ट</item>
+    </plurals>
+    <plurals name="expiry_warning">
+        <item quantity="other">यह Briar का एक परीक्षण संस्करण है आपका खाता %dदिनों में समाप्त हो जाएगा और नवीनीकरण नहीं किया जा सकता है</item>
+        <item quantity="one">यह Briar का एक परीक्षण संस्करण है आपका खाता %dदिनों में समाप्त हो जाएगा और नवीनीकरण नहीं किया जा सकता है</item>
+    </plurals>
+    <plurals name="forum_post_notification_text">
+        <item quantity="other">%dनया मंच पोस्ट</item>
+        <item quantity="one">नया मंच पोस्ट</item>
+    </plurals>
+    <plurals name="forums_shared">
+        <item quantity="other">%dसंपर्कों द्वारा साझा मंच</item>
+        <item quantity="one">%dसंपर्कों द्वारा साझा मंच</item>
+    </plurals>
+    <plurals name="group_message_notification_text">
+        <item quantity="other">%dनया समूह संदेश</item>
+        <item quantity="one">नया समूह संदेश</item>
+    </plurals>
+    <plurals name="groups_invitations_open">
+        <item quantity="other">%dखुला समूह आमंत्रण</item>
+        <item quantity="one">%dखुला समूह आमंत्रण</item>
+    </plurals>
+    <plurals name="introduction_notification_text">
+        <item quantity="other">%dनया संपर्क जोड़ा।</item>
+        <item quantity="one">नया संपर्क जोड़ा।</item>
+    </plurals>
+    <plurals name="messages">
+        <item quantity="other">संदेशों %d</item>
+        <item quantity="one">संदेशों%d</item>
+    </plurals>
+    <plurals name="posts">
+        <item quantity="other">%dपदों</item>
+        <item quantity="one">%dपदों</item>
+    </plurals>
+    <plurals name="private_message_notification_text">
+        <item quantity="other">%dनया निजी संदेश</item>
+        <item quantity="one">नया निजी संदेश</item>
+    </plurals>
+</resources>

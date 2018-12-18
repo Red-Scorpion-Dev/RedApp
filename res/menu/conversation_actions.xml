@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/introduction_white" android:enabled="false" android:id="@id/action_introduction" android:title="@string/introduction_menu_item" app:showAsAction="never" />
+    <item android:enabled="false" android:id="@id/action_set_alias" android:title="@string/set_contact_alias" app:showAsAction="never" />
+    <item android:icon="@drawable/action_delete_white" android:id="@id/action_social_remove_person" android:title="@string/delete_contact" app:showAsAction="never" />
+</menu>

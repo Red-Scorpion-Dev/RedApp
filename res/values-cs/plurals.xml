@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="blog_post_notification_text">
+        <item quantity="other">%d nových příspěvků v blogu.</item>
+        <item quantity="one">Nový příspěvek v blogu.</item>
+        <item quantity="few">%dnových příspěvků v blogu.</item>
+        <item quantity="many">%d nových příspěvků v blogu.</item>
+    </plurals>
+    <plurals name="expiry_warning">
+        <item quantity="other">Toto je testovací verze Briar. Váš účet a jeho platnost vyprší po %d dnech a není možné ho obnovit.</item>
+        <item quantity="one">Toto je testovací verze Briar. Váš účet a jeho platnost vyprší po %d dnech a není možné ho obnovit.</item>
+        <item quantity="few">Toto je testovací verze Briar. Váš účet a jeho platnost vyprší po %d dnech a není možné ho obnovit.</item>
+        <item quantity="many">Toto je testovací verze Briar. Váš účet a jeho platnost vyprší po %d dnech a není možné ho obnovit.</item>
+    </plurals>
+    <plurals name="forum_post_notification_text">
+        <item quantity="other">%d nových příspěvků ve fóru.</item>
+        <item quantity="one">Nový příspěvek ve fóru.</item>
+        <item quantity="few">%dnových příspěvků ve fóru.</item>
+        <item quantity="many">%d nových příspěvků ve fóru.</item>
+    </plurals>
+    <plurals name="forums_shared">
+        <item quantity="other">%d fór sdíleno kontakty</item>
+        <item quantity="one">%d fórum sdíleno kontakty</item>
+        <item quantity="few">%d fór sdíleno kontakty</item>
+        <item quantity="many">%d fór sdíleno kontakty</item>
+    </plurals>
+    <plurals name="group_message_notification_text">
+        <item quantity="other">%d nových zpráv ve skupině.</item>
+        <item quantity="one">Nová zpráva ve skupině.</item>
+        <item quantity="few">%d nových zpráv ve skupině.</item>
+        <item quantity="many">%d nových zpráv ve skupině.</item>
+    </plurals>
+    <plurals name="groups_invitations_open">
+        <item quantity="other">%d otevřených skupinových pozvánek</item>
+        <item quantity="one">%d otevřená skupinová pozvánka</item>
+        <item quantity="few">%d otevřených skupinových pozvánek</item>
+        <item quantity="many">%d otevřených skupinových pozvánek</item>
+    </plurals>
+    <plurals name="introduction_notification_text">
+        <item quantity="other">%d nových kontaktů bylo přidáno.</item>
+        <item quantity="one">Nový kontakt byl přidán.</item>
+        <item quantity="few">Bylo přidáno %d nových kontaktů.</item>
+        <item quantity="many">%d nových kontaktů bylo přidáno.</item>
+    </plurals>
+    <plurals name="messages">
+        <item quantity="other">%d zpráv</item>
+        <item quantity="one">%d zpráva</item>
+        <item quantity="few">%d zpráv</item>
+        <item quantity="many">%d zpráv</item>
+    </plurals>
+    <plurals name="posts">
+        <item quantity="other">%d příspěvků</item>
+        <item quantity="one">%d příspěvek</item>
+        <item quantity="few">%d příspěvků</item>
+        <item quantity="many">%d příspěvků</item>
+    </plurals>
+    <plurals name="private_message_notification_text">
+        <item quantity="other">%d nových soukromých zpráv.</item>
+        <item quantity="one">Nová soukromá zpráva</item>
+        <item quantity="few">%d nových soukromých zpráv.</item>
+        <item quantity="many">%d nových soukromých zpráv.</item>
+    </plurals>
+</resources>

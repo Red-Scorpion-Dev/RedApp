@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="23" android:compileSdkVersionCodename="6.0-2438415" package="org.redappproject.redapp.android" platformBuildVersionCode="23" platformBuildVersionName="6.0-2438415">
+    <uses-feature android:name="android.hardware.bluetooth" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera" android:required="false"/>
+    <uses-feature android:name="android.hardware.touchscreen" android:required="false"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.USE_FINGERPRINT"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission-sdk-23 android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"/>
+    <uses-permission-sdk-23 android:name="android.permission.USE_BIOMETRIC"/>
+    <application android:allowBackup="false" android:appComponentFactory="android.support.v4.app.CoreComponentFactory" android:icon="@mipmap/ic_launcher_round" android:label="@string/app_name" android:logo="@mipmap/ic_launcher_round" android:name="org.briarproject.briar.android.BriarApplicationImpl" android:supportsRtl="true" android:theme="@style/BriarTheme">
+        <receiver android:exported="false" android:name="org.briarproject.briar.android.login.SignInReminderReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="false" android:name="org.briarproject.briar.android.BriarService">
+            <intent-filter>
+                <action android:name="org.briarproject.briar.android.BriarService"/>
+            </intent-filter>
+        </service>
+        <service android:exported="false" android:name="org.briarproject.briar.android.NotificationCleanupService"/>
+        <activity android:excludeFromRecents="true" android:exported="false" android:finishOnTaskLaunch="true" android:label="@string/crash_report_title" android:launchMode="singleInstance" android:name="org.briarproject.briar.android.reporting.DevReportActivity" android:theme="@style/BriarTheme.NoActionBar" android:windowSoftInputMode="stateHidden"/>
+        <activity android:label="@string/app_name" android:name="org.briarproject.briar.android.splash.ExpiredActivity"/>
+        <activity android:label="@string/app_name" android:name="org.briarproject.briar.android.login.PasswordActivity" android:windowSoftInputMode="stateVisible"/>
+        <activity android:label="@string/setup_title" android:name="org.briarproject.briar.android.login.SetupActivity" android:windowSoftInputMode="adjustResize"/>
+        <activity android:label="@string/app_name" android:name="org.briarproject.briar.android.splash.SplashScreenActivity" android:theme="@style/BriarTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/app_name" android:launchMode="singleTop" android:name="org.briarproject.briar.android.login.OpenDatabaseActivity"/>
+        <activity android:launchMode="singleTop" android:name="org.briarproject.briar.android.navdrawer.NavDrawerActivity" android:theme="@style/BriarTheme.NoActionBar"/>
+        <activity android:label="@string/app_name" android:name="org.briarproject.briar.android.conversation.ConversationActivity" android:parentActivityName="org.briarproject.briar.android.navdrawer.NavDrawerActivity" android:theme="@style/BriarTheme.NoActionBar" android:windowSoftInputMode="adjustResize|stateHidden">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="org.briarproject.briar.android.navdrawer.NavDrawerActivity"/>
+        </activity>
+        <activity android:label="@string/groups_create_group_title" android:name="org.briarproject.briar.android.privategroup.creation.CreateGroupActivity" android:parentActivityName="org.briarproject.briar.android.navdrawer.NavDrawerActivity" android:windowSoftInputMode="adjustResize">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="org.briarproject.briar.android.navdrawer.NavDrawerActivity"/>
+        </activity>
+        <activity android:label="@string/app_name" android:name="org.briarproject.briar.android.privategroup.conversation.GroupActivity" android:parentActivityName="org.briarproject.briar.android.navdrawer.NavDrawerActivity" android:theme="@style/BriarTheme.NoActionBar" android:windowSoftInputMode="adjustResize|stateHidden">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="org.briarproject.briar.android.navdrawer.NavDrawerActivity"/>
+        </activity>
+        <activity android:label="@string/groups_invitations_title" android:name="org.briarproject.briar.android.privategroup.invitation.GroupInvitationActivity" android:parentActivityName="org.briarproject.briar.android.navdrawer.NavDrawerActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="org.briarproject.briar.android.navdrawer.NavDrawerActivity"/>
+        </activity>
+        <activity android:label="@string/groups_member_list" android:name="org.briarproject.briar.android.privategroup.memberlist.GroupMemberListActivity" android:parentActivityName="org.briarproject.briar.android.privategroup.conversation.GroupActivity" android:windowSoftInputMode="adjustResize|stateHidden">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="org.briarproject.briar.android.privategroup.conversation.GroupActivity"/>
+        </activity>
+        <activity android:label="@string/groups_reveal_contacts" android:name="org.briarproject.briar.android.privategroup.reveal.RevealContactsActivity" android:parentActivityName="org.briarproject.briar.android.privategroup.conversation.GroupActivity" android:windowSoftInputMode="stateAlwaysHidden|adjustResize">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="org.briarproject.briar.android.privategroup.conversation.GroupActivity"/>
+        </activity>
+        <activity android:label="@string/groups_invite_members" android:name="org.briarproject.briar.android.privategroup.creation.GroupInviteActivity" android:parentActivityName="org.briarproject.briar.android.privategroup.conversation.GroupActivity" android:windowSoftInputMode="adjustResize|stateHidden">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="org.briarproject.briar.android.privategroup.conversation.GroupActivity"/>
+        </activity>
+        <activity android:label="@string/forum_invitations_title" android:name="org.briarproject.briar.android.sharing.ForumInvitationActivity" android:parentActivityName="org.briarproject.briar.android.navdrawer.NavDrawerActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="org.briarproject.briar.android.navdrawer.NavDrawerActivity"/>
+        </activity>
+        <activity android:label="@string/blogs_sharing_invitations_title" android:name="org.briarproject.briar.android.sharing.BlogInvitationActivity" android:parentActivityName="org.briarproject.briar.android.conversation.ConversationActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="org.briarproject.briar.android.conversation.ConversationActivity"/>
+        </activity>
+        <activity android:label="@string/create_forum_title" android:name="org.briarproject.briar.android.forum.CreateForumActivity" android:parentActivityName="org.briarproject.briar.android.navdrawer.NavDrawerActivity" android:windowSoftInputMode="adjustResize">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="org.briarproject.briar.android.navdrawer.NavDrawerActivity"/>
+        </activity>
+        <activity android:label="@string/app_name" android:name="org.briarproject.briar.android.forum.ForumActivity" android:parentActivityName="org.briarproject.briar.android.navdrawer.NavDrawerActivity" android:theme="@style/BriarTheme.NoActionBar" android:windowSoftInputMode="adjustResize|stateHidden">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="org.briarproject.briar.android.navdrawer.NavDrawerActivity"/>
+        </activity>
+        <activity android:label="@string/activity_share_toolbar_header" android:name="org.briarproject.briar.android.sharing.ShareForumActivity" android:parentActivityName="org.briarproject.briar.android.forum.ForumActivity" android:windowSoftInputMode="adjustResize|stateHidden">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="org.briarproject.briar.android.forum.ForumActivity"/>
+        </activity>
+        <activity android:label="@string/activity_share_toolbar_header" android:name="org.briarproject.briar.android.sharing.ShareBlogActivity" android:parentActivityName="org.briarproject.briar.android.blog.BlogActivity" android:windowSoftInputMode="adjustResize|stateHidden">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="org.briarproject.briar.android.blog.BlogActivity"/>
+        </activity>
+        <activity android:label="@string/sharing_status" android:name="org.briarproject.briar.android.sharing.ForumSharingStatusActivity" android:parentActivityName="org.briarproject.briar.android.forum.ForumActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="org.briarproject.briar.android.forum.ForumActivity"/>
+        </activity>
+        <activity android:label="@string/sharing_status" android:name="org.briarproject.briar.android.sharing.BlogSharingStatusActivity" android:parentActivityName="org.briarproject.briar.android.blog.BlogActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="org.briarproject.briar.android.blog.BlogActivity"/>
+        </activity>
+        <activity android:name="org.briarproject.briar.android.blog.BlogActivity" android:parentActivityName="org.briarproject.briar.android.navdrawer.NavDrawerActivity" android:theme="@style/BriarTheme.NoActionBar">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="org.briarproject.briar.android.navdrawer.NavDrawerActivity"/>
+        </activity>
+        <activity android:label="@string/blogs_write_blog_post" android:name="org.briarproject.briar.android.blog.WriteBlogPostActivity" android:parentActivityName="org.briarproject.briar.android.blog.BlogActivity" android:windowSoftInputMode="adjustResize|stateVisible">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="org.briarproject.briar.android.blog.BlogActivity"/>
+        </activity>
+        <activity android:label="@string/blogs_reblog_button" android:name="org.briarproject.briar.android.blog.ReblogActivity" android:parentActivityName="org.briarproject.briar.android.blog.BlogActivity" android:windowSoftInputMode="stateHidden">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="org.briarproject.briar.android.blog.BlogActivity"/>
+        </activity>
+        <activity android:label="@string/blogs_rss_feeds_import" android:name="org.briarproject.briar.android.blog.RssFeedImportActivity" android:parentActivityName="org.briarproject.briar.android.navdrawer.NavDrawerActivity" android:windowSoftInputMode="adjustResize|stateVisible">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="org.briarproject.briar.android.navdrawer.NavDrawerActivity"/>
+        </activity>
+        <activity android:label="@string/blogs_rss_feeds_manage" android:name="org.briarproject.briar.android.blog.RssFeedManageActivity" android:parentActivityName="org.briarproject.briar.android.navdrawer.NavDrawerActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="org.briarproject.briar.android.navdrawer.NavDrawerActivity"/>
+        </activity>
+        <activity android:label="@string/add_contact_title" android:name="org.briarproject.briar.android.keyagreement.ContactExchangeActivity" android:parentActivityName="org.briarproject.briar.android.navdrawer.NavDrawerActivity" android:theme="@style/BriarTheme.NoActionBar">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="org.briarproject.briar.android.navdrawer.NavDrawerActivity"/>
+        </activity>
+        <activity android:label="@string/introduction_activity_title" android:name="org.briarproject.briar.android.introduction.IntroductionActivity" android:parentActivityName="org.briarproject.briar.android.conversation.ConversationActivity" android:windowSoftInputMode="adjustResize|stateHidden">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="org.briarproject.briar.android.conversation.ConversationActivity"/>
+        </activity>
+        <activity android:label="@string/startup_failed_activity_title" android:name="org.briarproject.briar.android.StartupFailureActivity"/>
+        <activity android:label="@string/settings_button" android:name="org.briarproject.briar.android.settings.SettingsActivity" android:parentActivityName="org.briarproject.briar.android.navdrawer.NavDrawerActivity" android:permission="android.permission.READ_NETWORK_USAGE_HISTORY">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="org.briarproject.briar.android.navdrawer.NavDrawerActivity"/>
+            <intent-filter>
+                <action android:name="android.intent.action.MANAGE_NETWORK_USAGE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/change_password" android:name="org.briarproject.briar.android.login.ChangePasswordActivity" android:parentActivityName="org.briarproject.briar.android.settings.SettingsActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="org.briarproject.briar.android.settings.SettingsActivity"/>
+        </activity>
+        <activity android:label="Create test data" android:name="org.briarproject.briar.android.test.TestDataActivity" android:parentActivityName="org.briarproject.briar.android.settings.SettingsActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="org.briarproject.briar.android.settings.SettingsActivity"/>
+        </activity>
+        <activity android:label="@string/panic_setting" android:name="org.briarproject.briar.android.panic.PanicPreferencesActivity" android:parentActivityName="org.briarproject.briar.android.settings.SettingsActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="org.briarproject.briar.android.settings.SettingsActivity"/>
+        </activity>
+        <activity android:name="org.briarproject.briar.android.panic.PanicResponderActivity" android:noHistory="true" android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="info.guardianproject.panic.action.TRIGGER"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="org.briarproject.briar.android.logout.ExitActivity" android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:name="org.briarproject.briar.android.logout.HideUiActivity" android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:label="@string/lock_unlock" android:launchMode="singleTask" android:name="org.briarproject.briar.android.login.UnlockActivity" android:theme="@style/BriarTheme.NoActionBar"/>
+        <activity android:excludeFromRecents="true" android:finishOnTaskLaunch="true" android:launchMode="singleInstance" android:name="org.acra.dialog.CrashReportDialog" android:process=":acra" android:theme="@android:style/Theme.Dialog"/>
+        <service android:exported="false" android:name="org.acra.sender.SenderService" android:permission="android.permission.BIND_JOB_SERVICE" android:process=":acra"/>
+        <provider android:authorities="org.briarproject.briar.android.acrajs" android:exported="false" android:grantUriPermissions="true" android:name="org.acra.attachment.AcraContentProvider" android:process=":acra"/>
+        <provider android:authorities="org.briarproject.briar.android.lifecycle-trojanjs" android:exported="false" android:multiprocess="true" android:name="android.arch.lifecycle.ProcessLifecycleOwnerInitializer"/>
+    </application>
+</manifest>

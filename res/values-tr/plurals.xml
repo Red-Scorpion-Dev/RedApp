@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="blog_post_notification_text">
+        <item quantity="other">%d yeni blog iletisi.</item>
+        <item quantity="one">Yeni blog iletisi.</item>
+    </plurals>
+    <plurals name="forum_post_notification_text">
+        <item quantity="other">%d yeni forum iletisi.</item>
+        <item quantity="one">Yeni forum iletisi.</item>
+    </plurals>
+    <plurals name="forums_shared">
+        <item quantity="other">%d kişiler tarafından paylaşılan forum.</item>
+        <item quantity="one">%d kişiler tarafından paylaşılan forum</item>
+    </plurals>
+    <plurals name="group_message_notification_text">
+        <item quantity="other">%d yeni grup mesajı.</item>
+        <item quantity="one">Yeni grup mesajı.</item>
+    </plurals>
+    <plurals name="groups_invitations_open">
+        <item quantity="other">%d açık grup davetiyesi</item>
+        <item quantity="one">%d açık grup davetiyesi</item>
+    </plurals>
+    <plurals name="introduction_notification_text">
+        <item quantity="other">%d yeni kişi eklendi.</item>
+        <item quantity="one">Yeni kişi eklendi.</item>
+    </plurals>
+    <plurals name="messages">
+        <item quantity="other">%d mesaj</item>
+        <item quantity="one">%d mesaj</item>
+    </plurals>
+    <plurals name="posts">
+        <item quantity="other">%d gönderi</item>
+        <item quantity="one">%d gönderi</item>
+    </plurals>
+    <plurals name="private_message_notification_text">
+        <item quantity="other">%d yeni özel mesaj.</item>
+        <item quantity="one">Yeni özel mesaj.</item>
+    </plurals>
+</resources>

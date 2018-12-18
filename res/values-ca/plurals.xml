@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="blog_post_notification_text">
+        <item quantity="other">%d apunts nous al blog.</item>
+        <item quantity="one">Una nova publicacions al bloc.</item>
+    </plurals>
+    <plurals name="expiry_warning">
+        <item quantity="other">Aquesta és una versió de prova de Briar. El vostre compte caducarà en %d dies i no es podrà renovar.</item>
+        <item quantity="one">Aquesta és una versió de prova de Briar. El vostre compte expira en %d dia i no es pot renovar.</item>
+    </plurals>
+    <plurals name="forum_post_notification_text">
+        <item quantity="other">%d apunts nous al fòrum.</item>
+        <item quantity="one">Un nou missatge del fòrum.</item>
+    </plurals>
+    <plurals name="forums_shared">
+        <item quantity="other">%d fòrums compartits per contactes</item>
+        <item quantity="one">%d fòrum compartit per contactes</item>
+    </plurals>
+    <plurals name="group_message_notification_text">
+        <item quantity="other">%d missatges de grup nous</item>
+        <item quantity="one">Missatge de grup nou.</item>
+    </plurals>
+    <plurals name="groups_invitations_open">
+        <item quantity="other">%d invitacions a grups oberts</item>
+        <item quantity="one">%d invitació a un grup obert</item>
+    </plurals>
+    <plurals name="introduction_notification_text">
+        <item quantity="other">"S'han afegit %d nous contactes."</item>
+        <item quantity="one">"S'ha afegit un nou contacte."</item>
+    </plurals>
+    <plurals name="messages">
+        <item quantity="other">%d missatges</item>
+        <item quantity="one">1%d missatge</item>
+    </plurals>
+    <plurals name="posts">
+        <item quantity="other">%d apunts</item>
+        <item quantity="one">%d publicacio</item>
+    </plurals>
+    <plurals name="private_message_notification_text">
+        <item quantity="other">%d missatges privats nous.</item>
+        <item quantity="one">Missatge privat nou.</item>
+    </plurals>
+</resources>

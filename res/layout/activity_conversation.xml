@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.design.widget.AppBarLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <android.support.v7.widget.Toolbar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/BriarToolbar">
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                <include layout="@layout/contact_avatar_status" />
+                <com.vanniktech.emoji.EmojiTextView android:textColor="@color/action_bar_text" android:ellipsize="end" android:gravity="center" android:id="@id/contactName" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/margin_medium" android:maxLines="1" style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse" />
+            </LinearLayout>
+        </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+    <org.briarproject.briar.android.view.BriarRecyclerView android:id="@id/conversationView" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <org.briarproject.briar.android.view.TextInputView android:id="@id/text_input_container" android:layout_width="fill_parent" android:layout_height="wrap_content" app:hint="@string/message_hint" />
+</LinearLayout>

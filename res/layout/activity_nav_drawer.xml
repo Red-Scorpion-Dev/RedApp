@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout android:id="@id/drawer_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.constraint.ConstraintLayout android:id="@id/constraintLayout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:id="@id/appBar" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" layout="@layout/toolbar" />
+        <android.support.constraint.ConstraintLayout android:orientation="horizontal" android:id="@id/expiryWarning" android:background="@color/briar_warning_background" android:padding="@dimen/margin_medium" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/appBar">
+            <TextView android:textSize="@dimen/text_size_small" android:textColor="@color/briar_text_primary_inverse" android:id="@id/expiryWarningText" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@plurals/expiry_warning" app:layout_constraintEnd_toStartOf="@id/expiryWarningClose" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            <ImageView android:id="@id/expiryWarningClose" android:layout_width="24.0dip" android:layout_height="0.0dip" android:src="@drawable/ic_close" android:scaleType="center" android:tint="@color/briar_text_tertiary_inverse" android:contentDescription="@string/close" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        </android.support.constraint.ConstraintLayout>
+        <FrameLayout android:id="@id/fragmentContainer" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/expiryWarning" />
+    </android.support.constraint.ConstraintLayout>
+    <include android:layout_gravity="start" android:layout_width="wrap_content" android:layout_height="fill_parent" layout="@layout/navigation_menu" />
+</android.support.v4.widget.DrawerLayout>

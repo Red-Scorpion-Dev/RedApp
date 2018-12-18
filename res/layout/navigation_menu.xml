@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:orientation="vertical" android:background="@color/window_background" android:layout_width="wrap_content" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.constraint.ConstraintLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <android.support.design.widget.NavigationView android:id="@id/navigation" android:background="@color/window_background" android:layout_width="wrap_content" android:layout_height="wrap_content" app:elevation="0.0dip" app:headerLayout="@layout/navigation_header" app:itemBackground="@drawable/navigation_item_background" app:itemIconTint="?colorControlNormal" app:itemTextColor="?android:textColorPrimary" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:menu="@menu/navigation_drawer" />
+        <View android:id="@id/divider1" android:layout_width="0.0dip" app:layout_constraintEnd_toEndOf="@id/navigation" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/navigation" style="@style/Divider.Horizontal" />
+        <View android:id="@id/spacer" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toTopOf="@id/transports" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/divider1" app:layout_constraintVertical_weight="1.0" />
+        <include android:id="@id/transports" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="@id/navigation" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/spacer" layout="@layout/transports_list" />
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

@@ -1,0 +1,9 @@
+.class public interface abstract Lorg/briarproject/bramble/api/reporting/ReportingConstants;
+.super Ljava/lang/Object;
+.source "ReportingConstants.java"
+
+
+# static fields
+.field public static final DEV_ONION_ADDRESS:Ljava/lang/String; = "cwqmubyvnig3wag3.onion"
+
+.field public static final DEV_PUBLIC_KEY_HEX:Ljava/lang/String; = "0457AD1619FBD433D5E13D55606970546E8FC5F4EF83A8C18718E8BF59BB601FE20CCB233F06714A1BED370141A04C81808CF2EE95C7323CDEE5999670BD11741F65ED691F355518E1A7E5E54BDDCA4CB86BD8DB8842BBFD706EBD9708DB8C044FF006F215D83A66B3AEBAD674C4C1C4218121A38FA1FDD4A51E77588D90BD9652"

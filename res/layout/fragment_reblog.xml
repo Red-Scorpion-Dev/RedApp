@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:id="@id/scrollView" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include android:id="@id/postLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/margin_small" layout="@layout/list_item_blog_post" />
+            <ProgressBar android:id="@id/progressBar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="?android:progressBarStyleLarge" />
+        </RelativeLayout>
+    </ScrollView>
+    <org.briarproject.briar.android.view.LargeTextInputView android:gravity="bottom" android:id="@id/inputText" android:layout_width="fill_parent" android:layout_height="wrap_content" app:buttonText="@string/blogs_reblog_button" app:hint="@string/blogs_reblog_comment_hint" app:maxLines="5" />
+</LinearLayout>

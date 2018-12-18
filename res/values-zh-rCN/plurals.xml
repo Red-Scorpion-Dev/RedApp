@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="blog_post_notification_text">
+        <item quantity="other">%d 条新博文。</item>
+    </plurals>
+    <plurals name="expiry_warning">
+        <item quantity="other">这是 Briar 的一个测试版本。您的帐户将在 %d 天后到期，且无法延期。</item>
+    </plurals>
+    <plurals name="forum_post_notification_text">
+        <item quantity="other">%d 条新论坛帖子。</item>
+    </plurals>
+    <plurals name="forums_shared">
+        <item quantity="other">%d 个论坛由联系人分享</item>
+    </plurals>
+    <plurals name="group_message_notification_text">
+        <item quantity="other">%d 条新群消息。</item>
+    </plurals>
+    <plurals name="groups_invitations_open">
+        <item quantity="other">%d 打开了群聊邀请</item>
+    </plurals>
+    <plurals name="introduction_notification_text">
+        <item quantity="other">已添加 %d 位新联系人。</item>
+    </plurals>
+    <plurals name="messages">
+        <item quantity="other">%d 条消息</item>
+    </plurals>
+    <plurals name="posts">
+        <item quantity="other">%d 条帖子</item>
+    </plurals>
+    <plurals name="private_message_notification_text">
+        <item quantity="other">%d 条新私信。</item>
+    </plurals>
+</resources>

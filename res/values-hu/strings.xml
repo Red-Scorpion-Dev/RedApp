@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Ugrás a főoldalra</string>
+    <string name="abc_action_bar_up_description">Felfelé mozgatás</string>
+    <string name="abc_action_menu_overflow_description">További lehetőségek</string>
+    <string name="abc_action_mode_done">Kész</string>
+    <string name="abc_activity_chooser_view_see_all">Összes megtekintése</string>
+    <string name="abc_activitychooserview_choose_application">Válasszon ki egy alkalmazást</string>
+    <string name="abc_capital_off">KI</string>
+    <string name="abc_capital_on">BE</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">Delete</string>
+    <string name="abc_menu_enter_shortcut_label">Enter</string>
+    <string name="abc_menu_function_shortcut_label">Function+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">Szóköz</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Menu+</string>
+    <string name="abc_search_hint">Keresés…</string>
+    <string name="abc_searchview_description_clear">Lekérdezés törlése</string>
+    <string name="abc_searchview_description_query">Keresési lekérdezés</string>
+    <string name="abc_searchview_description_search">Keresés</string>
+    <string name="abc_searchview_description_submit">Lekérdezés küldése</string>
+    <string name="abc_searchview_description_voice">Hangalapú keresés</string>
+    <string name="abc_shareactionprovider_share_with">Megosztás a következővel:</string>
+    <string name="abc_shareactionprovider_share_with_application">Megosztás a következő alkalmazással: %s</string>
+    <string name="abc_toolbar_collapse_description">Összecsukás</string>
+    <string name="accept">Elfogad</string>
+    <string name="activity_share_toolbar_header">Kapcsolatok kiválasztása</string>
+    <string name="add_contact_title">Kapcsolat hozzáadása</string>
+    <string name="allow">Engedélyez</string>
+    <string name="authenticating_with_device">Azonosítás az eszközzel…</string>
+    <string name="blogs_blog_post_created">Blog bejegyzés létrehozva</string>
+    <string name="blogs_blog_post_received">Új blog bejegyzés érkezett</string>
+    <string name="blogs_blog_post_scroll_to">Gördítés ide</string>
+    <string name="blogs_blog_removed">Blog eltávolítva</string>
+    <string name="blogs_button">Blogok</string>
+    <string name="blogs_feed_empty_state">Nincs megjelenítendő bejegyzés</string>
+    <string name="blogs_feed_empty_state_action">"A bejegyzések a kapcsolataitól és a blogoktól, amikre feliratkozott, itt jelennek meg.
+
+Érintse meg a toll ikont egy blog bejegyzés írásához"</string>
+    <string name="blogs_other_blog_empty_state">Nincs megjelenítendő bejegyzés</string>
+    <string name="blogs_publish_blog_post">Publikálás</string>
+    <string name="blogs_reblog_button">Reblogolás</string>
+    <string name="blogs_reblog_comment_hint">Megjegyzés hozzáadása (opcionális)</string>
+    <string name="blogs_remove_blog">Blog eltávolítása</string>
+    <string name="blogs_remove_blog_dialog_message">"Biztosan eltávolítja ezt a blogot? 
+
+A bejegyzések törlődni fognak az Ön eszközéről, de nem a többi ember eszközéről.
+
+Kapcsolatai, akivel megosztotta ezt a blogot, lehet nem kapnak többé frissítést."</string>
+    <string name="blogs_remove_blog_ok">Eltávolít</string>
+    <string name="blogs_rss_feeds_import">RSS feed importálása</string>
+    <string name="blogs_rss_feeds_import_button">Importálás</string>
+    <string name="blogs_rss_feeds_import_error">Elnézését kérjük! Probléma akadt a feed-je importálásával.</string>
+    <string name="blogs_rss_feeds_import_hint">Adja meg az RSS feed URL címét</string>
+    <string name="blogs_rss_feeds_manage">RSS feed-ek kezelés</string>
+    <string name="blogs_rss_feeds_manage_author">Szerző:</string>
+    <string name="blogs_rss_feeds_manage_delete_error">A feed nem törölhető!</string>
+    <string name="blogs_rss_feeds_manage_empty_state">Nincs megjelenítendő</string>
+    <string name="blogs_rss_feeds_manage_error">Hiba történt a feed-jei betöltésével. Kérjük próbálja újra később.</string>
+    <string name="blogs_rss_feeds_manage_imported">Importálva:</string>
+    <string name="blogs_rss_feeds_manage_updated">Utolsó frissítés:</string>
+    <string name="blogs_rss_remove_feed">Feed eltávolítása</string>
+    <string name="blogs_rss_remove_feed_dialog_message">"Biztosan eltávolítja ezt a feed-et? 
+
+A bejegyzések törlődni fognak az Ön eszközéről, de nem a többi ember eszközéről.
+
+Kapcsolatai, akivel megosztotta ezt a feed-et, lehet nem kapnak többé frissítést."</string>
+    <string name="blogs_rss_remove_feed_ok">Eltávolít</string>
+    <string name="blogs_sharing_button">Blog megosztása</string>
+    <string name="blogs_sharing_declined_toast">Meghívás elutasítva</string>
+    <string name="blogs_sharing_error">Hiba történt ennek a blognak a megosztásakor.</string>
+    <string name="blogs_sharing_invitation_received">%1$s megosztott Önnel a \"%2$s\" blogot.</string>
+    <string name="blogs_sharing_invitation_sent">Ön megosztotta a(z) \"%1$s\" blogot %2$s számára.</string>
+    <string name="blogs_sharing_invitations_title">Blog meghívások</string>
+    <string name="blogs_sharing_joined_toast">Feliratkozva a blogra</string>
+    <string name="blogs_sharing_response_accepted_received">%s elfogadta a blog meghívást.</string>
+    <string name="blogs_sharing_response_accepted_sent">Elfogadta a %s blog meghívását.</string>
+    <string name="blogs_sharing_response_declined_received">%s elutasította a blog meghívást.</string>
+    <string name="blogs_sharing_response_declined_sent">Elutasította %sblog meghívását.</string>
+    <string name="blogs_sharing_share">Blog megosztása</string>
+    <string name="blogs_sharing_snackbar">A blog megosztva a kiválasztott kapcsolatokkal</string>
+    <string name="blogs_write_blog_post">Írja meg blog postját</string>
+    <string name="blogs_write_blog_post_body_hint">Gépelje ide a blog bejegyzését</string>
+    <string name="bluetooth_setting">Csatlakozás bluetooth-on keresztül</string>
+    <string name="bluetooth_setting_disabled">Amikor kapcsolatokat adok hozzá</string>
+    <string name="bluetooth_setting_enabled">Amikor kapcsolatok vannak a közelben</string>
+    <string name="briar_crashed">Sajnáljuk, a RedApp összeomlott.</string>
+    <string name="btn_reply">Válasz</string>
+    <string name="camera_error">Kamera hiba</string>
+    <string name="cancel">Mégse</string>
+    <string name="cannot_load_ringtone">Sikertelen a csengőhang betöltése</string>
+    <string name="change_password">Jelszó módosítása</string>
+    <string name="choose_forum_hint">Válasszon nevet a fórumának</string>
+    <string name="choose_new_password">Új jelszó</string>
+    <string name="choose_nickname">Felhasználónév választása</string>
+    <string name="choose_password">Jelszó választása</string>
+    <string name="choose_ringtone_title">Csengőhang választása</string>
+    <string name="close">Bezár</string>
+    <string name="confirm_new_password">Új jelszó megerősítése</string>
+    <string name="confirm_password">Jelszó megerősítése</string>
+    <string name="connecting_to_device">Csatlakozás az eszközhöz…</string>
+    <string name="connection_error_explanation">Ellenőrizzék, hogy mindketten ugyanahhoz a Wi-Fi hálózathoz vannak-e csatlakozva.</string>
+    <string name="connection_error_feedback">Ha ez a probléma tartósan fennáll, kérjük <a href="feedback"> küldjön visszajelzést </a> nekünk, hogy segítsen fejleszteni az appot.</string>
+    <string name="connection_error_title">Nem sikerült csatlakozni a kapcsolatához</string>
+    <string name="contact_added_toast">Kapcsolat hozzáadva: %s</string>
+    <string name="contact_already_exists">%s kapcsolat már létezik</string>
+    <string name="contact_deleted_toast">Kapcsolat törölve</string>
+    <string name="contact_list_button">Kapcsolatok</string>
+    <string name="contacts_selected">Kiválasztott kapcsolatok</string>
+    <string name="continue_button">Folytatás</string>
+    <string name="could_not_load_report_data">Nem sikerült a jelentés adatot betölteni.</string>
+    <string name="crash_report_title">RedApp összeomlási jelentés</string>
+    <string name="create_account_button">Fiók létrehozása</string>
+    <string name="create_forum_button">Fórum létrehozása</string>
+    <string name="create_forum_title">Fórum létrehozása</string>
+    <string name="create_new_account">Új fiókot kell létrehoznia, de használhatja ugyanazt a becenevet.</string>
+    <string name="current_password">Aktuális jelszó</string>
+    <string name="date_no_private_messages">Nincs üzenet.</string>
+    <string name="decline">Megtagad</string>
+    <string name="delete">Töröl</string>
+    <string name="delete_contact">Kapcsolat törlése</string>
+    <string name="describe_crash">Írja le mi történt (opcionális)</string>
+    <string name="dev_report_saved">A jelentés mentve. Elküldésre kerül akkor, amikor legközelebb bejelentkezik a RedApp-ba.</string>
+    <string name="dialog_button_leave">Elhagyás</string>
+    <string name="dialog_message_connect_panic_app">Biztos benne, hogy szeretné, hogy %1$s kiválthasson destruktív pánik gomb műveleteket?</string>
+    <string name="dialog_message_delete_contact">Biztosan eltávolítja ezt a kapcsolatot és minden vele történt üzenetváltását?</string>
+    <string name="dialog_message_leave_forum">"Biztosan elhagyja ezt a fórumot?
+
+Kapcsolatai, akivel megosztotta ezt a fórumot, lehet nem kapnak többé frissítést."</string>
+    <string name="dialog_message_lost_password">"A RedApp fiókja titkosítva az eszközén kerül tárolásra, nem a felhőben, így nem tudjuk helyreállítani a jelszavát. Szeretné törölni a fiókját és elölről kezdeni?
+
+Figyelem: az identitásai, kapcsolatai és üzenetei végleg elvesznek."</string>
+    <string name="dialog_title_connect_panic_app">Pánik alkalmazás megerősítése</string>
+    <string name="dialog_title_delete_contact">Kapcsolat törlésének megerősítése</string>
+    <string name="dialog_title_leave_forum">Fórum elhagyás megerősítése</string>
+    <string name="dialog_title_lost_password">Elveszett jelszó</string>
+    <string name="display_settings_title">Megjelenítés</string>
+    <string name="don_t_ask_again">Ne kérdezze még egyszer</string>
+    <string name="download_briar">A RedApp használatának folytatásához kérjük töltse le az 1.0 verziót.</string>
+    <string name="download_briar_button">RedApp 1.0 letöltése</string>
+    <string name="ellipsis">...</string>
+    <string name="enter_feedback">Gépelje be visszajelzését</string>
+    <string name="enter_password">Jelszó</string>
+    <string name="exchanging_contact_details">Kapcsolat részletek cseréje…</string>
+    <string name="expand_button_title">Speciális</string>
+    <string name="expiry_date_reached">"Ez a szoftver lejárt.
+Köszönjük a tesztelését!"</string>
+    <string name="expiry_update">A tesztelési lejárati dátum módosult. A fiókja most lejár %d napon belül.</string>
+    <string name="face_to_face">"Találkoznia kell a személlyel akit, hozzá szeretne adni a kapcsolatokhoz.
+
+Ez megelőzi azt, hogy valaki megszemélyesítse Önt, vagy elolvassa későbbi üzeneteit."</string>
+    <string name="feedback_settings_title">Visszajelzés</string>
+    <string name="feedback_title">Visszajelzés</string>
+    <string name="fix">Javítás</string>
+    <string name="forgotten_password">Elfelejtettem a jelszavam</string>
+    <string name="forum_created_toast">Fórum létrehozva</string>
+    <string name="forum_declined_toast">Meghívás elutasítva</string>
+    <string name="forum_invitation_already_sharing">Megosztás alatt</string>
+    <string name="forum_invitation_exists">"Már fogadott el meghívást ehhez a fórumhoz.
+
+További meghívások elfogadása a kapcsolatát és a fórumját gyorsabbá és megbízhatóbbá teszi."</string>
+    <string name="forum_invitation_received">%1$s megosztotta Önnel a \"%2$s\" fórumot.</string>
+    <string name="forum_invitation_response_accepted_received">%s elfogadta a fórum meghívást.</string>
+    <string name="forum_invitation_response_accepted_sent">Elfogadta a %s fórum meghívását.</string>
+    <string name="forum_invitation_response_declined_received">%s elutasította a fórum meghívást.</string>
+    <string name="forum_invitation_response_declined_sent">Elutasította %s a fórum meghívását.</string>
+    <string name="forum_invitation_sent">Ön megosztotta a(z) \"%1$s\" fórumot %2$s számára.</string>
+    <string name="forum_invitations_title">Fórum meghívások</string>
+    <string name="forum_joined_toast">Csatlakozott fórum</string>
+    <string name="forum_leave">Fórum elhagyása</string>
+    <string name="forum_left_toast">Fórum elhagyás</string>
+    <string name="forum_message_reply_hint">Új válasz</string>
+    <string name="forum_new_entry_posted">Fórum bejegyzés közzétéve</string>
+    <string name="forum_new_message_hint">Új bejegyzés</string>
+    <string name="forum_share_button">Fórum megosztása</string>
+    <string name="forum_share_error">Hiba történt a fr</string>
+    <string name="forum_share_message">Üzenet hozzáadása (opcionális)</string>
+    <string name="forum_shared_snackbar">A fórum csak a megadott kapcsolatokkal megosztott</string>
+    <string name="forums_button">Fórumok</string>
+    <string name="got_it">Megvan</string>
+    <string name="groups_button">Privát csoportok</string>
+    <string name="groups_create_group_button">Csoport létregozása</string>
+    <string name="groups_create_group_hint">Válasszon egy nevet a privát csoportjához</string>
+    <string name="groups_create_group_invitation_button">Meghívó küldése</string>
+    <string name="groups_create_group_title">Privát csoport létrehozása</string>
+    <string name="groups_created_by">Létrehozta %s</string>
+    <string name="groups_dissolve">Csoport feloszlatása</string>
+    <string name="groups_dissolve_button">Feloszlatás</string>
+    <string name="groups_dissolve_dialog_message">"Biztosan felszámolja ezt a csoportot
+
+A többi tag nem folytathatja beszélgetéseit és lehet nem kapják meg a legutolsó üzeneteket."</string>
+    <string name="groups_dissolve_dialog_title">Csoport feloszlatás megerősítése</string>
+    <string name="groups_dissolved_dialog_message">"A csoport létrehozója felszámolta a csoportot.
+
+Többé nem írhat üzenetet a csoportba és lehet nem kapja meg az összes bejegyzést ami a csoportban jelent meg."</string>
+    <string name="groups_dissolved_dialog_title">Ez a csoport feloszlatásra került</string>
+    <string name="groups_group_is_dissolved">Ez a csoport felszámolásra került</string>
+    <string name="groups_group_is_empty">Ez a csoport üres</string>
+    <string name="groups_invitation_sent">A csoportmeghívó elküldésre került</string>
+    <string name="groups_invitations_declined">Csoport meghívó elutasítva</string>
+    <string name="groups_invitations_invitation_received">%1$s meghívta Önt, hogy csatlakozzon a(z) \"%2$s\" csoporthoz.</string>
+    <string name="groups_invitations_invitation_sent">Meghívta %1$s személyt, hogy csatlakozzon a(z) \"%2$s\" csoporthoz.</string>
+    <string name="groups_invitations_joined">Csatlakozott csoport</string>
+    <string name="groups_invitations_response_accepted_received">%s elfogadta a csoport meghívást.</string>
+    <string name="groups_invitations_response_accepted_sent">Elfogadta a %s csoport meghívását.</string>
+    <string name="groups_invitations_response_declined_received">%s elutasította a csoport meghívást.</string>
+    <string name="groups_invitations_response_declined_sent">Elutasította %s a csoport meghívását.</string>
+    <string name="groups_invitations_title">Csoport meghívások</string>
+    <string name="groups_invite_members">Tagok meghíívása</string>
+    <string name="groups_leave">Csoport elhagyása</string>
+    <string name="groups_leave_dialog_message">Biztos, hogy el akarja hagyni ezt a csoportot?</string>
+    <string name="groups_leave_dialog_title">Csoport elhagyás megerősítése</string>
+    <string name="groups_list_empty">Nincs megjeleníthető csoport</string>
+    <string name="groups_list_empty_action">Érintse meg a + ikont csoport létrehozásához, vagy kérje meg kapcsolatait, hogy osszanak meg csoportokat Önnel</string>
+    <string name="groups_member_created">%s hozta létre a csoportot</string>
+    <string name="groups_member_created_you">Ön hozta létre a csoportot</string>
+    <string name="groups_member_joined">%s csatlakozott a csoporthoz</string>
+    <string name="groups_member_joined_you">Csatlakozott a csoporthoz</string>
+    <string name="groups_member_list">Tag lista</string>
+    <string name="groups_message_sent">Üzenet elküldve</string>
+    <string name="groups_remove">Eltávolítás</string>
+    <string name="groups_reveal_contacts">Kapcsolatok felfedése</string>
+    <string name="groups_reveal_dialog_message">"Választhat, hogy felfedi-e kapcsolatait a jelenlegi és jövőbeli tagjaival ennek a csoportnak.
+
+A kapcsolatok megosztása a csoportot és hálózati kapcsolatát gyorsabbá és megbízhatóbbá tesz, mert akkor is tud kommunikálni a kapcsolataival, ha a csoport létrehozója nincs a hálózaton."</string>
+    <string name="groups_reveal_invisible">Kapcsolat viszony nem látható a csoportnak (</string>
+    <string name="groups_reveal_visible">Kapcsolat viszony látható a csoportnak</string>
+    <string name="groups_reveal_visible_revealed_by_contact">Kapcsolat viszony látható a csoportnak (%s által felfedve)</string>
+    <string name="groups_reveal_visible_revealed_by_us">Kapcsolat viszony látható a csoportnak (Ön által felfedve)</string>
+    <string name="help">Súgó</string>
+    <string name="hide">Elrejt</string>
+    <string name="include_debug_report_crash">Névtelen adat beágyazása az összeomlásról</string>
+    <string name="include_debug_report_feedback">Névtelen adat beágyazása az eszközről</string>
+    <string name="introduction_activity_title">Kapcsolat kiválasztása</string>
+    <string name="introduction_button">Bemutatkozás készítése</string>
+    <string name="introduction_error">Hiba történt a bemutatkozás létrehozásakor.</string>
+    <string name="introduction_menu_item">Bemutatkozás készítése</string>
+    <string name="introduction_message_hint">Üzenet hozzáadsáa (opcionális)</string>
+    <string name="introduction_message_title">Kapcsolatok bemutatása</string>
+    <string name="introduction_not_possible">Jelenleg folyamatban van egy bemutatkozása ezekkel a kapcsolatokkal. Kérjük tegye lehetővé előbb ezek befejeződését. Ha a kapcsolatai ritkán vannak online, ez több időt is igénybe vehet.</string>
+    <string name="introduction_onboarding_text">Bemutathatja kapcsolatait egymásnak, így nem szükséges, hogy találkozzanak személyesen, hogy kapcsolódhassanak a RedApp-on.</string>
+    <string name="introduction_onboarding_title">Kapcsolatai bemutatása</string>
+    <string name="introduction_request_answered_received">%1$s szeretné bemutatni Önt %2$s számára.</string>
+    <string name="introduction_request_exists_received">%1$s megkérve lett, hogy mutassa be Önt személynek, de %2$s már a kapcsolatai között található. Mivel %1$s erről nem tudhat, továbbra is válaszolhatja a következőket:</string>
+    <string name="introduction_request_received">%1$s szeretne bemutatni %2$s személynek. Szeretné hozzáadni %2$s személyt a kapcsolataihoz?</string>
+    <string name="introduction_request_sent">Megkértek, hogy mutasd be egymásnak %1$s és %2$s személyeket.</string>
+    <string name="introduction_response_accepted_received">%1$s elfogadta a bemutatkozást %2$s számára.</string>
+    <string name="introduction_response_accepted_sent">Ön elfogadta a bemutatását %1$s számára.</string>
+    <string name="introduction_response_accepted_sent_info">Mielőtt %1$shozzáadásra kerülne a kapcsolataihoz, el kell neki is fogadni a bemutatkozást. Ez időbe telhet.</string>
+    <string name="introduction_response_declined_received">%1$s elutasította a bemutatkozást %2$s számára.</string>
+    <string name="introduction_response_declined_received_by_introducee">%1$s alapján %2$s elutasította a bemutatkozást.</string>
+    <string name="introduction_response_declined_sent">Ön elutasította a bemutatását %1$s számára.</string>
+    <string name="introduction_response_error">Hiba történt a bemutatkozásra válaszkor</string>
+    <string name="introduction_sent">A bemutatkozása elküldésre került.</string>
+    <string name="link_warning_intro">Épp megnyit egy linket egy külső alkalmazással.</string>
+    <string name="link_warning_open_link">Link megnyitása</string>
+    <string name="link_warning_text">Ez lehetővé teheti az azonosítását. Gondolja át megbízik-e a személyben aki ezt küldte és szükség esetén használjon Orfox-ot.</string>
+    <string name="link_warning_title">Link figyelmeztetés</string>
+    <string name="lock_button">App zárolása</string>
+    <string name="lock_is_locked">A RedApp zárolt</string>
+    <string name="lock_tap_to_unlock">Érintse meg a zárolás feloldásához</string>
+    <string name="lock_unlock">RedApp feloldása</string>
+    <string name="lock_unlock_fingerprint_description">Érintse meg az ujjlenyomat olvasót a regisztrált ujjával a folytatáshoz</string>
+    <string name="lock_unlock_password">Jelszó használata</string>
+    <string name="lock_unlock_verbose">Adja meg az eszköz PIN-t, jelszó mintát vagy jelszót a RedApp feloldásához</string>
+    <string name="message_hint">Üzenet írása</string>
+    <string name="more_info">További információ</string>
+    <string name="name_too_long">A név túl hosszú</string>
+    <string name="nav_drawer_close_description">Navigációs oldalablak bezárása</string>
+    <string name="nav_drawer_open_description">Navigációs oldalablak megnyitása</string>
+    <string name="network_settings_title">Hálózatok</string>
+    <string name="no_contacts">Nincs megjeleníthető kapcsolat</string>
+    <string name="no_contacts_action">Érintse meg a + gombot kapcsolatok hozzáadásához</string>
+    <string name="no_contacts_selector">Nincs megjeleníthető kapcsolat</string>
+    <string name="no_contacts_selector_action">Kérjük jöjjön vissza az után, ha hozzá adott néhány kapcsolatot</string>
+    <string name="no_data">Nincs adat</string>
+    <string name="no_forum_posts">Nincs megjelenítendő bejegyzés</string>
+    <string name="no_forums">Nincs megjelenítendő fórum</string>
+    <string name="no_forums_action">Érintse meg a + ikont fórum létrehozásához, vagy kérje meg kapcsolatait, hogy osszanak meg fórumokat Önnel</string>
+    <string name="no_posts">Nincs bejegyzés</string>
+    <string name="no_private_messages">Nincs megjeleníthető üzenet</string>
+    <string name="nobody">Senki</string>
+    <string name="not_your_fault">Ez nem az Ön hibája.</string>
+    <string name="notification_settings_title">Értesítések</string>
+    <string name="notify_blog_posts_setting_summary">Értesítés megjelenítése blog bejegyzésekről</string>
+    <string name="notify_blog_posts_setting_summary_26">Értesítés beállítása blog bejegyésekhez</string>
+    <string name="notify_blog_posts_setting_title">Blogbejegyzések</string>
+    <string name="notify_forum_posts_setting_summary">Értesítés megjelenítése fórum üzenetekről</string>
+    <string name="notify_forum_posts_setting_summary_26">Értesítés beállítása fórum üzenetekhez</string>
+    <string name="notify_forum_posts_setting_title">Fórum hozzászólások</string>
+    <string name="notify_group_messages_setting_summary">Értesítés megjelenítése csoport üzenetekről</string>
+    <string name="notify_group_messages_setting_summary_26">Értesítés beállítása csoport üzenetekhez</string>
+    <string name="notify_group_messages_setting_title">Csoportos üzenetek</string>
+    <string name="notify_private_messages_setting_summary">Értesítés megjelenítése privát üzenetekről</string>
+    <string name="notify_private_messages_setting_summary_26">Értesítés beállítása privát üzenetekhez</string>
+    <string name="notify_private_messages_setting_title">Privát üzenetek</string>
+    <string name="notify_sign_in_summary">Jelenítsen meg emlékeztetőt, ha a telefon indul vagy ha az alkalmazás frissült</string>
+    <string name="notify_sign_in_title">Emlékeztessen a bejlentkezésre</string>
+    <string name="notify_sound_setting">Hang</string>
+    <string name="notify_sound_setting_default">Alapértelmezett csengőhang</string>
+    <string name="notify_sound_setting_disabled">Egyik sem</string>
+    <string name="notify_vibration_setting">Rezgés</string>
+    <string name="now">most</string>
+    <string name="offline">Offline</string>
+    <string name="ok">OK</string>
+    <string name="ongoing_notification_text">Érintse meg a RedApp megnyitásához.</string>
+    <string name="ongoing_notification_title">Belépve a RedApp-ba-</string>
+    <string name="online">Csatlakozva</string>
+    <string name="open">Megnyitás</string>
+    <string name="optional_contact_email">Email címe (opcionális)</string>
+    <string name="options">Opciók</string>
+    <string name="panic_app_setting_none">Egyik sem</string>
+    <string name="panic_app_setting_summary">Nincs alkalmazás beállítva még</string>
+    <string name="panic_app_setting_title">Pánik gomb App</string>
+    <string name="panic_setting">Pánikgomb beállítás</string>
+    <string name="panic_setting_destructive_action">Romboló műveletek</string>
+    <string name="panic_setting_hint">A RedApp beállítása hogyan reagáljon arra, ha megnyomja a Pánik gomb alkalmazást</string>
+    <string name="panic_setting_signout_summary">Kilépés a RedApp-ból a pánik gomb megnyomásakor</string>
+    <string name="panic_setting_signout_title">Kijelentkezés</string>
+    <string name="panic_setting_title">Pánikgomb</string>
+    <string name="password_changed">A jelszó megváltozott</string>
+    <string name="password_too_weak">A jelszó túl gyenge</string>
+    <string name="passwords_do_not_match">A jelszavak nem egyeznek</string>
+    <string name="permission_camera_denied_body">"Megtiltotta hozzáférést a kamerához, de a kapcsolatok hozzáadásához szükséges a kamera.
+
+Kérjük gondolja meg a jog megadását."</string>
+    <string name="permission_camera_location_request_body">"A QR kód beszkenneléséhez a RedApp-nak szüksége van a Kamerához hozzáférésre.
+
+A Bluetooth eszközök észleléséhez a RedApp-nak szükségve van a lokációhoz hozzáférésre.
+
+A RedApp nem tárolja lokációját vagy ossza meg bárkivel."</string>
+    <string name="permission_camera_location_title">Kamera és lokáció</string>
+    <string name="permission_camera_request_body">A QR kód olvasáshoz a RedApp-nak szüksége van kamera hozzáférésre.</string>
+    <string name="permission_camera_title">Kamera jogosultságok</string>
+    <string name="permission_location_request_body">"A Bluetooth eszközök észleléséhez a RedApp-nak szükségve van a lokációhoz hozzáférésre.
+
+A RedApp nem tárolja lokációját vagy ossza meg bárkivel."</string>
+    <string name="permission_location_title">Hely engedélyek</string>
+    <string name="please_send_report">Kérjük segítsen nekünk a RedApp-t jobbá tenni, a hibajelentés elküldésével.</string>
+    <string name="pref_language_changed">Ez a beállítás a RedApp újraindítása után lép életbe. Kérjük lépjen ki és indítsa újra a RedApp-t.</string>
+    <string name="pref_language_default">Rendszer alapértelmezett</string>
+    <string name="pref_language_title">Nyelv és régió</string>
+    <string name="pref_lock_disabled_summary">Ahhoz, hogy használni tudja ezt az opciót, állítson be zárképernyőt az eszközén</string>
+    <string name="pref_lock_summary">Az eszköz képernyő zárának használata a RedApp védelmére, ha be van jelentkezve</string>
+    <string name="pref_lock_timeout_1">1 perc</string>
+    <string name="pref_lock_timeout_15">15 perc</string>
+    <string name="pref_lock_timeout_30">30 perc</string>
+    <string name="pref_lock_timeout_5">5 perc</string>
+    <string name="pref_lock_timeout_60">1 óra</string>
+    <string name="pref_lock_timeout_never">Soha</string>
+    <string name="pref_lock_timeout_never_summary">Soha ne zárja le a RedApp-t automatikusan</string>
+    <string name="pref_lock_timeout_summary">Ha nem használja a RedApp-t, automatikusan zárol %s után</string>
+    <string name="pref_lock_timeout_title">App zár inaktivítási idő</string>
+    <string name="pref_lock_title">App zár</string>
+    <string name="pref_theme_auto">Automatikus (napszaknak megfelelő)</string>
+    <string name="pref_theme_dark">Sötét</string>
+    <string name="pref_theme_light">Világos</string>
+    <string name="pref_theme_system">Rendszer alapértelmezett</string>
+    <string name="pref_theme_title">Téma</string>
+    <string name="progress_title_logout">Kilépés a RedApp-ból...</string>
+    <string name="purge_setting_summary">A RedApp fiók törlése a pánik gomb megnyomásakor. Vigyázat: Ez végleg törli az identitásait, kapcsolatait és üzeneteit</string>
+    <string name="purge_setting_title">Fiók törlése</string>
+    <string name="qr_code">QR kód</string>
+    <string name="qr_code_invalid">A QR kód érvénytelen</string>
+    <string name="qr_code_too_new">"A QR kód amit leolvasott egy újabb %s verzióhoz tartozik.
+
+Kérjük, frissítsen a legutolsó verzióra, majd próbálják újra."</string>
+    <string name="qr_code_too_old">"A QR kód amit leolvasott egy korábbi %s verzióhoz tartozik.
+
+Kérje meg kapcsolatát, hogy frissítsen a legutolsó verzióra, majd próbálják újra."</string>
+    <string name="read_more">olvasson tovább</string>
+    <string name="reminder_notification_channel_title">RedApp Belépési emlékeztető</string>
+    <string name="reminder_notification_dismiss">Kihagy</string>
+    <string name="reminder_notification_text">Érintse meg az újra belépéshez.</string>
+    <string name="reminder_notification_title">Kilépve a RedApp-ból</string>
+    <string name="report_is_encrypted">Biztosítjuk, hogy a hibajelentés titkosított és biztonságos.</string>
+    <string name="screen_filter_allow">Az appok engedélyezése a felé rajzolásra</string>
+    <string name="screen_filter_body">"Egy másik app a RedApp tetejére rajzol. A biztonsága védelme érdekében a RedApp nem válaszol az érintésre, ha egy másik app rajzol a tetejére.
+
+A következő app lehet, ami a tetejére rajzol:
+
+%1$s"</string>
+    <string name="screen_filter_title">Képernyő felülírás észlelve</string>
+    <string name="screenshot_alice">Alice</string>
+    <string name="screenshot_bob">Bob</string>
+    <string name="screenshot_carol">Carol</string>
+    <string name="screenshot_message_1">Hi Bob!</string>
+    <string name="screenshot_message_2">Hi Alice! Köszönöm hogy említette nekem a RedApp-t!</string>
+    <string name="screenshot_message_3">Szívesen, remélem tetszeni fog 😀</string>
+    <string name="search_menu_title">Keresés</string>
+    <string name="security_settings_title">Biztonság</string>
+    <string name="send">Küldés</string>
+    <string name="send_feedback">Visszajelzés küldése</string>
+    <string name="send_report">Jelentés elküldése</string>
+    <string name="set_alias_button">Módosítás</string>
+    <string name="settings_button">Beállítások</string>
+    <string name="setup_doze_button">Kapcsolatok engedélyezése</string>
+    <string name="setup_doze_explanation">Az üzenetek fogadásához a RedAppnak szüksége van háttérben csatlakozásra. Kérjük tiltsa le az akkumulátor optimalizációt, így a RedApp kapcsolatban tud maradni.</string>
+    <string name="setup_doze_intro">Az üzenetek fogadásához a RedApp-nak szüksége van a háttérben csatlakozásra.</string>
+    <string name="setup_doze_title">Háttérkapcsolatok</string>
+    <string name="setup_huawei_button">A RedApp védelme</string>
+    <string name="setup_huawei_help">Ha RedApp nincs hozzáadva a védett alkalmazások listájához, akkor nem képes futni a háttérben.</string>
+    <string name="setup_huawei_text">Kérjük érintse meg a gombot alább és ellenőrizze, hogy a RedApp védett, a \"Védett alkalmazások\" képernyőn.</string>
+    <string name="setup_name_explanation">A beceneve fog megjelenni minden tartalom mellett amit Ön osztott meg. Nem tudja megváltoztatni a fiók létrehozása után.</string>
+    <string name="setup_next">Következő</string>
+    <string name="setup_password_explanation">"A RedApp fiókja titkosítva az eszközén kerül tárolásra, nem a felhőben. Ha elfelejti a jelszavát, vagy eltávolítja a RedApp-t, nincs lehetőség fiókja visszanyerésére.
+
+Válasszon egy hosszú jelszót, amit nehéz kitalálni, mint négy tetszőleges szó vagy tíz tetszőleges betű, szám vagy szimbólum."</string>
+    <string name="setup_password_intro">Válasszon jelszót</string>
+    <string name="setup_title">Köszöntjük a RedApp-ban</string>
+    <string name="shared_by_format">Megosztva %s által</string>
+    <string name="shared_with">Megosztva vele: %1$d (%2$d online)</string>
+    <string name="sharing_status">Állapot megosztása</string>
+    <string name="sharing_status_blog">Bárki aki feliratkozik egy blogra képes megosztani a blogot a kapcsolataival. Jelenleg megosztani készül a blogot a következő kapcsolatokkal. Lehet, hogy olyan más előfizetők is vannak, akiket nem láthat.</string>
+    <string name="sharing_status_forum">A fórum minden tagja képes megosztani a fórumot a kapcsolataival. Jelenleg megosztani készül a fórumot a következő kapcsolatokkal. Lehet, hogy olyan más tagok is vannak, akiket nem láthat.</string>
+    <string name="sharing_status_groups">Csak a csoport létrehozója hívhat mg új tagokat a csoportba. Alább az összes aktuális tagja a csoportnak.</string>
+    <string name="show">Megjelenít</string>
+    <string name="show_onboarding">Súgó ablak megjelenítése</string>
+    <string name="show_qr_code_fullscreen">A QR kód teljes képernyősen</string>
+    <string name="sign_in_button">Bejelentkezés</string>
+    <string name="sign_out_button">Kijelentkezés</string>
+    <string name="sorry">Sajnáljuk</string>
+    <string name="startup_compact_database">Adatbázis tömörítése...</string>
+    <string name="startup_failed_activity_title">RedApp indítási hiba</string>
+    <string name="startup_failed_data_too_new_error">Az alkalmazás verziója túl régi. Kérjük frissítsen a legújabb verzióra és próbálja újra.</string>
+    <string name="startup_failed_data_too_old_error">"A fiókja egy régi app verzióval volt létrehozva, és nem nyitható meg ezzel a verzióval. Vagy visszatelepíti a régi verziót, vagy létrehoz egy új fiókot az 'Elfelejtettem a jelszavam' menüpont alatt, amikor a jelszóbekérés történik."</string>
+    <string name="startup_failed_db_error">"Valamilyen okból az Ön RedApp adatbázisa hibás még javítás után is. A fiókja, adatai, kapcsolatai elvesztek. Sajnos vagy újratelepíti a RedApp-t, vagy létrehoz egy új fiókot az 'Elfelejtettem a jelszavam' menüpont alatt, amikor a jelszóbekérés történik."</string>
+    <string name="startup_failed_notification_text">Érintse meg további információért</string>
+    <string name="startup_failed_notification_title">RedApp nem tud elindulni</string>
+    <string name="startup_failed_service_error">A RedApp nem tudja elindítani a szükséges plugint. A RedApp újratelepítése többnyire megoldja a problémát. Fontos, hogy megjegyezze, hogy ez esetben elveszti fiókját és minden kapcsolatos adatát, mert a RedApp nem tárolja központi szerveren az adatait.</string>
+    <string name="startup_migrate_database">Adatbázis frissítése</string>
+    <string name="startup_open_database">Adatbázis dekódolása...</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
+    <string name="text_too_long">A beírt szöveg túl hosszú</string>
+    <string name="tor_mobile_data_title">Mobil adat használata</string>
+    <string name="tor_network_setting">Csatlakozás interneten (Tor)</string>
+    <string name="tor_network_setting_automatic">Automatikusan hely alapján</string>
+    <string name="tor_network_setting_never">Ne csatlakozzon</string>
+    <string name="tor_network_setting_summary">Automatikus: %1$s ( %2$s)</string>
+    <string name="tor_network_setting_with_bridges">Tor használata hidakkal</string>
+    <string name="tor_network_setting_without_bridges">Tor használata hidak nélkül</string>
+    <string name="transport_bt">Bluetooth</string>
+    <string name="transport_lan">Wi-Fi</string>
+    <string name="transport_tor">Internet</string>
+    <string name="try_again">Hibás jelszó, próbáld újra</string>
+    <string name="try_again_button">Újrapróbálkozás</string>
+    <string name="uninstall_setting_summary">Ez kézi jóváhagyását igényli a pánik eseménynek</string>
+    <string name="uninstall_setting_title">RedApp eltávolítása</string>
+    <string name="unknown_app">Egy ismeretlen alkalmazás</string>
+    <string name="v7_preference_off">KI</string>
+    <string name="v7_preference_on">BE</string>
+    <string name="waiting_for_contact_to_scan">Várakozás a kapcsolat szkennelésére és a csatlakozásra…</string>
+    <string name="warning_dozed">%s nem tud futni a háttérben</string>
+</resources>

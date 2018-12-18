@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.briarproject.briar.android.view.BriarRecyclerView android:id="@id/forumList" android:layout_width="fill_parent" android:layout_height="fill_parent" app:emptyAction="@string/no_forums_action" app:emptyImage="@drawable/ic_empty_state_forum_list" app:emptyText="@string/no_forums" app:layout_behavior="org.briarproject.briar.android.view.BriarRecyclerViewBehavior"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

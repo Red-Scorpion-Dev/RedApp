@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">پیمایش به صفحه اصلی</string>
+    <string name="abc_action_bar_up_description">پیمایش به بالا</string>
+    <string name="abc_action_menu_overflow_description">گزینه‌های بیشتر</string>
+    <string name="abc_action_mode_done">تمام</string>
+    <string name="abc_activity_chooser_view_see_all">مشاهده همه</string>
+    <string name="abc_activitychooserview_choose_application">انتخاب برنامه</string>
+    <string name="abc_capital_off">خاموش</string>
+    <string name="abc_capital_on">روشن</string>
+    <string name="abc_menu_alt_shortcut_label">‎Alt+‎</string>
+    <string name="abc_menu_ctrl_shortcut_label">‎Ctrl+‎</string>
+    <string name="abc_menu_delete_shortcut_label">delete</string>
+    <string name="abc_menu_enter_shortcut_label">enter</string>
+    <string name="abc_menu_function_shortcut_label">‎Function+‎</string>
+    <string name="abc_menu_meta_shortcut_label">‎Meta+‎</string>
+    <string name="abc_menu_shift_shortcut_label">‎Shift+‎</string>
+    <string name="abc_menu_space_shortcut_label">کلید فاصله</string>
+    <string name="abc_menu_sym_shortcut_label">‎Sym+‎</string>
+    <string name="abc_prepend_shortcut_label">منو+</string>
+    <string name="abc_search_hint">جستجو…</string>
+    <string name="abc_searchview_description_clear">پاک کردن عبارت جستجو</string>
+    <string name="abc_searchview_description_query">عبارت جستجو</string>
+    <string name="abc_searchview_description_search">جستجو</string>
+    <string name="abc_searchview_description_submit">ارسال عبارت جستجو</string>
+    <string name="abc_searchview_description_voice">جستجوی گفتاری</string>
+    <string name="abc_shareactionprovider_share_with">اشتراک‌گذاری با</string>
+    <string name="abc_shareactionprovider_share_with_application">اشتراک‌گذاری با %s</string>
+    <string name="abc_toolbar_collapse_description">کوچک کردن</string>
+    <string name="accept">پذیرفتن</string>
+    <string name="activity_share_toolbar_header">انتخاب مخاطبان</string>
+    <string name="add_contact_title">افزودن مخاطب</string>
+    <string name="allow">اجازه دادن</string>
+    <string name="authenticating_with_device">تصدیق سازی با دستگاه u2026</string>
+    <string name="blogs_blog_post_created">پست بلاگ ایجاد شد</string>
+    <string name="blogs_blog_post_received">پست جدید بلاگ دریافت شد</string>
+    <string name="blogs_blog_post_scroll_to">حرکت به</string>
+    <string name="blogs_blog_removed">بلاگ حذف شد</string>
+    <string name="blogs_button">بلاگ ها</string>
+    <string name="blogs_feed_empty_state">هیچ پستی برای نشان دادن وجود ندارد</string>
+    <string name="blogs_feed_empty_state_action">پست های مربوط به مخاطبان و بلاگ هایی که مشترک آن ها هستید اینجا ظاهر خواهند شد برای نوشتن یک پست روی آیکون خودکار کلیک کنید</string>
+    <string name="blogs_other_blog_empty_state">هیچ پستی برای نشان دادن وجود ندارد</string>
+    <string name="blogs_publish_blog_post">انتشار</string>
+    <string name="blogs_reblog_button">ریبلاگ</string>
+    <string name="blogs_reblog_comment_hint">افزودن یک کامنت (اختیاری)</string>
+    <string name="blogs_remove_blog">حذف بلاگ</string>
+    <string name="blogs_remove_blog_dialog_message">آیا اطمینان دارید که میخواهید این بلاگ را حذف کنید؟ پست ها از روی دستگاه شما حذف خواهند شد اما از روی دستگاه سایر افراد حذف نخواهد شد. هر مخاطبی که شما این بلاگ را با آن ها به اشتراک گذاشته اید ممکن است از این به بعد آپدیتی دریافت نکند.</string>
+    <string name="blogs_remove_blog_ok">حذف</string>
+    <string name="blogs_rss_feeds_import">وارد کردن خوراک RSS</string>
+    <string name="blogs_rss_feeds_import_button">وارد کردن</string>
+    <string name="blogs_rss_feeds_import_error">متاسفیم! وارد کردن خوراک شما با خطا مواجه شده است.</string>
+    <string name="blogs_rss_feeds_import_hint">آدرس خوراک RSS را وارد کنید</string>
+    <string name="blogs_rss_feeds_manage">مدیریت خوراک های RSS</string>
+    <string name="blogs_rss_feeds_manage_author">نویسنده:</string>
+    <string name="blogs_rss_feeds_manage_delete_error">خوراک نمی تواند پاک شود!</string>
+    <string name="blogs_rss_feeds_manage_empty_state">هیچ خوراک RSS برای نمایش وجود ندارد برای وارد کردن خوراک روی آیکون + کلیک کنید</string>
+    <string name="blogs_rss_feeds_manage_error">مشکلی با بارگذاری فیدهای شما وجود داشت. لطفا بعدا امتحان کنید.</string>
+    <string name="blogs_rss_feeds_manage_imported">وارد شده:</string>
+    <string name="blogs_rss_feeds_manage_updated">آخرین به روز رسانی:</string>
+    <string name="blogs_rss_remove_feed">حذف فید</string>
+    <string name="blogs_rss_remove_feed_dialog_message">آیا مطمئن هستید که میخواهید این خوراک را حذف کنید؟ پست ها از دستگاه شما پاک خواهند شد اما روی دستگاه سایر افراد باقی خواهند ماند هر مخاطبی که با آن این خوراک را به اشتراک گذاشته اید ممکن است دیگر آپدیت دریافت نکند.</string>
+    <string name="blogs_rss_remove_feed_ok">حذف</string>
+    <string name="blogs_sharing_button">به اشتراک گذاری بلاگ</string>
+    <string name="blogs_sharing_declined_toast">دعوت نامه رد شد</string>
+    <string name="blogs_sharing_error">خطایی با اشتراک گذاری این بلاگ وجود داشت.</string>
+    <string name="blogs_sharing_invitation_received">%1$s بلاگ \"%2$s\" را با شما به اشتراک گذاشت.</string>
+    <string name="blogs_sharing_invitation_sent">شما بلاگ \"%1$s\" را با %2$s به اشتراک گذاشته اید.</string>
+    <string name="blogs_sharing_invitations_title">دعوت نامه های بلاگ</string>
+    <string name="blogs_sharing_joined_toast">به اشتراک بلاگ درآمد</string>
+    <string name="blogs_sharing_response_accepted_received">%sدعوت نامه بلاگ را پذیرفت.</string>
+    <string name="blogs_sharing_response_accepted_sent">شما دعوت نامه بلاگ از طرف %s را پذیرفتید.</string>
+    <string name="blogs_sharing_response_declined_received">%s دعوت نامه بلاگ را رد کرد.</string>
+    <string name="blogs_sharing_response_declined_sent">شما دعوت نامه بلاگ از %s را رد کردید.</string>
+    <string name="blogs_sharing_share">به اشتراک گذاری بلاگ</string>
+    <string name="blogs_sharing_snackbar">بلاگ با مخاطبان انتخاب شده به اشتراک گذاشته شد</string>
+    <string name="blogs_write_blog_post">نوشتن پست بلاگ</string>
+    <string name="blogs_write_blog_post_body_hint">پست بلاگ خود را بنویسید</string>
+    <string name="bluetooth_setting">اتصال از طریق بلوتوث</string>
+    <string name="bluetooth_setting_disabled">فقط در هنگام افزودن مخاطبان</string>
+    <string name="bluetooth_setting_enabled">هر زمانی که مخاطبان نزدیک هستند</string>
+    <string name="briar_crashed">متاسفیم، RedApp از کار افتاده است.</string>
+    <string name="btn_reply">پاسخ</string>
+    <string name="camera_error">خطای دوربین</string>
+    <string name="cancel">لغو</string>
+    <string name="cannot_load_ringtone">ناتوانی در بارگذاری رینگتون</string>
+    <string name="change_password">تغییر رمز عبور</string>
+    <string name="choose_forum_hint">انتخاب یک نام برای فروم</string>
+    <string name="choose_new_password">رمز عبور جدید</string>
+    <string name="choose_nickname">نام مستعار خود را انتخاب کنید</string>
+    <string name="choose_password">رمز عبور خود را انتخاب کنید</string>
+    <string name="choose_ringtone_title">انتخاب رینگتون</string>
+    <string name="close">بستن</string>
+    <string name="confirm_new_password">تائید رمز جدید</string>
+    <string name="confirm_password">رمز عبور خود را تایید کنید</string>
+    <string name="connecting_to_device">اتصال به دستگاهu2026</string>
+    <string name="connection_error_explanation">لطفا مطمئن شوید که هردو شما به شبکه وای فای یکسان متصل هستید.</string>
+    <string name="connection_error_feedback">اگر این مشکل ادامه پیدا کرد، لطفا <a href="feedback">بازخورد ارسال کنید</a> تا به ما در ارتقاء برنامه کمک کنید.</string>
+    <string name="connection_error_title">اتصال به مخاطب شما برقرار نشد</string>
+    <string name="contact_added_toast">مخاطب اضافه شد: %s</string>
+    <string name="contact_already_exists">مخاطب %s از قبل وجود دارد</string>
+    <string name="contact_deleted_toast">مخاطب حذف شد</string>
+    <string name="contact_list_button">مخاطبین</string>
+    <string name="contacts_selected">مخاطبان انتخاب شدند</string>
+    <string name="continue_button">ادامه</string>
+    <string name="could_not_load_report_data">امکان بارگذاری داده های گزارش وجود ندارد.</string>
+    <string name="crash_report_title">گزارش خطای RedApp</string>
+    <string name="create_account_button">ایجاد حساب کاربری</string>
+    <string name="create_forum_button">ایجاد فروم</string>
+    <string name="create_forum_title">ایجاد فروم</string>
+    <string name="create_new_account">لازم است تا یک حساب کاربری جدید ایجاد کنید، می توانید از نام مستعار یکسان برای حساب های کاربری استفاده کنید.</string>
+    <string name="current_password">رمز عبور فعلی</string>
+    <string name="date_no_private_messages">هیچ پیامی موجود نیست</string>
+    <string name="decline">رد کردن</string>
+    <string name="delete">حذف</string>
+    <string name="delete_contact">حذف مخاطب</string>
+    <string name="describe_crash">توضیح دهید چه اتفاقی افتاد (اختیاری)</string>
+    <string name="dev_report_saved">گزارش ذخیره شد. دفعه بعدی که وارد RedApp شدید فرستاده خواهد شد.</string>
+    <string name="dialog_button_leave">ترک</string>
+    <string name="dialog_message_connect_panic_app">آیا مطمئن هستید که میخواهید به %1$s اجازه دهید تا باعث عملیات مخرب دکمه هراس بشود؟</string>
+    <string name="dialog_message_delete_contact">آیا مطمئن هستید که میخواهید این مخاطب و تمام پیام های تبادل شده با آن را حذف کنید؟</string>
+    <string name="dialog_message_leave_forum">آیا اطمینان دارید که میخواهید این فروم را ترک کنید؟ هر مخاطبی که این فروم را با آنها به اشتراک گذاشته اید ممکن است آپدیت دیگری دریافت نکند.</string>
+    <string name="dialog_message_lost_password">حساب کاربری RedApp شما به صورت رمزنگاری شده روی سیستم شما به جای حافظه ابری ذخیره شده است برای همین ما نمی توانیم رمز عبور شما را به صورت مجدد تنظیم کنیم. آیا مایل هستید تا حساب کاربری شما را پاک کنیم و دوباره از ابتدا شروع کنیم؟ اخطار: هویت های شما، مخاطبان شما و پیام های شما برای همیشه از بین خواهند رفت.</string>
+    <string name="dialog_title_connect_panic_app">تایید برنامه هراس</string>
+    <string name="dialog_title_delete_contact">تایید حذف مخاطب</string>
+    <string name="dialog_title_leave_forum">تأیید ترک فروم</string>
+    <string name="dialog_title_lost_password">رمز عبور گمشده</string>
+    <string name="display_settings_title">نمایش</string>
+    <string name="don_t_ask_again">دیگر نپرس</string>
+    <string name="download_briar">برای اینکه به استفاده خود از RedApp ادامه دهید، لطفا نسخه ۱.۰ را دانلود کنید.</string>
+    <string name="download_briar_button">دانلود RedApp 1.0</string>
+    <string name="ellipsis">…</string>
+    <string name="enter_feedback">بازخورد خود را وارد کنید</string>
+    <string name="enter_password">رمز عبور</string>
+    <string name="exchanging_contact_details">تبادیل جزییات مخاطبu2026</string>
+    <string name="expand_button_title">پیشرفته</string>
+    <string name="expiry_date_reached">این نرم افزار منقضی شده است. بابت تست از شما سپاسگزاریم.</string>
+    <string name="expiry_update">تاریخ اتمام آزمایش افزایش یافته است. حساب کاربری شما در %d روز آینده به پایان می رسد.</string>
+    <string name="face_to_face">برای اضافه کردن فرد به عنوان مخاطب باید با او به صورت حضوری ملاقات کنید. این از جعل هویت شما و یا از خوانده شدن پیام هایتان در آینده جلوگیری خواهد کرد.</string>
+    <string name="feedback_settings_title">بازخورد</string>
+    <string name="feedback_title">بازخورد</string>
+    <string name="fix">اصلاح</string>
+    <string name="forgotten_password">رمز عبور را فراموش کرده ام</string>
+    <string name="forum_created_toast">فروم ایجاد شد</string>
+    <string name="forum_declined_toast">دعوت نامه رد شد</string>
+    <string name="forum_invitation_already_sharing">در حال به اشتراک گذاری</string>
+    <string name="forum_invitation_exists">شما دعوت به این فروم را پذیرفته بودید. پذیرفتن دعوت نامه های بیشتر باعث می شود تا اتصال شما به فروم سریع تر و قابل اطمینان تر شود.</string>
+    <string name="forum_invitation_received">%1$s فروم \"%2$s\" را با شما به اشتراک گذاشته است.</string>
+    <string name="forum_invitation_response_accepted_received">%s دعوت نامه فروم را پذیرفت.</string>
+    <string name="forum_invitation_response_accepted_sent">شما دعوت نامه فروم از %s را پذیرفتید.</string>
+    <string name="forum_invitation_response_declined_received">%s دعوت نامه فروم را رد کرد.</string>
+    <string name="forum_invitation_response_declined_sent">شما دعوت نامه فروم از %s را رد کردید.</string>
+    <string name="forum_invitation_sent">شما فروم \"%1$s\" را با %2$s به اشتراک گذاشتید.</string>
+    <string name="forum_invitations_title">دعوت نامه های فروم</string>
+    <string name="forum_joined_toast">عضو فروم شد</string>
+    <string name="forum_leave">ترک فروم</string>
+    <string name="forum_left_toast">فروم را ترک کرد</string>
+    <string name="forum_message_reply_hint">پاسخ جدید</string>
+    <string name="forum_new_entry_posted">پست فروم انتشار یافت</string>
+    <string name="forum_new_message_hint">پست جدید</string>
+    <string name="forum_share_button">اشتراک گذاری فروم</string>
+    <string name="forum_share_error">خطایی با اشتراک گذاری این فروم رخ داد</string>
+    <string name="forum_share_message">افزودن یک پیام (اختیاری)</string>
+    <string name="forum_shared_snackbar">فروم با مخاطبان انتخاب شده به اشتراک گذاشته شد</string>
+    <string name="forums_button">تالار های گفتمان</string>
+    <string name="got_it">متوجه شدم</string>
+    <string name="groups_button">گروه های خصوصی</string>
+    <string name="groups_create_group_button">ایجاد گروه</string>
+    <string name="groups_create_group_hint">یک نام برای گروه شخصی خود انتخاب کنید</string>
+    <string name="groups_create_group_invitation_button">ارسال دعوت نامه</string>
+    <string name="groups_create_group_title">ایجاد گروه خصوصی</string>
+    <string name="groups_created_by">ایجاد شده توسط %s</string>
+    <string name="groups_dissolve">انحلال گروه</string>
+    <string name="groups_dissolve_button">انحلال</string>
+    <string name="groups_dissolve_dialog_message">آیا از انحلال این گروه اطمینان دارید؟ سایر اعضاء قادر نخواهند بود تا مکالمات خود را ادامه دهند و ممکن است آخرین پیام ها را دریافت نکنند.</string>
+    <string name="groups_dissolve_dialog_title">تایید انحلال گروه</string>
+    <string name="groups_dissolved_dialog_message">ایجاد کننده این گروه آن را منحل کرده است. شما از این به بعد قادر نخواهید بود پیام های دیگری در گروه بنویسید و ممکن است تمام پست هایی که نوشته شده اند را دریافت نکنید.</string>
+    <string name="groups_dissolved_dialog_title">گروه منحل شد</string>
+    <string name="groups_group_is_dissolved">این گروه منحل شده است</string>
+    <string name="groups_group_is_empty">این گروه خالی می باشد</string>
+    <string name="groups_invitation_sent">دعوت نامه گروه فرستاده شد</string>
+    <string name="groups_invitations_declined">دعوت نامه گروه رد شد</string>
+    <string name="groups_invitations_invitation_received">%1$s شما را دعوت کرده تا عضو گروه \"%2$s\" شوید.</string>
+    <string name="groups_invitations_invitation_sent">شما %1$s را برای عضویت به گروه \"%2$s\" دعوت کردید.</string>
+    <string name="groups_invitations_joined">عضو گروه شد</string>
+    <string name="groups_invitations_response_accepted_received">%sدعوت نامه گروه را پذیرفت.</string>
+    <string name="groups_invitations_response_accepted_sent">شما دعوت نامه گروه از %s را پذیرفتید.</string>
+    <string name="groups_invitations_response_declined_received">%s دعوت نامه گروه را رد کرد.</string>
+    <string name="groups_invitations_response_declined_sent">شما دعوت نامه گروه از %s را رد کردید.</string>
+    <string name="groups_invitations_title">دعوت نامه های گروه</string>
+    <string name="groups_invite_members">دعوت اعضا</string>
+    <string name="groups_leave">ترک گروه</string>
+    <string name="groups_leave_dialog_message">مطمئن هستید که میخواهید این گروه را ترک کنید؟</string>
+    <string name="groups_leave_dialog_title">تایید ترک گروه</string>
+    <string name="groups_list_empty">هیچ گروهی برای نمایش وجود ندارد</string>
+    <string name="groups_list_empty_action">برای ایجاد یک گروه روی آیکون + کلیک کنید، یا از مخاطبان خود بخواهید تا گروه های خود را با شما به اشتراک بگذارند</string>
+    <string name="groups_member_created">%s گروه را ایجاد کرد</string>
+    <string name="groups_member_created_you">شما گروه را ایجاد کردید</string>
+    <string name="groups_member_joined">%sعضو گروه شد</string>
+    <string name="groups_member_joined_you">شما به عضویت گروه درآمدید</string>
+    <string name="groups_member_list">لیست اعضا</string>
+    <string name="groups_message_sent">پیام فرستاده شد</string>
+    <string name="groups_remove">حذف</string>
+    <string name="groups_reveal_contacts">نشان دادن مخاطبان</string>
+    <string name="groups_reveal_dialog_message">شما میتوانید مخاطبان را به تمام اعضای فعلی و آینده این گروه نشان دهید. نشان دادن مخاطبان اتصال شما به گروه را سریع تر و قابل اطمینان تر میکند، چراکه میتوانید با مخاطبان نشان داده شده ارتباط برقرار کنید حتی در موقعی که گروه آفلاین می باشد.</string>
+    <string name="groups_reveal_invisible">ارتباط مخاطب برای گروه قابل دیدن نمی باشد</string>
+    <string name="groups_reveal_visible">ارتباط مخاطب برای گروه قابل دیدن می باشد</string>
+    <string name="groups_reveal_visible_revealed_by_contact">ارتباط مخاطب برای گروه قابل یدن می باشد (آشکار شده توسط %s)</string>
+    <string name="groups_reveal_visible_revealed_by_us">ارتباط مخاطب برای گروه قابل دیدن می باشد (آشکار شده توسط شما)</string>
+    <string name="help">راهنما</string>
+    <string name="hide">پنهان کردن</string>
+    <string name="include_debug_report_crash">قرار دادن داده های ناشناس مربوط به خرابی</string>
+    <string name="include_debug_report_feedback">قرار دادن داده های ناشناس درباره این دستگاه</string>
+    <string name="introduction_activity_title">انتخاب مخاطب</string>
+    <string name="introduction_button">معرفی کردن</string>
+    <string name="introduction_error">خطایی در معرفی کردن رخ داده است.</string>
+    <string name="introduction_menu_item">معرفی کردن</string>
+    <string name="introduction_message_hint">افزودن یک پیام (اختیاری)</string>
+    <string name="introduction_message_title">معرفی مخاطبین</string>
+    <string name="introduction_not_possible">شما همین الان یک معرفی در مرحله انجام با این مخاطبان دارید. لطفا اجازه دهید تا این معرفی به پایان برسد. اگر شما و یا مخاطبانتان به ندرت آنلاین هستید، ممکن است کمی زمان ببرد.</string>
+    <string name="introduction_onboarding_text">شما می توانید مخاطبان خود را به یکدیگر معرفی کنید، در این صورت دیگر نیازی به دیدار حضوری برای اتصال روی RedApp نمی باشد.</string>
+    <string name="introduction_onboarding_title">معرفی مخاطبان</string>
+    <string name="introduction_request_answered_received">%1$s میخواهد شما را به %2$s معرفی کند.</string>
+    <string name="introduction_request_exists_received">%1$s مایل است شما را به %2$s معرفی کند، اما %2$s از قبل جزء لیست مخاطبان شما می باشد. از آنجایی که %1$s ممکن است از این موضوع خبر نداشته باشد، شما هم چنان میتوانید پاسخ دهید:</string>
+    <string name="introduction_request_received">%1$s مایل است شما را به %2$s کند. آیا میخواهید %2$s را به لیست مخاطبانتان اضافه کنید؟</string>
+    <string name="introduction_request_sent">شما میخواهید %1$s را به %2$s معرفی کنید.</string>
+    <string name="introduction_response_accepted_received">%1$s معرفی به %2$s را پذیرفت.</string>
+    <string name="introduction_response_accepted_sent">شما معرفی به %1$sرا پذیرفتید.</string>
+    <string name="introduction_response_accepted_sent_info">قبل از اضافه شدن %1$s به مخاطبان شما، آن ها باید معرفی را بپذیرند. این شاید کمی زمان ببرد.</string>
+    <string name="introduction_response_declined_received">%1$s معرفی به %2$s را رد کرد.</string>
+    <string name="introduction_response_declined_received_by_introducee">%1$s می گوید که %2$s دعوت نامه را رد کرد.</string>
+    <string name="introduction_response_declined_sent">شما معرفی به %1$sرا رد کردید.</string>
+    <string name="introduction_response_error">خطا در هنگام پاسخ به معرفی</string>
+    <string name="introduction_sent">معرفی شما فرستاده شد.</string>
+    <string name="link_warning_intro">با باز کردن لینک زیر شما یک برنامه بیرونی را باز خواهید کرد.</string>
+    <string name="link_warning_open_link">باز کردن لینک</string>
+    <string name="link_warning_text">این می تواند برای شناسایی شما مورد استفاده قرار بگیرد. قبل از باز کردن آن به قابل اطمینان بودن شخصی که آن را برای شما ارسال کرده فکر کنید و بعد برای احتیاط آن را با Orfox باز کنید.</string>
+    <string name="link_warning_title">هشدار لینک</string>
+    <string name="lock_button">قفل کردن برنامه</string>
+    <string name="lock_is_locked">RedApp قفل می باشد</string>
+    <string name="lock_tap_to_unlock">برای آنلاک کردن کلیک کنید</string>
+    <string name="lock_unlock">آنلاک کردن RedApp</string>
+    <string name="lock_unlock_fingerprint_description">برای ادامه سنسور اثر انگشت را با انگشت ثبت شده تان لمس کنید</string>
+    <string name="lock_unlock_password">از رمز عبور استفاده کنید</string>
+    <string name="lock_unlock_verbose">PIN، الگو یا رمز عبور دستگاه خود را برای آنلاک کردن RedApp وارد کنید</string>
+    <string name="message_hint">نوشتن پیام</string>
+    <string name="more_info">اطلاعات بیشتر</string>
+    <string name="name_too_long">نام بیش از حد طولانی می باشد</string>
+    <string name="nav_drawer_close_description">بستن منوی برنامه</string>
+    <string name="nav_drawer_open_description">باز کردن منوی برنامه</string>
+    <string name="network_settings_title">شبکه ها</string>
+    <string name="no_contacts">هیچ مخاطبی برای نمایش وجود ندارد</string>
+    <string name="no_contacts_action">برای افزودن مخاطب روی + کلیک کنید</string>
+    <string name="no_contacts_selector">هیچ مخاطبی برای نمایش وجود ندارد</string>
+    <string name="no_contacts_selector_action">لطفا بعد از افزودن یک مخاطب به اینجا برگردید</string>
+    <string name="no_data">داده ای موجود نمی باشد</string>
+    <string name="no_forum_posts">هیچ پستی برای نشان دادن وجود ندارد</string>
+    <string name="no_forums">هیچ فرومی برای نمایش وجود ندارد</string>
+    <string name="no_forums_action">برای ایجاد یک فروم روی آیکون + کلیک کنید، یا از مخاطبان خود بخواهید تا فروم های خود را با شما به اشتراک بگذارند</string>
+    <string name="no_posts">هیچ پستی وجود ندارد</string>
+    <string name="no_private_messages">هیچ پیامی برای نشان دادن وجود ندارد</string>
+    <string name="nobody">هیچکس</string>
+    <string name="not_your_fault">این تقصیر شما نیست.</string>
+    <string name="notification_settings_title">نوتیفیکیشن ها</string>
+    <string name="notify_blog_posts_setting_summary">نمایش هشدار برای پست های بلاگ</string>
+    <string name="notify_blog_posts_setting_summary_26">تنظیم هشدار برای پست های بلاگ</string>
+    <string name="notify_blog_posts_setting_title">پست های بلاگ</string>
+    <string name="notify_forum_posts_setting_summary">نمایش هشدار برای پست های تالار گفتمان</string>
+    <string name="notify_forum_posts_setting_summary_26">تنظیم هشدار برای پست های تالار گفتمان</string>
+    <string name="notify_forum_posts_setting_title">پست های تالار گفتمان</string>
+    <string name="notify_group_messages_setting_summary">نمایش هشدار برای پیام های گروه</string>
+    <string name="notify_group_messages_setting_summary_26">تنظیم هشدار برای پیام های گروه</string>
+    <string name="notify_group_messages_setting_title">پیام های گروه</string>
+    <string name="notify_private_messages_setting_summary">نمایش هشدار برای پیام های خصوصی</string>
+    <string name="notify_private_messages_setting_summary_26">تنظیم هشدار برای پیام های شخصی</string>
+    <string name="notify_private_messages_setting_title">پیام های خصوصی</string>
+    <string name="notify_sign_in_summary">زمانی که برنامه آپدیت شده یا استارت تلفن خورده است یک تذکر بده</string>
+    <string name="notify_sign_in_title">به من یاد آوری کن تا دوباره وارد شوم</string>
+    <string name="notify_sound_setting">صدا</string>
+    <string name="notify_sound_setting_default">رینگتون پیش فرض</string>
+    <string name="notify_sound_setting_disabled">هیچکدام</string>
+    <string name="notify_vibration_setting">لرزش</string>
+    <string name="now">هم اکنون</string>
+    <string name="offline">آفلاین</string>
+    <string name="ok">تأیید</string>
+    <string name="ongoing_notification_text">برای باز کردن RedApp کلیک کنید.</string>
+    <string name="ongoing_notification_title">وارد RedApp شد</string>
+    <string name="online">آنلاین</string>
+    <string name="open">باز کردن</string>
+    <string name="optional_contact_email">آدرس ایمیل شما (اختیاری)</string>
+    <string name="options">گزینه ها</string>
+    <string name="panic_app_setting_none">هیچکدام</string>
+    <string name="panic_app_setting_summary">هیچ برنامه تنظیم نشده است</string>
+    <string name="panic_app_setting_title">برنامه دکمه هراس</string>
+    <string name="panic_setting">برپایی دکمه هراس</string>
+    <string name="panic_setting_destructive_action">فعالیت های مخرب</string>
+    <string name="panic_setting_hint">تنظیم نحوه واکنش RedApp هنگام فعال سازی دکمه هراس</string>
+    <string name="panic_setting_signout_summary">در صورت کلیک بر روی کلید هراس از RedApp خارج شو</string>
+    <string name="panic_setting_signout_title">خروج</string>
+    <string name="panic_setting_title">دکمه هراس</string>
+    <string name="password_changed">رمز عبور تغییر کرده است</string>
+    <string name="password_too_weak">رمز عبور ضعیف می باشد</string>
+    <string name="passwords_do_not_match">رمز های عبور مطابقت ندارند</string>
+    <string name="permission_camera_denied_body">شما دسترسی به دوربین را رد کرده اید، اما افزودن مخاطب نیاز به دوربین دارد. لطفا اجازه دسترسی را بدهید.</string>
+    <string name="permission_camera_request_body">برای اسکن کردن کد QR دسترسی به دوربین لازم است.</string>
+    <string name="permission_camera_title">دسترسی به دوربین</string>
+    <string name="please_send_report">لطفا با فرستادن گزارش خطا به ما کمک کنید تا RedApp را بهتر کنیم.</string>
+    <string name="pref_language_changed">این تنظیمات زمانی که RedApp را ری استارت کنید تاثیر خود را می گذارند. لطفا خارج شوید و RedApp را ری استارت کنید.</string>
+    <string name="pref_language_default">پیش فرض سیستم</string>
+    <string name="pref_language_title">زبان و منطقه</string>
+    <string name="pref_lock_disabled_summary">برای استفاده از این ویژگی، قفل صفحه را برای دستگاه خود برپا کنید</string>
+    <string name="pref_lock_summary">استفاده از قفل صفحه دستگاه به منظور محافظت از RedApp در هنگام استفاده از آن</string>
+    <string name="pref_lock_timeout_1">1 دقیقه</string>
+    <string name="pref_lock_timeout_15">15 دقیقه</string>
+    <string name="pref_lock_timeout_30">30 دقیقه</string>
+    <string name="pref_lock_timeout_5">۵ دقیقه</string>
+    <string name="pref_lock_timeout_60">۱ ساعت</string>
+    <string name="pref_lock_timeout_never">هرگز</string>
+    <string name="pref_lock_timeout_never_summary">هیچوقت RedApp را به صورت خودکار قفل نکن</string>
+    <string name="pref_lock_timeout_summary">زمانی که از RedApp استفاده نمی شود، به صورت خودکار بعد از %s آن را قفل کن</string>
+    <string name="pref_lock_timeout_title">اتمام وقت عدم فعالیت قفل صفحه</string>
+    <string name="pref_lock_title">قفل برنامه</string>
+    <string name="pref_theme_auto">خودکار ( روز)</string>
+    <string name="pref_theme_dark">تاریک</string>
+    <string name="pref_theme_light">روشن</string>
+    <string name="pref_theme_system">پیش فرض سیستم</string>
+    <string name="pref_theme_title">قالب</string>
+    <string name="progress_title_logout">خروج از RedApp ...</string>
+    <string name="purge_setting_summary">پاک کردن حساب کاربری RedApp شما در صورتی که دکمه هراس فشار داده شود. اخطار: این باعث پاک شدن دائمی تمام هویت ها، مخاطبان و پیام های شما خواهد شد</string>
+    <string name="purge_setting_title">حذف حساب کاربری</string>
+    <string name="qr_code">کد QR</string>
+    <string name="qr_code_invalid">کد QR نامعتبر می باشد</string>
+    <string name="qr_code_too_new">کد QR که شما اسکن کرده اید متعلق به یک نسخه جدید از %s می باشد. لطفا به آخرین نسخه آپگرید کرده و دوباره تلاش کنید.</string>
+    <string name="qr_code_too_old">کد QR که شما اسکن کرده اید متعلق به یک نسخه قدیمی از %s می باشد. لطفا از مخاطب خود بخواهید تا به آخرین نسخه آپگرید کرده و دوباره تلاش کنید.</string>
+    <string name="read_more">بیشتر بخوانید</string>
+    <string name="reminder_notification_channel_title">یادآور ورود RedApp</string>
+    <string name="reminder_notification_dismiss">رد کردن</string>
+    <string name="reminder_notification_text">برای وارد شدن دوباره کلیک کنید.</string>
+    <string name="reminder_notification_title">از RedApp خارج شد</string>
+    <string name="report_is_encrypted">به شما اطمینان می دهیم که گزارش شما رمزنگاری شده و به صورت امن فرستاده می شود.</string>
+    <string name="screen_filter_allow">به این برنامه ها اجازه بده تا روی RedApp قرار بگیرند</string>
+    <string name="screen_filter_body">برنامه ای دیگری روی RedApp قرار گرفته است. برای حفاظت از امنیت شما، RedApp پاسخگو به لمس های صفحه نمایش تا زمانی که برنامه دیگری بالای آن قرار دارد نخواهد بود. این برنامه ها ممکن است روی RedApp قرار گرفته باشند: %1$s</string>
+    <string name="screen_filter_title">قرارگیری روی صفحه شناسایی شد</string>
+    <string name="screenshot_alice">آلیس</string>
+    <string name="screenshot_bob">باب</string>
+    <string name="screenshot_carol">کارول</string>
+    <string name="screenshot_message_1">هی باب!</string>
+    <string name="screenshot_message_2">هی آلیس! ممنون از اینکه درباره RedApp به من گفتی!</string>
+    <string name="screenshot_message_3">خواهش میکنم، امیدوارم ازش خوشت بیاد 😀</string>
+    <string name="search_menu_title">جستجو</string>
+    <string name="security_settings_title">امنیت</string>
+    <string name="send">ارسال</string>
+    <string name="send_feedback">ارسال بازخورد</string>
+    <string name="send_report">ارسال گزارش</string>
+    <string name="set_alias_button">تغییر</string>
+    <string name="settings_button">تنظیمات</string>
+    <string name="setup_doze_button">دادن اجازه به اتصالات</string>
+    <string name="setup_doze_explanation">برای دریافت پیام، RedApp نیاز دارد تا در پس زمینه اتصال داشته باشد. لطفا بهینه سازی باتری را غیر فعال کنید تا RedApp بتواند به اتصال خود ادامه دهد.</string>
+    <string name="setup_doze_intro">برای دریافت پیام، RedApp نیاز دارد تا در پس زمینه اتصال داشته باشد.</string>
+    <string name="setup_doze_title">اتصال های پس زمینه</string>
+    <string name="setup_huawei_button">حفاظت از RedApp</string>
+    <string name="setup_huawei_help">اگر RedApp به فهرست برنامه های محافظت شده اضافه نشده، نمی تواند در پس زمینه مشغول به کار باشد.</string>
+    <string name="setup_huawei_text">لطفا روی دکمه زیر کلیک کنید و مطمئن شوید که از RedApp در صفحه \"برنامه های محافظت شده\" محافظت می شود.</string>
+    <string name="setup_name_explanation">نام مستعارتان کنار هر مطلب شما قرار خواهد گرفت و بعد از ایجاد حساب کاربری امکان تغییر آن وجود ندارد.</string>
+    <string name="setup_next">بعدی</string>
+    <string name="setup_password_explanation">حساب کاربری RedApp شما به صورت رمزگذاری شده روی دستگاه شما به جای حافظه ابری ذخیره شده است. اگر شما رمز عبور خود را فراموش کنید یا RedApp را پاک کنید، راهی برای بازیابی حساب کاربری شما وجود نخواهد داشت. یک رمز عبور طولانی انتخاب کنید که حدس آن سخت باشد، مثل چهار عبارت تصادفی یا ده لغت تصادفی با اعداد و نماد ها.</string>
+    <string name="setup_password_intro">یک رمز عبور انتخاب کنید</string>
+    <string name="setup_title">به RedApp خوش آمدید</string>
+    <string name="shared_by_format">به اشتراک گذاشته شده توسط %s</string>
+    <string name="shared_with">به اشتراک گذاشته شده با %1$d (%2$d نفر آنلاین)</string>
+    <string name="sharing_status">به اشتراک گذاری وضعیت</string>
+    <string name="sharing_status_blog">هرکسی که به اشتراک یک بلاگ در بیاید می تواند آن را با مخاطبان خود به اشتراک بگذارد. شما این بلاگ را با مخاطبان زیر به اشتراک میگذارید. ممکن است مشترکان دیگری هم باشند که شما نتوانید آن ها را ببینید.</string>
+    <string name="sharing_status_forum">هر عضو فروم می تواند آن را با دیگر مخاطبان خود به اشتراک بگذارد. شما این فروم را با مخاطبان زیر به اشتراک می گذارید. ممکن است اعضای دیگری هم باشند که شما نمی توانید آن ها را ببینید.</string>
+    <string name="sharing_status_groups">فقط سازنده گروه می تواند اعضای جدید را به گروه دعوت کند. در پایین تمام اعضای فعلی گروه آمده است.</string>
+    <string name="show">نمایش</string>
+    <string name="show_onboarding">نمایش پنجره راهنما</string>
+    <string name="show_qr_code_fullscreen">نمایش کد QR به صورت فول اسکرین</string>
+    <string name="sign_in_button">ورود</string>
+    <string name="sign_out_button">خروج</string>
+    <string name="sorry">متاسفم</string>
+    <string name="startup_failed_activity_title">خطا در شروع RedApp</string>
+    <string name="startup_failed_data_too_new_error">این نسخه از برنامه قدیمی می باشد. لطفا به آخرین نسخه از برنامه ارتقاء داده و دوباره سعی کنید.</string>
+    <string name="startup_failed_data_too_old_error">حساب کاربری شما با یک نسخه قدیمی از این برنامه ایجاد شده است و به همین خاطربا این نسخه نمی تواند باز شود. شما باید نسخه قدیمی را دوباره نصب کنید یا یک حساب کاربری جدید با \"رمز عبور ام را فراموش کرده ام\" در صفحه ی رمز عبور ایجاد کنید.</string>
+    <string name="startup_failed_db_error">"به دلایلی، دیتابیس RedApp  شما خراب شده و قابل اصلاح نیست. حساب کاربری شما، داده های شما و تمام مخاطبان شما از بین رفته اند. متاسفانه، شما یا باید RedApp  را دوباره نصب کنید یا یک حساب کاربری جدید با انتخاب 'رمز عبور ام را فراموش کرده ام' انتخاب کنید."</string>
+    <string name="startup_failed_notification_text">برای اطلاعات بیشتر کلیک کنید</string>
+    <string name="startup_failed_notification_title">RedApp نمی تواند شروع به کار کند.</string>
+    <string name="startup_failed_service_error">RedApp نمی تواند یک پلاگین ضروری را اجراء کند. نصب دوباره RedApp معمولا این مشکل را حل میکند. هرچند، توجه داشته باشید که حساب کاربری و تمام داده های مرتبط با آن را از دست خواهید داد از آنجایی که RedApp از هیچ سرور مرکزی برای ذخیره داده های شما استفاده نمی کند.</string>
+    <string name="startup_migrate_database">به روز رسانی سیستم ...</string>
+    <string name="startup_open_database">رمزگشایی سیستم ...</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="summary_collapsed_preference_list">%1$s، %2$s</string>
+    <string name="text_too_long">متن وارد شده بیش از حد طولانی می باشد</string>
+    <string name="tor_mobile_data_title">استفاده از داده موبایل</string>
+    <string name="tor_network_setting">اتصال از طریق اینترنت (تور)</string>
+    <string name="tor_network_setting_automatic">اتوماتیک مبتنی بر مکان</string>
+    <string name="tor_network_setting_never">وصل نشو</string>
+    <string name="tor_network_setting_summary">خودکار: %1$s(در %2$s)</string>
+    <string name="tor_network_setting_with_bridges">استفاده از تور با بریج</string>
+    <string name="tor_network_setting_without_bridges">استفاده از تور بدون بریج</string>
+    <string name="transport_bt">بلوتوث</string>
+    <string name="transport_lan">وای فای</string>
+    <string name="transport_tor">اینترنت</string>
+    <string name="try_again">رمز عبور اشتباه است، لطفا دوباره سعی کنید</string>
+    <string name="try_again_button">دوباره سعی کنید</string>
+    <string name="uninstall_setting_summary">این نیازمند تایید دستی در موعد هراس میباشد</string>
+    <string name="uninstall_setting_title">پاک کردن RedApp</string>
+    <string name="unknown_app">یک برنامه ناشناخته</string>
+    <string name="v7_preference_off">خاموش</string>
+    <string name="v7_preference_on">روشن</string>
+    <string name="waiting_for_contact_to_scan">انتظار برای اسکن و اتصال مخاطبu2026</string>
+    <string name="warning_dozed">ناتوانی %s برای اجراء در پس زمینه</string>
+</resources>

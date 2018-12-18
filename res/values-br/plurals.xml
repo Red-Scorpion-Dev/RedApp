@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="blog_post_notification_text">
+        <item quantity="other">%d a bostadennoù blog nevez.</item>
+        <item quantity="one">Postadenn blog nevez.</item>
+        <item quantity="two">%d a bostadennoù blog nevez.</item>
+        <item quantity="few">%d a bostadennoù blog nevez.</item>
+        <item quantity="many">%d a bostadennoù blog nevez.</item>
+    </plurals>
+    <plurals name="forum_post_notification_text">
+        <item quantity="other">%da bostadennoù forom nevez.</item>
+        <item quantity="one">Postadenn forom nevez.</item>
+        <item quantity="two">%da bostadennoù forom nevez.</item>
+        <item quantity="few">%da bostadennoù forom nevez.</item>
+        <item quantity="many">%da bostadennoù forom nevez.</item>
+    </plurals>
+    <plurals name="group_message_notification_text">
+        <item quantity="other">%d a gemennadennoù strollad nevez.</item>
+        <item quantity="one">Kemennadenn strollad nevez.</item>
+        <item quantity="two">%d a gemennadennoù strollad nevez.</item>
+        <item quantity="few">%d a gemennadennoù strollad nevez.</item>
+        <item quantity="many">%d a gemennadennoù strollad nevez.</item>
+    </plurals>
+    <plurals name="introduction_notification_text">
+        <item quantity="other">%d a zarempredoù nevez ouzhpennet.</item>
+        <item quantity="one">Darempred nevez ouzhpennet.</item>
+        <item quantity="two">%d a zarempredoù nevez ouzhpennet.</item>
+        <item quantity="few">%d a zarempredoù nevez ouzhpennet.</item>
+        <item quantity="many">%d a zarempredoù nevez ouzhpennet.</item>
+    </plurals>
+    <plurals name="messages">
+        <item quantity="other">%d a gemennadennoù</item>
+        <item quantity="one">%d kemennadenn</item>
+        <item quantity="two">%d a gemennadennoù</item>
+        <item quantity="few">%d a gemennadennoù</item>
+        <item quantity="many">%d a gemennadennoù</item>
+    </plurals>
+    <plurals name="private_message_notification_text">
+        <item quantity="other">%d a gemennadennoù prevez nevez.</item>
+        <item quantity="one">Kemennadenn prevez nevez</item>
+        <item quantity="two">%d a gemennadennoù prevez nevez.</item>
+        <item quantity="few">%d a gemennadennoù prevez nevez.</item>
+        <item quantity="many">%d a gemennadennoù prevez nevez.</item>
+    </plurals>
+</resources>

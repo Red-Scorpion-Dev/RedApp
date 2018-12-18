@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/forum_item_create_white" android:id="@id/action_write_blog_post" android:visible="false" android:title="@string/blogs_write_blog_post" app:showAsAction="ifRoom" />
+    <item android:icon="@drawable/social_share_white" android:id="@id/action_blog_share" android:title="@string/blogs_sharing_share" app:showAsAction="ifRoom" />
+    <item android:id="@id/action_blog_sharing_status" android:title="@string/sharing_status" app:showAsAction="never" />
+    <item android:icon="@drawable/action_delete_white" android:enabled="false" android:id="@id/action_blog_delete" android:title="@string/blogs_remove_blog" app:showAsAction="never" />
+</menu>

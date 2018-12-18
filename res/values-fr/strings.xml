@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">"Revenir à l'accueil"</string>
+    <string name="abc_action_bar_up_description">Revenir en haut de la page</string>
+    <string name="abc_action_menu_overflow_description">"Plus d'options"</string>
+    <string name="abc_action_mode_done">OK</string>
+    <string name="abc_activity_chooser_view_see_all">Tout afficher</string>
+    <string name="abc_activitychooserview_choose_application">Sélectionner une application</string>
+    <string name="abc_capital_off">DÉSACTIVÉ</string>
+    <string name="abc_capital_on">ACTIVÉ</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">supprimer</string>
+    <string name="abc_menu_enter_shortcut_label">entrée</string>
+    <string name="abc_menu_function_shortcut_label">Fonction+</string>
+    <string name="abc_menu_meta_shortcut_label">Méta+</string>
+    <string name="abc_menu_shift_shortcut_label">Maj+</string>
+    <string name="abc_menu_space_shortcut_label">espace</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Menu+</string>
+    <string name="abc_search_hint">Rechercher…</string>
+    <string name="abc_searchview_description_clear">Effacer la requête</string>
+    <string name="abc_searchview_description_query">Requête de recherche</string>
+    <string name="abc_searchview_description_search">Rechercher</string>
+    <string name="abc_searchview_description_submit">Envoyer la requête</string>
+    <string name="abc_searchview_description_voice">Recherche vocale</string>
+    <string name="abc_shareactionprovider_share_with">Partager avec</string>
+    <string name="abc_shareactionprovider_share_with_application">Partager avec %s</string>
+    <string name="abc_toolbar_collapse_description">Réduire</string>
+    <string name="accept">Accepter</string>
+    <string name="activity_share_toolbar_header">Choisir des contacts</string>
+    <string name="add_contact_title">Ajouter un contact</string>
+    <string name="allow">Autoriser</string>
+    <string name="authenticating_with_device">Autentification avec l’appareil…</string>
+    <string name="blogs_blog_post_created">Le billet de blogue a été créé</string>
+    <string name="blogs_blog_post_received">Un nouvel billet de blogue a été reçu</string>
+    <string name="blogs_blog_post_scroll_to">Atteindre</string>
+    <string name="blogs_blog_removed">Le blogue a été supprimé</string>
+    <string name="blogs_button">Blogues</string>
+    <string name="blogs_feed_empty_state">Aucun billet à afficher</string>
+    <string name="blogs_feed_empty_state_action">"Les billets de vos contacts et les blogues auxquels vous vous abonnez apparaîtront ici.
+
+Touchez l’icône de crayon pour rédiger un billet"</string>
+    <string name="blogs_other_blog_empty_state">Aucun billet à afficher</string>
+    <string name="blogs_publish_blog_post">Publier</string>
+    <string name="blogs_reblog_button">Rebloguer</string>
+    <string name="blogs_reblog_comment_hint">Ajouter un commentaire (facultatif)</string>
+    <string name="blogs_remove_blog">Supprimer le blogue</string>
+    <string name="blogs_remove_blog_dialog_message">"Voulez-vous vraiment supprimer ce blogue ?
+Les billets seront supprimés de votre appareil mais pas des appareils d’autrui.
+
+Les contacts avec qui vous avez partagé ce blogue pourraient ne plus en recevoir les mises à jour."</string>
+    <string name="blogs_remove_blog_ok">Supprimer</string>
+    <string name="blogs_rss_feeds_import">Importer un fil RSS</string>
+    <string name="blogs_rss_feeds_import_button">Importer</string>
+    <string name="blogs_rss_feeds_import_error">Nous sommes désolé ! Une erreur est survenue lors de l’importation de votre fil.</string>
+    <string name="blogs_rss_feeds_import_hint">Saisir l’URL du fil RSS</string>
+    <string name="blogs_rss_feeds_manage">Gérer les fils RSS</string>
+    <string name="blogs_rss_feeds_manage_author">Auteur :</string>
+    <string name="blogs_rss_feeds_manage_delete_error">Impossible de supprimer le fil !</string>
+    <string name="blogs_rss_feeds_manage_empty_state">"Aucun fil RSS à afficher
+
+Touchez l’icône + pour importer un fil"</string>
+    <string name="blogs_rss_feeds_manage_error">Un problème est survenu lors du chargement de vos fils. Veuillez ressayer ultérieurement.</string>
+    <string name="blogs_rss_feeds_manage_imported">Importés :</string>
+    <string name="blogs_rss_feeds_manage_updated">Dernière mise à jour :</string>
+    <string name="blogs_rss_remove_feed">Supprimer le fil</string>
+    <string name="blogs_rss_remove_feed_dialog_message">"Voulez-vous vraiment supprimer ce fil ?
+Les billets seront supprimés de votre appareil mais pas des appareils d’autrui.
+
+Les contacts avec qui vous avez partagé ce fil pourraient ne plus en recevoir les mises à jour."</string>
+    <string name="blogs_rss_remove_feed_ok">Supprimer</string>
+    <string name="blogs_sharing_button">Partager le blogue</string>
+    <string name="blogs_sharing_declined_toast">L’invitation a été refusée</string>
+    <string name="blogs_sharing_error">Une erreur est survenue lors du partage du blogue.</string>
+    <string name="blogs_sharing_invitation_received">%1$s a partagé le blogue « %2$s » avec vous.</string>
+    <string name="blogs_sharing_invitation_sent">Vous avez partagé le blogue « %1$s » avec %2$s.</string>
+    <string name="blogs_sharing_invitations_title">Invitations au blogue</string>
+    <string name="blogs_sharing_joined_toast">Est abonné au blogue</string>
+    <string name="blogs_sharing_response_accepted_received">%s a accepté l’invitation au blogue.</string>
+    <string name="blogs_sharing_response_accepted_sent">Vous avez accepté l’invitation de %s au blogue.</string>
+    <string name="blogs_sharing_response_declined_received">%s a refusé l’invitation au blogue.</string>
+    <string name="blogs_sharing_response_declined_sent">Vous avez refusé l’invitation de %s au blogue.</string>
+    <string name="blogs_sharing_share">Partager le blogue</string>
+    <string name="blogs_sharing_snackbar">Le blogue a été partagé avec les contacts choisis</string>
+    <string name="blogs_write_blog_post">Écrire un billet de blogue</string>
+    <string name="blogs_write_blog_post_body_hint">Tapez votre billet de blogue</string>
+    <string name="bluetooth_setting">Se connecter par Bluetooth</string>
+    <string name="bluetooth_setting_disabled">Uniquement lors de l’ajout de contacts</string>
+    <string name="bluetooth_setting_enabled">Lorsque des contacts sont à proximité</string>
+    <string name="briar_crashed">Désolé, RedApp a planté.</string>
+    <string name="btn_reply">Répondre</string>
+    <string name="camera_error">Erreur de l’appareil photo</string>
+    <string name="cancel">Annuler</string>
+    <string name="cannot_load_ringtone">Impossible de charger la sonnerie</string>
+    <string name="change_password">Changer le mot de passe</string>
+    <string name="choose_forum_hint">Choisir un nom pour votre forum</string>
+    <string name="choose_new_password">Nouveau mot de passe</string>
+    <string name="choose_nickname">Choisir votre pseudonyme</string>
+    <string name="choose_password">Choisir votre mot de passe</string>
+    <string name="choose_ringtone_title">Choisir une sonnerie</string>
+    <string name="close">Fermer</string>
+    <string name="confirm_new_password">Confirmer le nouveau mot de passe</string>
+    <string name="confirm_password">Confirmer votre mot de passe</string>
+    <string name="connecting_to_device">Connexion à l’appareil…</string>
+    <string name="connection_error_explanation">Veuillez vérifier que vous êtes connecté au même réseau Wi-Fi.</string>
+    <string name="connection_error_feedback">Si le problème persiste, veuillez nous <a href="feedback">envoyer une rétroaction</a>" pour nous aider à améliorer l'appli."</string>
+    <string name="connection_error_title">Impossible de se connecter à votre contact</string>
+    <string name="contact_added_toast">Contact ajouté : %s</string>
+    <string name="contact_already_exists">Le contact %s existe déjà</string>
+    <string name="contact_deleted_toast">Le contact a été supprimé</string>
+    <string name="contact_list_button">Contacts</string>
+    <string name="contacts_selected">Des contacts ont été sélectionnés</string>
+    <string name="continue_button">Continuer</string>
+    <string name="could_not_load_report_data">Impossible de charger les données du rapport.</string>
+    <string name="crash_report_title">Rapport de plantage de RedApp</string>
+    <string name="create_account_button">Créer un compte</string>
+    <string name="create_forum_button">Créer un forum</string>
+    <string name="create_forum_title">Créer un forum</string>
+    <string name="create_new_account">Vous devrez créer un nouveau compte, mais vous pouvez utiliser le même pseudonyme.</string>
+    <string name="current_password">Mot de passe actuel</string>
+    <string name="date_no_private_messages">Aucun message.</string>
+    <string name="decline">Refuser</string>
+    <string name="delete">Supprimer</string>
+    <string name="delete_contact">Supprimer le contact</string>
+    <string name="describe_crash">Décrivez ce qui s’est produit (facultatif)</string>
+    <string name="dev_report_saved">Le rapport a été enregistré. Il sera envoyé lors de votre prochaine connexion à RedApp.</string>
+    <string name="dialog_button_leave">Quitter</string>
+    <string name="dialog_message_connect_panic_app">Voulez-vous vraiment autoriser %1$s à déclencher les actions destructrices du bouton d’urgence ?</string>
+    <string name="dialog_message_delete_contact">Voulez-vous vraiment supprimer ce contact et tous les messages associés ?</string>
+    <string name="dialog_message_leave_forum">"Voulez-vous vraiment quitter ce forum ?
+
+Les contacts avec qui vous l’avez partagé pourraient ne plus en recevoir les mises à jour."</string>
+    <string name="dialog_message_lost_password">"Votre compte RedApp est enregistré chiffré sur votre appareil, pas dans le nuage, et nous ne pouvons donc pas réinitialiser votre mot de passe. Voulez-vous supprimer votre compte et recommencer ?
+
+Attention : vos identités, contacts et messages seront perdus irrémédiablement."</string>
+    <string name="dialog_title_connect_panic_app">Confirmer l’application d’urgence</string>
+    <string name="dialog_title_delete_contact">Confirmer la suppression du contact</string>
+    <string name="dialog_title_leave_forum">Confirmer la sortie du forum</string>
+    <string name="dialog_title_lost_password">Mot de passe oublié</string>
+    <string name="display_settings_title">Affichage</string>
+    <string name="don_t_ask_again">Ne plus demander</string>
+    <string name="download_briar">Pour continuer à utiliser RedApp, veuillez télécharger la version 1.0.</string>
+    <string name="download_briar_button">Télécharger RedApp 1.0</string>
+    <string name="ellipsis">...</string>
+    <string name="enter_feedback">Saisir votre rétroaction</string>
+    <string name="enter_password">Mot de passe</string>
+    <string name="exchanging_contact_details">Échange des renseignements de contact…</string>
+    <string name="expand_button_title">Préférences avancées</string>
+    <string name="expiry_date_reached">"Ce logiciel est arrivé à expiration.
+Merci de l’avoir testé !"</string>
+    <string name="expiry_update">La date de fin de test a été repoussée. Votre compte arrivera maintenant à expiration dans %d jours.</string>
+    <string name="face_to_face">Vous devez rencontrer la personne que vous voulez ajouter comme contact, afin d’éviter que quelqu’un se fasse passer pour vous et puisse lire vos messages à l’avenir.</string>
+    <string name="feedback_settings_title">Rétroaction</string>
+    <string name="feedback_title">Rétroaction</string>
+    <string name="fix">Corriger</string>
+    <string name="forgotten_password">J’ai oublié mon mot de passe</string>
+    <string name="forum_created_toast">Le forum a été créé</string>
+    <string name="forum_declined_toast">L’invitation a été refusée</string>
+    <string name="forum_invitation_already_sharing">Le forum est déjà partagé</string>
+    <string name="forum_invitation_exists">"Vous avez déjà accepté une invitation à ce forum.
+
+ En acceptant d’autres invitations, vous rendrez la communication vers ce forum plus rapide et plus fiable."</string>
+    <string name="forum_invitation_received">%1$s a partagé le forum « %2$s » avec vous.</string>
+    <string name="forum_invitation_response_accepted_received">%s a accepté l’invitation au forum.</string>
+    <string name="forum_invitation_response_accepted_sent">Vous avez accepté l’invitation de %s au forum.</string>
+    <string name="forum_invitation_response_declined_received">%s a refusé l’invitation au forum.</string>
+    <string name="forum_invitation_response_declined_sent">Vous avez refusé l’invitation de %s au forum.</string>
+    <string name="forum_invitation_sent">Vous avez partagé le forum « %1$s » avec %2$s.</string>
+    <string name="forum_invitations_title">Invitations au forum</string>
+    <string name="forum_joined_toast">Vous vous êtes joint au forum</string>
+    <string name="forum_leave">Quitter le forum</string>
+    <string name="forum_left_toast">À quitté le forum</string>
+    <string name="forum_message_reply_hint">Nouvelle réponse</string>
+    <string name="forum_new_entry_posted">Un article de forum a été publié</string>
+    <string name="forum_new_message_hint">Nouvelle article</string>
+    <string name="forum_share_button">Partager le forum</string>
+    <string name="forum_share_error">Une erreur est survenue lors du partage de ce forum.</string>
+    <string name="forum_share_message">Ajouter un message (facultatif)</string>
+    <string name="forum_shared_snackbar">Le forum a été partagé avec les contacts choisis</string>
+    <string name="forums_button">Forums</string>
+    <string name="got_it">Compris</string>
+    <string name="groups_button">Groupes privés</string>
+    <string name="groups_create_group_button">Créer un groupe</string>
+    <string name="groups_create_group_hint">Choisir un nom pour votre groupe privé</string>
+    <string name="groups_create_group_invitation_button">Envoyer une invitation</string>
+    <string name="groups_create_group_title">Créer un groupe privé</string>
+    <string name="groups_created_by">Créé par %s</string>
+    <string name="groups_dissolve">Dissoudre le groupe</string>
+    <string name="groups_dissolve_button">Dissoudre</string>
+    <string name="groups_dissolve_dialog_message">"Voulez-vous vraiment dissoudre ce groupe ?
+
+Les autres participants ne pourront pas poursuivre leur conversation et ne recevront peut-être pas les derniers messages."</string>
+    <string name="groups_dissolve_dialog_title">Confirmer la dissolution du groupe</string>
+    <string name="groups_dissolved_dialog_message">"Le créateur de ce groupe l’a dissous.
+
+Vous ne pouvez plus écrire de messages au groupe et ne recevrez peut-être pas tous ceux qui y ont été publiés."</string>
+    <string name="groups_dissolved_dialog_title">Le groupe a été dissous</string>
+    <string name="groups_group_is_dissolved">Ce groupe a été dissous</string>
+    <string name="groups_group_is_empty">Ce groupe est vide</string>
+    <string name="groups_invitation_sent">L’invitation de groupe a été envoyée</string>
+    <string name="groups_invitations_declined">L’invitation de groupe a été refusée</string>
+    <string name="groups_invitations_invitation_received">%1$s vous a invité à vous joindre au groupe « %2$s ».</string>
+    <string name="groups_invitations_invitation_sent">Vous avez invité %1$s à se joindre au groupe « %2$s ».</string>
+    <string name="groups_invitations_joined">S’est joint au groupe</string>
+    <string name="groups_invitations_response_accepted_received">%s a accepté l’invitation de groupe.</string>
+    <string name="groups_invitations_response_accepted_sent">Vous avez accepté l’invitation de groupe de %s.</string>
+    <string name="groups_invitations_response_declined_received">%s a refusé l’invitation de groupe.</string>
+    <string name="groups_invitations_response_declined_sent">Vous avez refusé l’invitation de groupe de %s.</string>
+    <string name="groups_invitations_title">Invitations de groupe</string>
+    <string name="groups_invite_members">Inviter des participants</string>
+    <string name="groups_leave">Quitter le groupe</string>
+    <string name="groups_leave_dialog_message">Voulez-vous vraiment quitter ce groupe ?</string>
+    <string name="groups_leave_dialog_title">Confirmer la sortie du groupe</string>
+    <string name="groups_list_empty">Aucun groupe à afficher</string>
+    <string name="groups_list_empty_action">Touchez l’icône + pour créer un groupe ou pour demander à vos contacts de partager des groupes avec vous</string>
+    <string name="groups_member_created">%s a créé le groupe</string>
+    <string name="groups_member_created_you">Vous avez créé le groupe</string>
+    <string name="groups_member_joined">%s s’est joint au groupe</string>
+    <string name="groups_member_joined_you">Vous vous êtes joint au groupe</string>
+    <string name="groups_member_list">Liste des participants</string>
+    <string name="groups_message_sent">Le message a été envoyé</string>
+    <string name="groups_remove">Supprimer</string>
+    <string name="groups_reveal_contacts">Dévoiler les contacts</string>
+    <string name="groups_reveal_dialog_message">"Vous pouvez choisir de dévoiler les contacts à tous les participants actuels et futurs de ce groupe.
+
+Dévoiler les contacts accélère et fiabilise votre connexion au groupe, car vous pouvez communiquer avec les contacts dévoilés même si le créateur du groupe est hors ligne."</string>
+    <string name="groups_reveal_invisible">Votre lien avec le contact n’est pas visible par le groupe</string>
+    <string name="groups_reveal_visible">Votre lien avec le contact est visible par le groupe</string>
+    <string name="groups_reveal_visible_revealed_by_contact">Votre lien avec le contact est visible par le groupe (dévoilé par %s)</string>
+    <string name="groups_reveal_visible_revealed_by_us">Votre lien avec le contact est visible par le groupe (dévoilé par vous)</string>
+    <string name="help">Aide</string>
+    <string name="hide">Cacher</string>
+    <string name="include_debug_report_crash">Inclure des données anonymes concernant le plantage</string>
+    <string name="include_debug_report_feedback">Inclure des données anonymes concernant cet appareil</string>
+    <string name="introduction_activity_title">Sélectionner un contact</string>
+    <string name="introduction_button">Faire les présentations</string>
+    <string name="introduction_error">Une erreur est survenue lors de la présentation.</string>
+    <string name="introduction_menu_item">Faire les présentations</string>
+    <string name="introduction_message_hint">Ajouter un message (facultatif)</string>
+    <string name="introduction_message_title">Présenter des contacts</string>
+    <string name="introduction_not_possible">Une présentation est déjà en cours avec ces contacts. Veuillez d’abord lui permettre de se terminer. Si vous ou vos contacts êtes rarement en ligne, cela peut prendre du temps.</string>
+    <string name="introduction_onboarding_text">Vous pouvez présenter vos contacts mutuellement, afin qu’ils n’aient pas à se rencontrer en personne pour se connecter les uns aux autres avec RedApp.</string>
+    <string name="introduction_onboarding_title">Présenter vos contacts</string>
+    <string name="introduction_request_answered_received">%1$s a demandé de vous présenter à %2$s.</string>
+    <string name="introduction_request_exists_received">%1$s a demandé de vous présenter à %2$s, mais %2$s est déjà dans votre liste de contacts. Puisque %1$s pourrait ne pas le savoir, vous pouvez tout de même répondre :</string>
+    <string name="introduction_request_received">%1$s a demandé de vous présenter à %2$s. Souhaitez-vous ajouter %2$s à votre liste de contacts ?</string>
+    <string name="introduction_request_sent">Vous avez demandé de présenter %1$s à %2$s.</string>
+    <string name="introduction_response_accepted_received">%1$s a accepté d’être présenté à %2$s.</string>
+    <string name="introduction_response_accepted_sent">Vous avez accepté d’être présenté à %1$s.</string>
+    <string name="introduction_response_accepted_sent_info">Avant que %1$s ne soit ajouté à vos contacts, ce contact doit aussi accepter la présentation. Cela peut prendre du temps.</string>
+    <string name="introduction_response_declined_received">%1$s a refusé d’être présenté à %2$s.</string>
+    <string name="introduction_response_declined_received_by_introducee">%1$s annonce que %2$s a refusé la présentation.</string>
+    <string name="introduction_response_declined_sent">Vous avez refusé d’être présenté à %1$s.</string>
+    <string name="introduction_response_error">Erreur de réponse à la présentation</string>
+    <string name="introduction_sent">Votre présentation a été envoyée.</string>
+    <string name="link_warning_intro">Vous êtes sur le point d’ouvrir le lien suivant avec une appli externe.</string>
+    <string name="link_warning_open_link">Ouvrir le lien</string>
+    <string name="link_warning_text">Cela pourrait être utilisé pour vous identifier. Décidez si vous faites confiance à la personne qui vous a envoyé ce lien et envisagez de l’ouvrir avec Orfox.</string>
+    <string name="link_warning_title">Avertissement de lien</string>
+    <string name="lock_button">Verrouiller l’appli</string>
+    <string name="lock_is_locked">RedApp est verrouillée</string>
+    <string name="lock_tap_to_unlock">Toucher pour déverrouiller</string>
+    <string name="lock_unlock">Déverrouiller RedApp</string>
+    <string name="lock_unlock_fingerprint_description">Touchez votre capteur d’empreinte avec le doigt mémorisé pour poursuivre</string>
+    <string name="lock_unlock_password">Utiliser un mot de passe</string>
+    <string name="lock_unlock_verbose">Saisissez le NIP, le schéma ou le mot de passe de votre appareil pour déverrouiller RedApp</string>
+    <string name="message_hint">Rédiger le message</string>
+    <string name="more_info">Plus d’informations</string>
+    <string name="name_too_long">Le nom est trop long</string>
+    <string name="nav_drawer_close_description">Fermer le tiroir de navigation</string>
+    <string name="nav_drawer_open_description">Ouvrir le tiroir de navigation</string>
+    <string name="network_settings_title">Réseaux</string>
+    <string name="no_contacts">Aucun contact à afficher</string>
+    <string name="no_contacts_action">Touchez l’icône + pour ajouter un contact</string>
+    <string name="no_contacts_selector">Aucun contact à afficher</string>
+    <string name="no_contacts_selector_action">Veuillez revenir ici après avoir ajouter un contact</string>
+    <string name="no_data">Aucune donnée</string>
+    <string name="no_forum_posts">Aucun article à afficher</string>
+    <string name="no_forums">Aucun forum à afficher</string>
+    <string name="no_forums_action">Touchez l’icône + pour créer un forum ou pour demander à vos contacts de partager des forums avec vous</string>
+    <string name="no_posts">Aucun article</string>
+    <string name="no_private_messages">Aucun message à afficher</string>
+    <string name="nobody">Personne</string>
+    <string name="not_your_fault">Vous n’y êtes pour rien.</string>
+    <string name="notification_settings_title">Notifications</string>
+    <string name="notify_blog_posts_setting_summary">Afficher des alertes pour les billets de blogue</string>
+    <string name="notify_blog_posts_setting_summary_26">Configurer les alertes pour les billets de forum</string>
+    <string name="notify_blog_posts_setting_title">Billets de blogue</string>
+    <string name="notify_forum_posts_setting_summary">Afficher des alertes pour les articles de forum</string>
+    <string name="notify_forum_posts_setting_summary_26">Configurer les alertes pour les articles de forum</string>
+    <string name="notify_forum_posts_setting_title">Articles de forum</string>
+    <string name="notify_group_messages_setting_summary">Afficher des alertes pour les messages de groupe</string>
+    <string name="notify_group_messages_setting_summary_26">Configurer les alertes pour les messages de groupe</string>
+    <string name="notify_group_messages_setting_title">Messages de groupe</string>
+    <string name="notify_private_messages_setting_summary">Afficher des notifications pour les messages privés</string>
+    <string name="notify_private_messages_setting_summary_26">Configurer les alertes pour les messages privés</string>
+    <string name="notify_private_messages_setting_title">Messages privés</string>
+    <string name="notify_sign_in_summary">Afficher un rappel lors du démarrage du téléphone ou si l’appli a été mise à jour</string>
+    <string name="notify_sign_in_title">Rappelez-moi de me connecter</string>
+    <string name="notify_sound_setting">Son</string>
+    <string name="notify_sound_setting_default">Sonnerie par défaut</string>
+    <string name="notify_sound_setting_disabled">Aucun</string>
+    <string name="notify_vibration_setting">Vibrer</string>
+    <string name="now">maintenant</string>
+    <string name="offline">Hors ligne</string>
+    <string name="ok">OK</string>
+    <string name="ongoing_notification_text">Toucher pour ouvrir RedApp.</string>
+    <string name="ongoing_notification_title">Connecté à RedApp</string>
+    <string name="online">En ligne</string>
+    <string name="open">Ouvrir</string>
+    <string name="optional_contact_email">Votre adresse courriel (facultative)</string>
+    <string name="options">Options</string>
+    <string name="panic_app_setting_none">Aucune</string>
+    <string name="panic_app_setting_summary">Aucune appli n’a été définie</string>
+    <string name="panic_app_setting_title">Application de bouton d’urgence</string>
+    <string name="panic_setting">Paramètres du bouton d’urgence</string>
+    <string name="panic_setting_destructive_action">Actions destructrices</string>
+    <string name="panic_setting_hint">Configurer la réaction de RedApp lorsque vous utilisez une application de bouton d’urgence</string>
+    <string name="panic_setting_signout_summary">Se déconnecter de RedApp si l’on appuie sur un bouton d’urgence</string>
+    <string name="panic_setting_signout_title">Déconnexion</string>
+    <string name="panic_setting_title">Bouton d’urgence</string>
+    <string name="password_changed">Le mot de passe a été changé.</string>
+    <string name="password_too_weak">Le mot de passe est trop faible</string>
+    <string name="passwords_do_not_match">Les mots de passe ne correspondent pas</string>
+    <string name="permission_camera_denied_body">"Vous avez refusé l’accès à la caméra, mais l’ajout de contacts exige l’utilisation de celle-ci.
+
+Veuillez envisager d’y accorder l’accès."</string>
+    <string name="permission_camera_location_request_body">"Afin de lire le code QR, RedApp doit accéder à l’appareil photo.
+
+Afin de découvrir des périphériques Bluetooth, RedApp doit accéder à votre position.
+
+RedApp n’enregistre pas votre position et ne la partage avec personne."</string>
+    <string name="permission_camera_location_title">Appareil photo et position</string>
+    <string name="permission_camera_request_body">Afin de lire le code QR, RedApp doit accéder à l’appareil photo.</string>
+    <string name="permission_camera_title">Autorisation d’accès à l’appareil photo</string>
+    <string name="permission_location_request_body">"Afin de découvrir des périphériques Bluetooth, RedApp doit accéder à votre position.
+
+RedApp n’enregistre pas votre position et ne la partage avec personne."</string>
+    <string name="permission_location_title">Autorisation d’accès à la position</string>
+    <string name="please_send_report">Veuillez nous aider à améliorer RedApp en nous envoyant un rapport de plantage.</string>
+    <string name="pref_language_changed">Ce paramètre prendra effet une fois que vous aurez redémarré RedApp. Veuillez vous déconnecter et redémarrer RedApp.</string>
+    <string name="pref_language_default">Valeur par défaut du système</string>
+    <string name="pref_language_title">Langue et région</string>
+    <string name="pref_lock_disabled_summary">Pour utiliser cette fonction, configurez le verrouillage de l’écran sur votre appareil</string>
+    <string name="pref_lock_summary">Utiliser le verrouillage de l’écran de l’appareil pour protéger RedApp une fois connecté</string>
+    <string name="pref_lock_timeout_1">1 minute</string>
+    <string name="pref_lock_timeout_15">15 minutes</string>
+    <string name="pref_lock_timeout_30">30 minutes</string>
+    <string name="pref_lock_timeout_5">5 minutes</string>
+    <string name="pref_lock_timeout_60">1 heure</string>
+    <string name="pref_lock_timeout_never">Jamais</string>
+    <string name="pref_lock_timeout_never_summary">Ne jamais verrouiller RedApp automatiquement</string>
+    <string name="pref_lock_timeout_summary">Si RedApp n’est pas utilisée, verrouiller automatiquement après %s</string>
+    <string name="pref_lock_timeout_title">Délai d’inactivité avant verrouillage de l’appli</string>
+    <string name="pref_lock_title">Verrou de l’appli</string>
+    <string name="pref_theme_auto">Automatique (journée)</string>
+    <string name="pref_theme_dark">Sombre</string>
+    <string name="pref_theme_light">Clair</string>
+    <string name="pref_theme_system">Valeur par défaut du système</string>
+    <string name="pref_theme_title">Thème</string>
+    <string name="progress_title_logout">Déconnexion de RedApp…</string>
+    <string name="purge_setting_summary">Supprimer votre compte RedApp lorsqu’on appuie sur un bouton d’urgence. Attention : cela supprimera définitivement vos identités, contacts et messages</string>
+    <string name="purge_setting_title">Supprimer le compte</string>
+    <string name="qr_code">Code QR</string>
+    <string name="qr_code_invalid">Le code QR est invalide</string>
+    <string name="qr_code_too_new">"Le code QR que vous avez lu provient d’une version plus récente de %s.
+
+Veuillez passer à la version la plus récente, puis ressayez."</string>
+    <string name="qr_code_too_old">"Le code QR que vous avez lu provient d’une version plus ancienne de %s.
+
+Veuillez demander à votre contact de passer à la version la plus récente, puis ressayez."</string>
+    <string name="read_more">en lire davantage</string>
+    <string name="reminder_notification_channel_title">Rappel de connexion à RedApp</string>
+    <string name="reminder_notification_dismiss">Fermer</string>
+    <string name="reminder_notification_text">Touchez pour vous reconnecter</string>
+    <string name="reminder_notification_title">Déconnecté de RedApp</string>
+    <string name="report_is_encrypted">Nous promettons que le rapport est chiffré et envoyé en toute sécurité.</string>
+    <string name="screen_filter_allow">Permettre à ces applis de s’afficher par-dessus</string>
+    <string name="screen_filter_body">"Une autre appli s’affiche par-dessus RedApp. Pour protéger votre sécurité, RedApp ne répondra pas au toucher si une autre appli s’affiche par-dessus.
+
+Les applis suivantes pourraient s’afficher par-dessus RedApp : 
+
+%1$s"</string>
+    <string name="screen_filter_title">Une superposition d’écran a été détectée</string>
+    <string name="screenshot_alice">Laurence</string>
+    <string name="screenshot_bob">Thomas</string>
+    <string name="screenshot_carol">Léa</string>
+    <string name="screenshot_message_1">Bonjour, Thomas !</string>
+    <string name="screenshot_message_2">Bonjour, Laurence ! Merci de m’avoir parlé de RedApp !</string>
+    <string name="screenshot_message_3">Pas de problème, j’espère que tu aimeras l’appli 😀</string>
+    <string name="search_menu_title">Rechercher</string>
+    <string name="security_settings_title">Sécurité</string>
+    <string name="send">Envoyer</string>
+    <string name="send_feedback">Envoyer une rétroaction</string>
+    <string name="send_report">Envoyer le rapport</string>
+    <string name="set_alias_button">Modifier</string>
+    <string name="set_contact_alias_hint">Nom du contact</string>
+    <string name="settings_button">Paramètres</string>
+    <string name="setup_doze_button">Autoriser les connexions</string>
+    <string name="setup_doze_explanation">Pour recevoir des messages, RedApp a besoin de rester connectée en arrière-plan. Veuillez désactiver les optimisations de la batterie afin que RedApp puisse rester connectée.</string>
+    <string name="setup_doze_intro">Pour recevoir des messages, RedApp a besoin de rester connectée en arrière-plan.</string>
+    <string name="setup_doze_title">Connexions d’arrière-plan</string>
+    <string name="setup_huawei_button">Protéger RedApp</string>
+    <string name="setup_huawei_help">Si RedApp n’est pas ajoutée à la liste des applis protégées, elle ne pourra pas fonctionner en arrière-plan.</string>
+    <string name="setup_huawei_text">Veuillez toucher le bouton ci-dessous et vous assurer que RedApp est protégée dans l’écran « Applis protégées ».</string>
+    <string name="setup_name_explanation">Votre pseudonyme sera affiché à côté de tout contenu que vous publierez. Vous pourrez le modifier après avoir créé votre compte.</string>
+    <string name="setup_next">Suivant</string>
+    <string name="setup_password_explanation">"Votre compte RedApp est enregistré chiffré sur votre appareil et non dans le nuage. Si vous désinstallez RedApp ou oubliez votre mot de passe, il n’existe aucune façon de récupérer votre compte.
+
+Choisissez un mot de passe long qui sera difficile à deviner, par exemple quatre mots au hasard ou dix lettres, chiffres et symboles au hasard."</string>
+    <string name="setup_password_intro">Choisir un mot de passe</string>
+    <string name="setup_title">Bienvenue à RedApp</string>
+    <string name="shared_by_format">Partagé par %s</string>
+    <string name="shared_with">Partagé avec %1$d (%2$d en ligne)</string>
+    <string name="sharing_status">État de partage</string>
+    <string name="sharing_status_blog">Quiconque est abonné à un blogue peut le partager avec ses contacts. Vous partagez ce blogue avec les contacts suivants. Il peut aussi y avoir d’autres abonnés que vous ne pouvez pas voir.</string>
+    <string name="sharing_status_forum">Tous les participants d’un forum peuvent le partager avec leurs contacts. Vous partagez ce forum avec les contacts suivants. Il peut aussi y avoir d’autres participants que vous ne pouvez pas voir.</string>
+    <string name="sharing_status_groups">Seul le créateur peut inviter de nouveaux participants. Voici la liste des membres actuels du groupe.</string>
+    <string name="show">Afficher</string>
+    <string name="show_onboarding">Afficher la fenêtre d’aide</string>
+    <string name="show_qr_code_fullscreen">Afficher le code QR en plein écran</string>
+    <string name="sign_in_button">Connexion</string>
+    <string name="sign_out_button">Déconnexion</string>
+    <string name="sorry">Désolé</string>
+    <string name="startup_compact_database">Compactage de la base de données…</string>
+    <string name="startup_failed_activity_title">Échec de démarrage de RedApp</string>
+    <string name="startup_failed_data_too_new_error">Cette version de l’appli est trop ancienne. Veuillez la mettre à niveau vers la dernière version et ressayer.</string>
+    <string name="startup_failed_data_too_old_error">Votre compte a été créé avec une ancienne version de cette appli et ne peut pas être ouvert avec cette version. Vous devez soit réinstaller l’ancienne version, soit créer un nouveau compte en choisissant « J’ai oublié mon mot de passe » dans l’invite de mot de passe.</string>
+    <string name="startup_failed_db_error">Pour quelque raison, votre base de données RedApp est corrompue sans espoir de réparation. Votre compte, vos données et tous vos contacts sont perdus. Malheureusement, vous devez réinstaller RedApp et créer un nouveau compte en choisissant « J’ai oublié mon mot de passe » dans l’invite de mot de passe.</string>
+    <string name="startup_failed_notification_text">Toucher pour plus d’informations.</string>
+    <string name="startup_failed_notification_title">Impossible de démarrer RedApp</string>
+    <string name="startup_failed_service_error">RedApp n’a pas pu démarrer un greffon exigé. Réinstaller RedApp résout généralement ce problème. Veuillez cependant noter que vous perdrez votre compte et toutes données relatives puisque RedApp n’utilise pas de serveurs centralisés sur lesquels enregistrer vos données.</string>
+    <string name="startup_migrate_database">Mise à niveau de la base de données…</string>
+    <string name="startup_open_database">Déchiffrement de la base de données…</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
+    <string name="text_too_long">Le texte saisi est trop long</string>
+    <string name="tor_mobile_data_title">Utiliser les données cellulaires</string>
+    <string name="tor_network_setting">Se connecter par Internet (Tor)</string>
+    <string name="tor_network_setting_automatic">Automatique d’après la position</string>
+    <string name="tor_network_setting_never">Ne pas se connecter</string>
+    <string name="tor_network_setting_summary">Automatique : %1$s (en %2$s)</string>
+    <string name="tor_network_setting_with_bridges">Utiliser Tor avec des ponts</string>
+    <string name="tor_network_setting_without_bridges">Utiliser Tor sans ponts</string>
+    <string name="transport_bt">Bluetooth</string>
+    <string name="transport_lan">Wi-Fi</string>
+    <string name="transport_tor">Internet</string>
+    <string name="try_again">Le mot de passe est erroné, ressayez</string>
+    <string name="try_again_button">Ressayer</string>
+    <string name="uninstall_setting_summary">Une confirmation manuelle est exigée en cas d’événement d’urgence</string>
+    <string name="uninstall_setting_title">Désinstaller RedApp</string>
+    <string name="unknown_app">une appli inconnue</string>
+    <string name="v7_preference_off">DÉSACTIVÉ</string>
+    <string name="v7_preference_on">ACTIVÉ</string>
+    <string name="waiting_for_contact_to_scan">En attente de lecture du code QR par le contact et de sa connexion…</string>
+    <string name="warning_dozed">%s n’a pas pu fonctionner en arrière-plan</string>
+</resources>

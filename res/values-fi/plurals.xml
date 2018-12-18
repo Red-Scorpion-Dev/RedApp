@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="blog_post_notification_text">
+        <item quantity="other">%d uutta blogikirjoitusta.</item>
+        <item quantity="one">Uusi blogikirjoitus.</item>
+    </plurals>
+    <plurals name="expiry_warning">
+        <item quantity="other">Tämä on Briarin testiversio. Sinun tilisi tulee vanhentumaan %d päivän päästä eikä sitä voi uusia.</item>
+        <item quantity="one">Tämä on Briarin testiversio. Sinun tilisi tulee vanhentumaan %d päivän päästä eikä sitä voi uusia.</item>
+    </plurals>
+    <plurals name="forum_post_notification_text">
+        <item quantity="other">%d uutta foorumiviestiä.</item>
+        <item quantity="one">Uusi foorumiviesti.</item>
+    </plurals>
+    <plurals name="forums_shared">
+        <item quantity="other">%d foorumia jaettu</item>
+        <item quantity="one">%d foorumi jaettu</item>
+    </plurals>
+    <plurals name="group_message_notification_text">
+        <item quantity="other">%d uutta ryhmäviestiä.</item>
+        <item quantity="one">Uusi ryhmäviesti.</item>
+    </plurals>
+    <plurals name="groups_invitations_open">
+        <item quantity="other">%d avointa ryhmäkutsua</item>
+        <item quantity="one">%d avoin ryhmäkutsu</item>
+    </plurals>
+    <plurals name="introduction_notification_text">
+        <item quantity="other">%d uutta yhteystietoa lisätty.</item>
+        <item quantity="one">Uusi yhteystieto lisätty.</item>
+    </plurals>
+    <plurals name="messages">
+        <item quantity="other">%d viestiä</item>
+        <item quantity="one">%d viesti</item>
+    </plurals>
+    <plurals name="posts">
+        <item quantity="other">%d viestiä</item>
+        <item quantity="one">%d viesti</item>
+    </plurals>
+    <plurals name="private_message_notification_text">
+        <item quantity="other">%d uutta yksityisviestiä.</item>
+        <item quantity="one">Uusi yksityisviesti.</item>
+    </plurals>
+</resources>

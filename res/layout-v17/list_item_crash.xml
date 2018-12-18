@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <CheckBox android:textSize="@dimen/text_size_large" android:textColor="?android:textColorPrimary" android:id="@id/include_in_report" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_medium" android:layout_marginStart="@dimen/margin_medium" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textColor="?android:textColorSecondary" android:id="@id/content" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/include_in_report" />
+</android.support.constraint.ConstraintLayout>

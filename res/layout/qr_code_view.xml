@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:progressBarStyleLarge" />
+    <ImageView android:id="@id/qr_code" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" android:contentDescription="@string/qr_code" />
+    <ImageView android:layout_gravity="end|bottom|center" android:id="@id/fullscreen_button" android:background="?selectableItemBackground" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/margin_small" android:src="@drawable/ic_fullscreen_black_48dp" android:contentDescription="@string/show_qr_code_fullscreen" android:alpha="0.54" />
+</merge>

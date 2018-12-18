@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:keepScreenOn="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <org.briarproject.briar.android.keyagreement.CameraView android:id="@id/camera_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="vertical" android:id="@id/camera_overlay" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/status_container" android:padding="@dimen/margin_medium" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <ProgressBar android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:progressBarStyleLarge" />
+            <TextView android:gravity="center" android:id="@id/connect_status" android:paddingTop="@dimen/margin_large" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <org.briarproject.briar.android.view.QrCodeView android:id="@id/qr_code_view" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+</FrameLayout>

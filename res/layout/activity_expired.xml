@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/margin_large"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView android:textSize="@dimen/text_size_large" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/margin_medium" android:text="@string/expiry_date_reached" />
+        <TextView android:textSize="@dimen/text_size_large" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/margin_medium" android:text="@string/download_briar" />
+        <TextView android:textSize="@dimen/text_size_large" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/margin_medium" android:text="@string/create_new_account" />
+        <Button android:id="@id/download_briar_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/margin_medium" android:text="@string/download_briar_button" style="@style/BriarButton" />
+    </LinearLayout>
+</ScrollView>

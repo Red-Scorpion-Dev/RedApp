@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="blog_post_notification_text">
+        <item quantity="other">%d nye bloggposter.</item>
+        <item quantity="one">Ny bloggpost.</item>
+    </plurals>
+    <plurals name="expiry_warning">
+        <item quantity="other">Dette er en test-versjon av Briar. Din konto vil utløpe om %d dager og kan ikke fornyes.</item>
+        <item quantity="one">Dette er en test-versjon av Briar. Din konto vil utløpe om %d dag, og kan ikke fornyes.</item>
+    </plurals>
+    <plurals name="forum_post_notification_text">
+        <item quantity="other">%d nye forumposter.</item>
+        <item quantity="one">Ny forumpost.</item>
+    </plurals>
+    <plurals name="forums_shared">
+        <item quantity="other">%d forum delt av kontakter</item>
+        <item quantity="one">%d forum delt av kontakter</item>
+    </plurals>
+    <plurals name="group_message_notification_text">
+        <item quantity="other">%d nye gruppemelindger.</item>
+        <item quantity="one">Ny gruppemelding.</item>
+    </plurals>
+    <plurals name="groups_invitations_open">
+        <item quantity="other">%d åpne gruppeinvitasjoner</item>
+        <item quantity="one">%d åpen gruppeinvitasjon</item>
+    </plurals>
+    <plurals name="introduction_notification_text">
+        <item quantity="other">%d nye kontakter lagt til.</item>
+        <item quantity="one">Ny kontakt lagt til.</item>
+    </plurals>
+    <plurals name="messages">
+        <item quantity="other">%d meldinger</item>
+        <item quantity="one">%d melding</item>
+    </plurals>
+    <plurals name="posts">
+        <item quantity="other">%d poster</item>
+        <item quantity="one">%d post</item>
+    </plurals>
+    <plurals name="private_message_notification_text">
+        <item quantity="other">%d nye private meldinger.</item>
+        <item quantity="one">Ny privat melding.</item>
+    </plurals>
+</resources>

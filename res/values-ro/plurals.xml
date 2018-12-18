@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="blog_post_notification_text">
+        <item quantity="other">%d de mesaje noi pe blog.</item>
+        <item quantity="one">Un nou mesaj pe blog.</item>
+        <item quantity="few">%d mesaje noi pe blog.</item>
+    </plurals>
+    <plurals name="expiry_warning">
+        <item quantity="other">Aceasta este o versiune de test pentru Briar. Contul dumneavoastră va expira în %d de zile și nu se poate reînnoi.</item>
+        <item quantity="one">Aceasta este o versiune de test pentru Briar. Contul dumneavoastră va expira în %d zi și nu se poate reînnoi</item>
+        <item quantity="few">Aceasta este o versiune de test pentru Briar. Contul dumneavoastră va expira în %d zile și nu se poate reînnoi.</item>
+    </plurals>
+    <plurals name="forum_post_notification_text">
+        <item quantity="other">%d de mesaje noi pe forum.</item>
+        <item quantity="one">Un nou mesaj pe forum.</item>
+        <item quantity="few">%d mesaje noi pe forum.</item>
+    </plurals>
+    <plurals name="forums_shared">
+        <item quantity="other">%d de forumuri partajate de contacte</item>
+        <item quantity="one">%d forum partajat de contacte</item>
+        <item quantity="few">%d forumuri partajate de contacte</item>
+    </plurals>
+    <plurals name="group_message_notification_text">
+        <item quantity="other">%d de mesaje de grup noi.</item>
+        <item quantity="one">Mesaj nou de grup.</item>
+        <item quantity="few">%d mesaje de grup noi.</item>
+    </plurals>
+    <plurals name="groups_invitations_open">
+        <item quantity="other">%d de invitații în grup disponibile</item>
+        <item quantity="one">%d invitație în grup disponibilă</item>
+        <item quantity="few">%d invitații în grup disponibile</item>
+    </plurals>
+    <plurals name="introduction_notification_text">
+        <item quantity="other">%d de contacte noi adăugate.</item>
+        <item quantity="one">Un nou contact adăugat.</item>
+        <item quantity="few">%d contacte noi adăugate.</item>
+    </plurals>
+    <plurals name="messages">
+        <item quantity="other">%d de mesaje</item>
+        <item quantity="one">%d mesaj</item>
+        <item quantity="few">%d mesaje</item>
+    </plurals>
+    <plurals name="posts">
+        <item quantity="other">%d de mesaje</item>
+        <item quantity="one">%d mesaj</item>
+        <item quantity="few">%d mesaje</item>
+    </plurals>
+    <plurals name="private_message_notification_text">
+        <item quantity="other">%d de mesaje private noi.</item>
+        <item quantity="one">Mesaj privat nou.</item>
+        <item quantity="few">%d mesaje private noi.</item>
+    </plurals>
+</resources>
